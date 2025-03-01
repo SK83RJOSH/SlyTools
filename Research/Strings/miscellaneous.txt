@@ -1,0 +1,3337 @@
+Fail to find the spline (%s) to create the Nav jump link!
+Fail to create jump strip since spline1 have no child!
+Fail to find the spline2 (%s) to create the Nav jump link strip!
+Too many jump links, max is (%d)
+Obstacle list overflow, max is (%d)
+Playing attached script on enemy that already has a script attached, old script will be destroyed
+%s(%ld): AI component definition with no name.
+Invalid state specified in SetAIState
+Failed to find axel spray move path spline '%s'
+Can't find stalactite spawner named '%s'
+Failed to find axel spray move path spline: '%s'
+Failed to find ice barrier entity def: '%s'
+Failed to find ice barrier normal piece entity def: '%s'
+Failed to find ice barrier ice piece entity def: '%s'
+Can't find butt stomp start attack point named '%s'
+Can't find butt stomp tgt attack point named '%s'
+Invalid attack specified in tower pattern: %s
+Invalid attack mode specified for zone %d
+Fail to find AI Setting (%s) to spawn for spawn point (%s)
+IceCave Bismarque could not find digging machine %s
+Max number of sprays for super axel spray has been reached '%i'! Ask Engineer to increase!
+Max number of stalactites reached for grizz boss fight! MAX: '%i'!
+Trying to add a stalactite for grizz boss fight that doesn't have 'spawnerName' set!
+Max number of butt stomp attack points reached for grizz boss fight! MAX: '%i'!
+Trying to add a butt stomp attack point for grizz boss fight that doesn't have 'startPt' set!
+Trying to add a butt stomp attack point for grizz boss fight that doesn't have 'tgtPt' set!
+Max number of ice barrier piece parts reached for grizz boss fight! MAX: '%i'!
+Trying to add an ice barrier piece part for grizz boss fight that doesn't have 'part' set!
+Max number of ice barrier ice pieces for grizz boss fight! MAX: '%i'!
+%s(%ld): Boss Grizz component definition with no name.
+Return option string buffer overrun, only part of the option will be returned!
+Run out of proxy point slot, proxy pt (%s) and any point after will not be added to the system
+Fail to find the associate object (%s) from the scene, this AIProxy point will be ignored!
+%s(%ld): (AnimSet %s, clip %s): AnimEvent element has more than one child - only the first will be parsed.
+The source knowledge list is not a def, cannot clone it. nimEventCloneExeCtrlDataCb() fail to clone the exe ctrl data!
+Target object var name (entity="<name>") or (refObject="<name>") is required.
+ActivateMixState fails to find mix state %s
+AddThermalVisionObject command: can't find entity '%s'!
+AddThermalVisionObject command: can't find part '%s' in object's hierarchy '%s'!
+Target object var name (object="<name>" or entity="<name>") is required.
+GameAnimSetSpeed: no 'entity' named '%s' was found!
+GameAnimSetSpeed: no 'object' named '%s' was found!
+Target object var name (object="<name>") is required.
+AttachCarryItem: 'attacheeVar' is not found or is not of type EntityCharacter (%s)!
+AttachCarryItem: 'attacheeEntity' is not found or is not of type EntityCharacter (%s)!
+AttachCarryItem: 'carryItemVar' is not found (%s)!
+AttachCarryItem: 'carryItemEntity' is not found (%s)!
+AttachCarryItem: can't carry item if the carry ability is not set (%s), (%s)
+Setting radiusMin to be greater than radiusMax can cause unexpected results. Setting radiusMin to 0.
+SendEvent cannot find recipient %s
+CharSpecialCmd: 'object' variable '%s' doesn't have an entity!
+CharSpecialCmd: 'object' variable '%s' wasn't found or isn't an object type variable!
+CharSpecialCmd: 'entity' '%s' wasn't found!
+CharSpecialCmd: 'entity' '%s' not a character!
+no binoccucom found
+player isn't of type character.  do they have a binoccucom?
+CrossFade: Ran out of # children. Please ask an engineer to increase the maximum (current max: %d)
+Material %s has no matching cross fade material!
+no parent to detach from
+can't find entity to detach
+AnimScriptCommandEnableComponent '%s' failed because component (%s) could not be found.
+EnableLaser: couldn't find 'laserGroupVar': '%s' or it is not laser group type
+EnableLaser: couldn't find 'laserGroup': '%s'
+EnableLaser: couldn't find 'laserInstVar': '%s' or it is not laser type
+EnableLaser: couldn't find 'laserInst': '%s'
+EnableLaser: couldn't find 'laserFieldInstVar': '%s' or it is not laser field type
+EnableLaser: couldn't find 'laserFieldInst': '%s'
+EnableSentryLight: couldn't find entity from 'object' param '%s' or the entity was not of SentryLight type
+EnableSentryLight: couldn't find entity from 'entity' param '%s' or the entity was not of SentryLight type
+EnableSpawner: couldn't find 'spawnerVar': '%s' or it is not spawner type
+EnableSpawner: couldn't find 'spawner': '%s'
+EnableSpawnerGroup: couldn't find 'spawnerGroupVar': '%s' or it is not spawner group type
+EnableSpawnerGroup: couldn't find 'spawnerGroup': '%s'
+EnqueueSound fails to find sound %s (in bank %s)
+Can't find child '%x'
+Entity child '%s' is not a gadget.
+Entity '%s' is not a gadget.
+Target object var name (refObject="<name>" or entity="<name>") is required.
+SetVisible command: can't find part '%s' in object's hierarchy '%s'!
+Couldn't find EntityProjectileDef '%s'
+Target object or entity var name (object="<name>" or entity="<name>") is required.
+%s(%ld): FX trail with infinite life and no auto-detach on object invisibility - probable memory leak.
+P)? 
+AnimScriptCommandGetEntityFlag: Unrecognized flag specifier '%s'.
+Target object var name (vehicleEntity="<name>") or (vehicleObject="<name>") is required.
+Hud Obj (%s) has no lifetime script, please add one to the Entities.xml for it.
+can't find mask spawner to check if it is collected.
+Can't find job.
+Target object var name (objectVar="<name>") is required in MapEntityToVar.
+MapEntityToVar cannot find fromObjVar (var) %s
+MapEntityToVar cannot find entity (inst) %s
+MapEntityToVar attempts to find child of unsupported type - only entity (inst) and fromObjVar (var) supported
+MapEntityToVar cannot find child %s of %s
+Target material var name (materialVar="<name>") is required.
+GamePlayAnim can't find Entity '%s'
+GamePlayAnim Can't find entity child '%s'
+GamePlayAnim unable to find binding for animation %s
+Player number invalid.  Defaulting to 0.
+character has no input component.  let JonG know if you encounter this.
+player is not a character (possibly a vehicle?) ask JonG to add input support for your character type.
+Sound name attribute (soundName="<name>") or (soundNameVar="<name>") is required.
+PlaySound fails to find sound %s (in bank %s) for script %s state %s
+SetCustomRadarMarker: can't find target entity from object variable: '%s'!
+SetCustomRadarMarker: can't find target entity: '%s'!
+SetCustomRadarMarker: can't find owner entity, from player index '%i', or entity doesn't have a radar component!
+SetCustomRadarMarker: can't find owner entity, from object variable, or entity doesn't have a radar component: '%s'!
+SetCustomRadarMarker: can't find owner entity or entity doesn't have a radar component: '%s'!
+RemoveThermalVisionObject command: can't find entity '%s'!
+RemoveThermalVisionObject command: can't find part '%s' in object's hierarchy '%s'!
+entity is not an arrowbucket!
+can't find bucket
+no binocucom found
+player isn't of type character.  do they have a binocucom?
+SetCharAbilEnabled: nothing can be done since 'block' or 'enable' was not set!
+SetCharAbilEnabled: both 'block' and 'enable' have been set! 'block' value will be used!
+SetCharAbilEnabled: 'object' variable '%s' doesn't have an entity!
+SetCharAbilEnabled: 'object' variable '%s' wasn't found or isn't an object type variable!
+SetCharAbilEnabled: 'entity' '%s' wasn't found!
+SetCharAbilEnabled: 'ability' (%s) was not found
+SetCharAbilEnabled: found entity '%s' '%s' isn't a character type
+SetCharacterControl: no control has been specified to be set 'setDefaultControl' or 'setAIControl'!
+SetCharacterControl: both controls have been specified to be set 'setDefaultControl' or 'setAIControl'. 'setDefaultControl' will be used!
+SetCharacterControl: 'object' variable '%s' doesn't have an entity!
+SetCharacterControl: 'object' variable '%s' wasn't found or isn't an object type variable!
+SetCharacterControl: 'entity' '%s' wasn't found!
+SetCharacterControl: found entity '%s' isn't a character type
+AnimScriptCommandSetComponentScript failed because component (%s) could not be found.
+AnimScriptCommandSetComponentVisible failed because component (%s) could not be found for def '%s' entity '%s'.
+SetCompProcAnimParams: 'object' variable '%s' doesn't have an entity!
+SetCompProcAnimParams: 'object' variable '%s' wasn't found or isn't an object type variable!
+SetCompProcAnimParams: 'entity' '%s' wasn't found!
+SetCompProcAnimParams: EntityCompProcAnim '%s' not found!
+ControllerIdx was not set. It is required was calling the SetControllerRumble command.
+can't find local dirscript var
+SetCustomRadarMarker: can't add custom marker because there aren't any spots left.  Ask a programmer to increase the limt.
+AnimScriptCommandSetEntityFlag: Unrecognized flag specifier '%s'.
+can't find entity
+SetInvulnerability: 'entity' '%s' object '%s' wasn't found!
+SetInvulnerability(): 'entity' '%s' type not supported!
+SetItemCollectProps: 'object' '%s' was not found or doesn't contain an Entity that is a ItemCollect!
+SetItemCollectProps: 'entity' '%s' was not found or isn't a ItemCollect!
+Can't find spawnpt for leash.  Turning leash off.
+SetMusic fails to find sound %s (in bank %s)
+SetMusicRegister passed register number %d - valued values are between 1 and 4
+SetMusicRegister passed register value %d - valid values are between -128 and 127
+SetMusicTrackVolume is deprecated.  Please use SetMusicRegister instead
+SetNoDestroy: 'entity' '%s' object '%s' wasn't found!
+SetNoDestroy(): 'entity' '%s' type not supported!
+AnimScriptCommandSetPlayerLocation: Couldn't find spawn point - using position 0,0,0
+SetPlyAbilEnabled: nothing can be done since 'block' or 'enable' was not set!
+SetPlyAbilEnabled: both 'block' and 'enable' have been set! 'block' value will be used!
+SetPlyAbilEnabled: 'ability' (%s) was not found
+Can't find 'entity' in SetPos command: '%s'!
+Can't find an entity in the 'object' set in SetPos command: '%s'!
+'object' can't be found or no entity was set to it in SetPos command: '%s'!
+Can't find an entity in the 'tgtObject' set in SetPos command: '%s'!
+'tgtObject' can't be found or no entity was set to it in SetPos command: '%s'!
+Can't find 'tgtEntity' in SetPos command: '%s'!
+SetPos point %s is not a spawn field
+SetPos cannot find spawner %s is not a spawner
+SetPos variable %s (%s) does not refer to a valid a spawner
+Can't find point in SetPos command: '%s'!
+SetPushBlockProperties: Can't find entity in 'refObject': '%s'!
+SetPushBlockProperties: 'refObject' can't be found or no entity was set to it: '%s'!
+SetPushBlockProperties: Can't find entity in 'entity': '%s'!
+Entity found is not of type PushBlock: '%s'
+Can't find rope
+Entity is not a rope!
+Can't find spline to set.
+%s(%d) : ***NOT CODED*** %s
+Can't acquire shadow map render params.
+Can't acquire shadow map.
+SetSoundRegister specifies global and a soundEventVar.  The soundEventVar will be ignored.
+SetSoundRegister specifies global and music.  music will be ignored.
+SetSoundRegister specifies invalid global register %d - valid values are %d - %d
+SetSoundRegister specifies invalid sound register %d - valid values are %d - %d
+SetSoundRegister specifies music and a soundEventVar.  The soundEventVar will be ignored.
+SetSoundRegister specifies invalid regValueFloat %f - valid values are 0.0 - 1.0
+SetSoundRegister specifies invalid regValueInt %d - valid values are %d - %d
+SetSoundRegister has no regValueVar, regValueFloat or regValueInt.  The register will always be set to 0.
+Unrecognized time scale type, must be one of: fx or combat.
+Must specify either target object or global scale type.
+Material '%u' has no anim data.
+Material '%u' could not be found.
+Obj not a geom inst!
+Var is not of type object.
+Can't find obj var.
+$BUTTON_X %s $BUTTON_CIRCLE %s
+$BUTTON_X %s
+$BUTTON_CIRCLE %s
+Reference object var name (object="<name>") is required.
+'countMin' attribute '%d' out of range, must be >= 0, ignored.
+'countMax' attribute '%d' out of range, must be >= 'countMin' value, ignored.
+Chunk Entity definition attribute (def="<name>") is required.
+Can't find system group for entity with RB '%s'.  This is a potential Havok spike!  Please let a programmer know!
+Debris Chunk couldn't find return object variable '%s' defined in the director script
+Can't find ropeDef '%s'
+Can't find start entity '%s'
+Can't find end entity '%s'
+Can't find startObj '%s'!
+Can't find startWorldObj '%s'!
+Can't find startObj
+Can't find endObj '%s'!
+Can't find endWorldObj '%s'!
+Can't find endObj
+Can't find finalObj '%s'!
+Can't find finalWorldObj '%s'!
+Can't find finalObj
+Can't find startPart
+Can't end startPart
+Var not of type object '%u'.
+StopAllSounds specifies sound group and exclusivity group - sound group will be ignored
+SwitchStatementEntity: Max Cases reached (Max: '%i')! Ask an engineer to increase if needed!
+SwitchStatementEntity: Case statement '%s' created with no commands as children!
+SwitchStatementEntity: Case statement doesn't have an 'entityDef' or 'entityInst' to test against!
+SwitchStatementEntity: Default case has already been created!
+ThrowCollectibleAtPlayer: 'spawnerObjVar' variable '%s' doesn't have an entity!
+ThrowCollectibleAtPlayer: 'object' variable '%s' wasn't found or isn't an object type variable!
+ThrowCollectibleAtPlayer: 'spawnerEntity' '%s' wasn't found!
+SeqActivateMixState fails to find mix state %s
+SeqScriptCommandCameraCut: Can't find camera def specified '%s'
+SeqScriptCommandCameraCut: Can't find point def specified '%s'
+SeqScriptCommandClimb: Can't find point def specified '%s'
+Attempting to enqueue non-streaming sound %s
+SeqEnqueueSound fails to find sound %s (in bank %s)
+Target object or entity var name (object="<name>" or entity="<name>") is required.
+%s $STR_CONTINUE
+PlayBinocucomDialog fails to find sound %s (in bank %s)
+PlayUnicomDialog fails to find sound %s (in bank %s)
+SeqPlayHUDFreezeScreen: max entities to freeze has been reached! (%i)! The rest will be ignored!
+SeqPlaySound 'soundNameVar' fails to find sound %s (in bank %s)
+SeqPlaySound fails to find sound %s (in bank %s)
+SeqSetMusic fails to find sound %s (in bank %s)
+SetPosition: 'ptName' ('%s') is not found!
+Invalid sound group specified in SetSoundVolume - only "music" is supported (and you should be using a mix state anyway)
+SeqScriptCommandSpawnEntity: Couldn't find point named: '%s'!
+SeqScriptCommandSpawnEntity: Couldn't find entity def named: '%s'!
+StartSequence: 'name' variable was misspelled or no data was specified! (Parent sequence: %s)
+SeqStopAllSounds specifies sound group and exclusivity group - sound group will be ignored
+WaitForSoundGrpFinished specifies sound group and exclusivity group - sound group will be ignored
+vry%
+sceNetResolverCreate() failed (0x%x errno=%d)
+sceNetResolverStartNtoa() failed (0x%x errno=%d)
+sceNetResolverDestroy() failed (0x%x errno=%d)
+sceNetSocket() failed (errno=%d)
+sceNetSetsockopt(SCE_NET_SO_RCVTIMEO) failed (errno=%d)
+AR NETWORK: Clear Buffer %s.
+bool netCoreInit()
+Failed to load net module
+AR update
+AR network
+AR camera update
+Failed to load smart module
+AR NETWORK: Reconnect.
+TAP 0: %f, %f, %f
+AR NETWORK: Timed out LSYN sceNetRecv (%d).
+AR network Initalize
+Vita AR
+Vita AR Blur 0
+Vita AR Blur 1
+[Exit Treasures Mode?]
+$BUTTON_X $STR_YES $BUTTON_CIRCLE $STR_NO
+[Exit Camera Mode?]
+[Connection to AR Server Lost.]
+network lost
+void agxTextureSamplerSetFilter(int, AgxFilterMode, AgxFilterMode, AgxFilterMode)
+void agxTextureSamplerSetWrap(int, AgxAddressMode, AgxAddressMode)
+Loading Screen
+The number of levels tracked in the save data has reached the max (%i)! Attempting to track (%i) levels! Have an engineer increase!
+SetNotifyFlag: couldn't find notification flag named: '%s'
+IsNotifyFlagSet: couldn't find notification flag named: '%s'
+SaveSystem: ERROR unable to load NET PRX!
+SaveSystem: ERROR unable to initialize Net!
+SaveSystem: ERROR unable to initialize NetCtl!
+SaveSystem: ERROR unable to load TUS PRX!
+SaveSystem: ERROR unable to initialize NP!
+SaveSystem: ERROR unable to load SSL PRX!
+SaveSystem: ERROR unable to initialize SSL!
+SaveSystem: ERROR unable to load HTTPS PRX!
+SaveSystem: ERROR unable to initialize HTTP!
+SaveSystem: ERROR unable to initialize TUS!
+Save data size mismatch - probably old data, cannot load.
+Unable to create save data file.
+ERROR: sceSaveDataDialogGetResult = %08x
+ERROR: SceSaveDataDialogResult.result = %08x
+ERROR: sceSaveDataDialogFinish = %08x
+ERROR: sceSaveDataDialogContinue = %08x
+ERROR: sceSaveDataDialogTerm = %08x
+[Missing Title String]
+[Missing Subtitle String]
+[Missing Details String]
+[Missing save text]
+%s - %s
+[Missing Location String]
+ERROR: Unable to get the current user!
+ERROR: sceSaveDataDialogInit = %08x
+Failed to start sceSaveDataDialogInit to show insufficient free space message!
+Sly Cooper Thieves in Time
+Game Settings
+Player configuration and preferences.
+CrossSaveError: Unable to start net dialog!
+CrossSaveError: Unable to get net dialog result!
+[Missing SAVEMSG_NOT_YOUR_SAVE_DATA]
+[Missing SAVEMSG_UNABLE_TO_VERIFY_AGE]
+[Missing SAVEMSG_RESTRICTED]
+[Missing STR_SAVE_UNABLE_TO_SIGNIN]
+[Missing save error code string]
+ERROR: sceSaveDataDialogSubClose = %08x
+%s - %d
+ERROR: sceIoOpen = %08xn
+CrossSaveError: Unable to get user ID!
+CrossSaveError: Unable to create title context!
+CrossSaveError: Unable to create TUS request!
+CrossSaveError: Unable to get online id for current user!
+CrossSaveError: Unable to upload TUS data!
+CrossSaveError: Unable to delete request id!
+CrossSaveError: Unable to delete title context!
+CrossSaveError: Unable to download TUS data!
+CrossSaveError: OnlineID does not match, can't play with this data!
+%2d: %2d  0x%08x  %s
+WestBossAttackHandler_Dynamite: dynamite entity def '%s' is not of type 'WestBossThrownGadget'!
+WestBossAttackHandler_Dynamite: dynamite entity def '%s' couldn't be found!
+WestBossAttackHandler_Dynamite: dynamite entity def has not been set!
+WestBossAttackHandler_GatlingGun: no gatling gun entity '%s' not found!
+WestBossAttackHandler_GatlingGun: no gatling gun entity defined!
+WestBossAttackHandler_MineLaserField: mine entity def '%s' is not of type 'WestBossThrownGadget'!
+WestBossAttackHandler_MineLaserField: mine entity def '%s' couldn't be found!
+WestBossAttackHandler_MineLaserField: mine entity def has not been set!
+WestBossAttackHandler_MineLaserField: laser field '%s' couldn't be found!
+WestBossAttackHandler_MineLaserField: laser field has not been set!
+WestBossAttackHandler_MineLaserField: can't find 'TutorialMinePoint' named '%s'
+WestBossAttackHandler_MineLaserField: can't find 'MinePoint' named '%s'
+Phase2 Tornado Attack): 'startPt' '%s' can't be found! Round: %i AttackNum: %i
+Phase2 Tornado Attack (To Pt): 'tgtPt' '%s' can't be found! Round: %i AttackNum: %i
+WestBoss: Can't find 'playfieldSpawnPt': '%s'!
+WestBoss: Invalid 'playfieldSpawnPt' value specified!
+WestBoss: Can't find 'attachPt': '%s' for Furnace %i!
+MinePoint is specified with 'name' variable not filled out!
+TutorialMinePoint is specified with 'name' variable not filled out!
+%s(%ld): Attempting to clone an EntityDefWestBoss from non-EntityDefWestBoss prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefWestBossThrownGadget from non-EntityDefWestBossThrownGadget prototype '%s'.
+Could not find entity component '%s' (def '%s').
+missing lifetime script '%s' for def '%s'
+entity def '%s' lifetime script '%s' has no commands
+EntityDefProjectile '%s' collision '%s': no valid rigid body - instances will be immovable and non-collidable.
+Projectile Rigid body '%s' is fixed or keyframed! Please make sure the mass is greater than 0.0f! Projectiles need to be a non-static collision type! Making the projectile Rigid body dynamic with a mass of 1.0f
+EntityDefProjectile '%s': no valid rigid body - instances will be immovable and non-collidable.
+%s(%ld): Attempting to clone an EntityDefDamageable from non-EntityDefDamageable prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefProjectile from non-EntityDefProjectile prototype '%s'.
+EntityDefSimple '%s' collision '%s': no valid rigid body - instances will be immovable and non-collidable.
+%s(%ld): Attempting to clone an EntityDefSimple from non-EntityDefSimple prototype '%s'.
+%s(%ld): EntityDefSimple '%s': unrecognized 'team' specifier, should be friendly, hostile, or neutral.
+Def: '%s' can't find Rigid Body '%s' in havok world! Rigid body will not be created!
+%s(%ld): Attempting to clone an EntityDefMPCollidable from non-EntityDefMPCollidable prototype '%s'.
+%s(%ld): Invalid targetingFlags format, should be: <value1>,<value2>,<value3>,<value4>,<value5>,<value6>.
+%s(%ld): EntityDefMPCollidable '%s': max %d Part definitions - extra ignored.
+%s(%ld): Clone: could not find prototype EntityDef '%s'.
+%s(%ld): Unrecognized EntityDef type %s ('%s') ignored.
+%s(%ld): EntityDef '%s' already exists - duplicate definition ignored.
+%s(%ld): Entity type definition with no name.
+Can't find associated def '%s' for inst override '%s'! Default values will be used for any non-overridden values!
+%s(%ld): Unrecognized Entity instance override type '%s' ignored.
+%s(%ld): Duplicate Entity instance override data for '%s' ignored.
+%s(%ld): Entity instance override data with no instance name.
+Leaked entity '%s' def '%s' reference(s): %d
+no def
+Dynamic Rope instance '%s': missing/bad Rope entity definition from tagging, using default (%s).
+Child '%s' could not attach to part/bone '%x'.  Part/Bone could not be found. (Make sure you didn't confuse objDefName with objInstName.  check your entities file!)
+Could not attach child '%s' to part/bone '%x' because there is no object to attach to.
+Couldn't find skeleton (hkSkeletonName: '%s') for Entity: '%s' (EntityDef: '%s')! Please double check the naming in the entities.xml and levels.xml for this entity!
+Could not find entity prototype object instance '%s' for entity def '%s'.
+Could not find entity prototype object def '%s' for entity def '%s'.
+Could not find entity instance/def object '%s' for entity def '%s'.
+Instance '%s' already has Entity data attached - multiple autoSpawning Def's linked to same ApeDefID?
+Unrecognized ring pattern 'axis' value '%s', must be one of X, Y, or Z.
+Unrecognized 'pattern' attribute value '%s', must be one of box, sphere or ring.
+'dirPowerMin' attribute '%d' out of range, must be >= 0, ignored.
+'dirPowerMax' attribute '%d' out of range, must be >= 'dirPowerMin' value, ignored.
+%s(%ld): SpawnMotionParams_Direction '%s' already exists - duplicate definition ignored.
+%s(%ld): SpawnMotionParams_Point '%s' already exists - duplicate definition ignored.
+'countMin' attribute '%d' out of range, must be >= 0, ignored.
+'countMax' attribute '%d' out of range, must be >= 'countMin' value, ignored.
+%s(%ld): SpawnEntityParams '%s' already exists - duplicate definition ignored.
+%s(%ld): SpawnAmountType '%s' already exists - duplicate definition ignored.
+Entity definition file '%s' has 'Include' block with no 'fileName' attribute.
+Entity definition file '%s' has no root 'Entities' block.
+File '%s' is empty or XML DOM is not correct.  Check that the entities are surrounded by the proper tag (include, def, etc)
+Cannot load entity definition file '%s' (%s).
+entity '%s' added to s_instRenderList twice.  this may cause a crash on the next level reset or if the entity dies.
+entity '%s' component '%s' added to s_instRenderList twice.  this may cause a crash on the next level reset or if the entity dies.
+entity '%s' component '%s' already on s_compSyncList
+Entity ('%s') def '%s' refcount %d negative - unbalanced AddRef/Release calls?
+Attaching a streaming sound to an animation is unsupported
+%s(%d) : ***TODO*** %s - %s
+FX being attached to enemy that already has FX attached, old FX will be destroyed
+Can't perform linear cast b/c we don't have a world or rb
+Firing a projectile '%s' that has no collision! Projectile will not be spawned!
+Firing a projectile '%s' that is calculated as having zero gravity! Projectile will not be spawned!
+Unable to fire calculate launch direction with ProjCalcLaunchDir for the projectile named '%s'!
+Unable to fire projectile with ProjCalcLaunchSpeedDir for the projectile named '%s'! Projectile will not be spawned!
+spline projectile has no target.
+Can't find spline path '%u'for EntityProjectileMine
+No root element in spawn data file '%s'
+coincident camera position and focal target, orientation change ignored
+Target: %s
+Sec Tgt: %s
+Gimbal Radius: %5.2f
+Target: %s
+Tgt Spline: %s
+Pos Spline: %s
+T: %5.3f
+pan: (%5.1f,%5.1f)
+CameraBehaviorVehicle is being used by a non-EntityVehicle! Make sure '%s' is a vehicle type or this camera will not have correct behavior!
+NO Vehicle Target
+CameraBehaviorHavokVehicle is being used by a non-EntityVehicle! Make sure '%s' is a vehicle type or this camera will not have correct behavior!
+Target: %s
+OffsetPos: {%5.2f,%5.2f,%5.2f}
+OffsetRot: {%5.2f,%5.2f}
+InvertDir: %d
+$BUTTON_RTRIG1 $STR_PARAGLIDER
+$BUTTON_RTRIG1 $STR_MAGICCARPET
+$BUTTON_X $STR_HOVER
+$BUTTON_RTRIG1 $UPGRADE_B_SPRINT_AIR_TITLE
+$BUTTON_RTRIG1 $STR_CARRYSPRINT
+$LSTICK_UD_ANIM $STR_PULLDOWN
+$BUTTON_X $STR_SPRING
+$BUTTON_RTRIG1 $UPGRADE_S_RAILRUN_SPRINT_TITLE
+$BUTTON_R1_ANIM $JAPAN_RIOICHI_SPECIAL01
+$BUTTON_RTRIG1 $STR_COBRA_CHARGE
+$LSTICK_UD_ANIM $STR_COBRA_CLIMB
+$BUTTON_RTRIG1 $STR_CHARGE
+$BUTTON_X $STR_CATAPULT
+$BUTTON_TRIANGLE $STR_DISCONNECT
+$BUTTON_CIRCLE $STR_CRAWL
+$LSTICK_CIRCLE_ANIM $STR_MOVE
+$BUTTON_CIRCLE $STR_PICKPOCKET
+$BUTTON_CIRCLE $UPGRADE_B_PICKPOCKET_MOVING_TITLE
+$BUTTON_SQUARE $STR_THROW
+$BUTTON_CIRCLE $STR_SHAKE
+$BUTTON_TRIANGLE $STR_SLAM
+$BUTTON_LSTICK $STR_BINOCUCOM
+$BUTTON_RTRIG1 $STR_SHOOT
+$BUTTON_RTRIG2 $STR_CLOAK
+$BUTTON_RTRIG2 $STR_SLOWTIME
+$BUTTON_TRIANGLE $STR_BOMB_ARM
+$BUTTON_TRIANGLE_ANIM $STR_BOMB_DROP
+$BUTTON_LTRIG1 $STR_BOMB_AIM
+$BUTTON_TRIANGLE $STR_THROW
+$BUTTON_X$STR_SIGNPLUS$BUTTON_CIRCLE $STR_WALLATTACH
+$BUTTON_X $STR_LEAP
+$BUTTON_RTRIG1 $STR_WALLSLIDE
+$BUTTON_SQUARE $STR_WALLPOUND
+$BUTTON_LTRIG1 $STR_AIM
+$BUTTON_RTRIG2 $STR_AIM
+$BUTTON_RTRIG2 $STR_BALL
+$BUTTON_RTRIG1 $STR_PLAYDEAD
+$BUTTON_X $STR_CYCLONE_POUNCE
+$BUTTON_RTRIG1,$BUTTON_RTRIG1 $UPGRADE_B_SPRINT_BURST_01_TITLE
+$BUTTON_RTRIG1,$BUTTON_RTRIG1 $UPGRADE_B_SPRINT_BURST_02_TITLE
+$BUTTON_RTRIG1,$BUTTON_RTRIG1 $STR_SPRINT_ATTACK
+$BUTTON_LTRIG1 $STR_SMOKEBOMB
+$BUTTON_RTRIG1 $UPGRADE_S_PICKPOCKET_SPIRE_TITLE
+$BUTTON_RTRIG1 $STR_GLIDEATTACK
+$BUTTON_X $UPGRADE_B_HOVERPACK_02_TITLE
+F.R	
+EntityDefCharacter '%s': invalid max health value (%4.2f), must be > 0.0.
+%s(%ld): Attempting to clone an EntityDefCharacter from non-EntityDefCharacter prototype '%s'.
+%s(%ld): EntityDefCharacter '%s': unrecognized 'team' specifier, should be friendly, hostile, or neutral.
+The max number of async file groups specified per entity has been reached 'MAX: %i'. Please have an engineer increase the number
+couldn't find aim UI arc object '%s'.
+couldn't find aim UI endpoint object '%s'.
+Animation '%s' not found in AnimMap for '%s'.
+IjCharacter '%s': stuck air state.
+Failed to play Director '%s' governing custom stealth takedown.
+Character %s pounce: could not find attack '%s'.
+LUp
+failed to find tagged continuation spline '%s'
+Spline %s dismount: could not find tagged target object %s.
+EntityDefSpark '%s': cannot override mass on fixed/keyframed rigid body '%s' - set mass >0.0 in Maya.
+EntityDefSpark '%s': no valid rigid body - instances will be immovable and non-collidable.
+%s(%ld): Attempting to clone an EntityDefSpark from non-EntityDefSpark prototype '%s'.
+%s(%ld): Invalid targetingFlags format, should be: <value1>,<value2>,<value3>,<value4>.
+EntityDefAlterEgo '%s': no valid rigid body - instances will be immovable and non-collidable.
+%s(%ld): Attempting to clone an EntityDefAlterEgo from non-EntityDefAlterEgo prototype '%s'.
+Missing instance
+EntityDefAlterEgoEnemy '%s': cannot override mass on fixed/keyframed rigid body '%s' - set mass >0.0 in Maya.
+EntityDefAlterEgoEnemy '%s' collision '%s': no valid rigid body - instances will be immovable and non-collidable.
+%s(%ld): Attempting to clone an EntityDefAlterEgoEnemy from non-EntityDefAlterEgoEnemy prototype '%s'.
+EntityDefSystemCracker '%s': cannot override mass on fixed/keyframed rigid body '%s' - set mass >0.0 in Maya.
+EntityDefSystemCracker '%s': no valid rigid body - instances will be immovable and non-collidable.
+%s(%ld): Attempting to clone an EntityDefSystemCracker from non-EntityDefSystemCracker prototype '%s'.
+EntityDefSystemCrackerDrone '%s': cannot override mass on fixed/keyframed rigid body '%s' - set mass >0.0 in Maya.
+EntityDefSystemCrackerDrone '%s': no valid rigid body - instances will be immovable and non-collidable.
+%s(%ld): Attempting to clone an EntityDefSystemCrackerDrone from non-EntityDefSystemCrackerDrone prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefBreakableChain from non-EntityDefBreakableChain prototype '%s'.
+BreakableChain Piece index is out of range from [1-%i]!
+EntityChain '%s': Could not find link prototype def '%s'
+%s(%ld): Attempting to clone an EntityDefChain from non-EntityDefChain prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefDamageChainMover from non-EntityDefDamageChainMover prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefDamageMover from non-EntityDefDamageMover prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefDispenser from non-EntityDefDispenser prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefGadget from non-EntityDefGadget prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefRoller from non-EntityDefRoller prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefPullHook from non-EntityDefPullHook prototype '%s'.
+EntityDefPushBlock '%s': no valid rigid body - instance will be immovable and non-collidable.
+%s(%ld): Attempting to clone an EntityDefPushBlock from non-EntityDefPushBlock prototype '%s'.
+PushBlockDef: Number of authored Raycasts reached '%i'! Ask an engineer if this needs to be increased!
+EntityPushBlock: '%s' can't find 'faceIndicator%s' named '%s'
+PushBlockSpawnParams: Number of authored raycasts reached '%i'! Ask an engineer if this needs to be increased!
+EntityDefRope '%s': Could not find segment prototype def '%s'.
+EntityDefRope '%s': No valid segment definitions.
+%s(%ld): Rope '%s': Attempting to clone an EntityDefRope from non-EntityDefRope prototype '%s'.
+%s(%ld): Rope '%s': Max (%d) segment definitions exceeded - extra defs ignored.
+%s(%ld): Rope '%s': Unrecognized spline type '%s'.
+%s(%ld): Rope '%s': Unrecognized surface type '%s'.
+%s(%ld): Rope '%s': Unrecognized pattern type '%s', must be one of: loop, hold, pingpong, stretch, tile or random.
+%s(%ld): Attempting to clone an EntityDefSpringboard from non-EntityDefSpringboard prototype '%s'.
+%s(%ld): Attempting to clone an GadgetDefDamageSwitch from non-GadgetDefDamageSwitch prototype '%s'.
+%s(%ld): Attempting to clone an GadgetDefPressSwitch from non-GadgetDefPressSwitch prototype '%s'.
+%s(%ld): Attempting to clone an GadgetDefPressDeactivate from non-GadgetDefPressDeactivate prototype '%s'.
+%s(%ld): Attempting to clone an GadgetDefTriggerDamage from non-GadgetDefTriggerDamage prototype '%s'.
+GadgetDefTriggerDamage: '%s': max Triggers is %d, extra definitions ignored
+GadgetDefTriggerDamage: '%s' has a damage per second amount of less that 0. Clamping to 0 but please remove or fix the TriggerDamageDef
+GadgetDefTriggerDamage: '%s' has a knockback impulse scalar of less that 0. Clamping to 0 but please remove or fix the TriggerDamageDef
+GadgetDefTriggerDamage: '%s' damage will never turn on when in the ON_IDLE state since 'timeTillOnStartDamageActivation' is greater than 'timeOnIdle'.
+GadgetDefTriggerDamage: '%s' has both 'activateFromSplinePt' and 'deactivateFromSplinePt' set to true. Setting both to false until the user changes it in the entity file
+GadgetDefTriggerDamage: '%s': could not find trigger offset bone/child '%s'.
+GadgetDefTriggerDamageSpawnParams: '%s': max Triggers is %d, extra definitions ignored
+%s(%ld): Attempting to clone an GadgetDefTriggerWind from non-GadgetDefTriggerWind prototype '%s'.
+GadgetDefTriggerWind: '%s': max Triggers is %d, extra definitions ignored
+GadgetDefTriggerWind: '%s': could not find trigger offset bone/child '%s'.
+%s(%ld): Attempting to clone an GadgetDefTurret from non-GadgetDefTurret prototype '%s'.
+%s(%ld): Attempting to clone an GadgetDefSentryLight from non-GadgetDefSentryLight prototype '%s'.
+Move type: %i not supported!
+Cannot find the sentry light point instance (%s) to associate with Entity SentryLight Setting (%s)
+SentryLight Setting '%s' can't find activation trigger or the entity found is not a trigger type  '%s'!
+Entity def found for the SentryLightSettingTag '%s' is not of type SentryLight!
+Cannot find entity def for the SentryLightSettingTag '%s'!
+Trying to create a Sentry Light from a SentryLightSettingTag that has an empty entity def field!
+Can't set spline instance. sentry light's default spline must have same number of points as the one we're setting.
+Can't give the sentry light a new spline instance because we don't have control point information.
+%s(%ld): Attempting to clone an GadgetDefRadiusActivate from non-GadgetDefRadiusActivate prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefInputMover from non-EntityDefInputMover prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefKiosk from non-EntityDefKiosk prototype '%s'.
+Invalid type attribute '%s', must be one of: cloak
+%s(%ld): Attempting to clone an EntityDefPlayerTurret from non-EntityDefPlayerTurret prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefSafe from non-EntityDefSafe prototype '%s'.
+$BUTTON_TILT $STR_ROTATE
+$LSTICK_LR_ANIM $STR_ROTATE
+$RSTICK_LR_ANIM $STR_ROTATE
+%s(%ld): Attempting to clone an EntityDefSpotlight from non-EntityDefSpotlight prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefTeleporter from non-EntityDefTeleporter prototype '%s'.
+Teleporter '%s' destination object '%s' not found.
+Cannot find the teleporter object instance (%s) to associate with Entity Teleporter Setting (%s)
+Can't find Entity Def for Teleporter.  Perhaps the teleporter isn't included in Levels.xml?
+TgtRange '%s': no projectile entity '%s' found.
+TgtRange '%s': no rope entity '%s' found.
+Can't find reticle def '%u' for arrow bucket.
+can't find reticle material.  this may be OK for some custom reticles.
+Can't find blur fx '%u' for arrow bucket.
+%s(%ld): Attempting to clone an EntityDefTgtRange from non-EntityDefTgtRange prototype '%s'.
+Invalid type attribute '%s', must be one of: archery
+can't find spine bone!
+entity doesn't have targeting params for interact.  however, it must have to get to this point.  something went wrong.
+no disguise entity set.
+disguise entity already set.
+can't find intro script
+can't find outro script
+can't spawn arrow in sly's hand because script was not found.
+previous projectile not cleaned up properly!
+old projectile not cleaned up!
+already have a rope!
+endpoint already exists
+can't find arrow embed point.  rope may go nuts
+can't create ward explosion script
+projectile is gone!  something happened to the arrow bucket.
+invalid state.
+steal entity already spawned!
+entity to steal not of type ItemCollect
+can't find steal entity def
+no object to steal
+$BUTTON_R1_ANIM $STR_SHOOT
+$GENERICSTICK_CIRCLE_ANIM $STR_AIM
+EntityDefItem '%s' collision '%s': no valid rigid body - instances will be immovable and non-collidable.
+EntityDefItem '%s': cannot override mass on fixed/keyframed rigid body '%s' - set mass >0.0 in Maya.
+%s(%ld): Attempting to clone an EntityDefItem from non-EntityDefItem prototype '%s'.
+%s(%ld): Invalid targetingFlags format, should be: <value1>,<value2>,<value3>,<value4>.
+%s(%ld): Attempting to clone an EntityDefItemCollect from non-EntityDefItemCollect prototype '%s'.
+$BUTTON_X $STR_CONTINUE
+$BUTTON_X $STR_YES $BUTTON_CIRCLE $STR_NO
+%s(%ld): Attempting to clone an EntityDefBentleyRemote from non-EntityDefBentleyRemote prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefMarker from non-EntityDefMarker prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefTrigger from non-EntityDefTrigger prototype '%s'.
+Havok phantom '%s' collision flags out of range - code/exporter mismatch?
+entity flagged as player but isn't of damageable.  may need another way of testing whether the player is valid.
+Failed to find sound '%s' in bank '%s' specified in trigger '%s', sound will fail to play.
+Trigger instance type (%s) does not match trigger def type (%s). Please double check the type in xml!
+%s(%ld): Attempting to clone an EntityDefTriggerAlert from non-EntityDefTriggerAlert prototype '%s'.
+TriggerCamera '%s': no valid position spline '%s' - ignoring
+Spline Parent entity not found: (%s), is it (1) tagged correctly as an Entity? (2)an entity and not just an instance?
+%s(%ld): Attempting to clone an EntityDefTriggerFX from non-EntityDefTriggerFX prototype '%s'.
+onEnterRepeatTime (Max: '%f') is less than onEnterRepeatTime (Min: '%f'). Max will become what min is set to
+onExitRepeatTime (Max: '%f') is less than onExitRepeatTime (Min: '%f'). Max will become what min is set to
+$BUTTON_X $STR_YES $BUTTON_CIRCLE $STR_NO
+TriggerJumpDir '%s': no valid direction spline - ignoring
+%s(%ld): Attempting to clone an EntityDefTriggerPushBlock from non-EntityDefTriggerPushBlock prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefTriggerWeather from non-EntityDefTriggerWeather prototype '%s'.
+Invalid wind type.
+%s(%ld): Attempting to clone an EntityDefTriggerWind from non-EntityDefTriggerWind prototype '%s'.
+%s(%ld): Attempting to clone an EntityDefTriggerUpdateEnable from non-EntityDefTriggerUpdateEnable prototype '%s'.
+Debug.Display.Trigger. All
+%s(%ld): Attempting to clone an EntityDefVehicle from non-EntityDefVehicle prototype '%s'.
+%s(%ld): Invalid targetingFlags format, should be: <value1>,<value2>,<value3>,<value4>.
+%s(%ld): EntityDefVehicle '%s': unrecognized 'team' specifier, should be friendly, hostile, or neutral.
+vehicle hit by its own projectile.  suspect a code bug.
+Trying to create a wheeled vehicle with more than 2 axles! This is not allowed with the Havok Vehicle API! Skipping creation of the extra axle
+Default Tyremark Texture Name: '%s' is not found! Using default texture!
+%s(%ld): Attempting to clone an EntityDefWheeledVehicle from non-EntityDefWheeledVehicle prototype '%s'.
+EntityDefWheeledVehicle '%s': no valid rigid body found for chassis with name '%s' - chassis will be immovable and non-collidable!
+EntityDefWheeledVehicle '%s': no valid rigid body found for tire RB with name '%s' - tire collision will lose precision!
+vehicle trigger proxy
+Chassis RB couldn't be added to the world!
+Controller Only
+Tilt Steering With Controller
+Full Tilt With Controller
+Full Tilt With Controller (Inverted)
+%s(%ld): Attempting to clone an EntityDefHoverVehicle from non-EntityDefHoverVehicle prototype '%s'.
+Vehicle Rigid body '%s' is fixed or keyframed! Please make sure the mass is greater than 0.0f! Vehicles need to be a non-static collision type! Making the vehicle Rigid body dynamic with a mass of 1.0f
+RB couldn't be added to the world!
+EntityDefHoverVehicle '%s': no valid rigid body found with name '%s' - vehicle will be immovable and non-collidable!
+%s(%ld): Attempting to clone an EntityDefSimpleWheeledVehicle from non-EntityDefSimpleWheeledVehicle prototype '%s'.
+$BUTTON_CIRCLE $STR_HORN
+$BUTTON_FIRE2 $STR_STOPREVERSE
+$BUTTON_FIRE4 $STR_DRIVE
+$BUTTON_RTRIG1 $STR_SHOOT
+$BUTTON_LTRIG1 $STR_BOOST
+void agxTextureSamplerSetFilter(int, AgxFilterMode, AgxFilterMode, AgxFilterMode)
+void agxTextureSamplerSetWrap(int, AgxAddressMode, AgxAddressMode)
+dpad up
+dpad down
+dpad left
+dpad right
+P)?
+'%s': Unrecognized entity component specifier '%s'
+Can't find MCMonster spawn point.
+Can't find entity def!
+BallRoll component bone '%s' not found.
+BallRoll component entity def '%s' not found.
+Unable to create onExitLifetimeScript.
+Could not find specified entity def for remote type %d.
+EntityCompWheelchair '%s' (owner '%s'): arm %d, bone %d ('%s') not found.
+EntityCompWheelchair '%s' (owner '%s'): arm %d, root bone not found.
+EntityCompWheelchair '%s' (owner '%s'): arm %d, slave %d ('%s', parent '%s') not found.
+Wheelchair %s: couldn't find spinner def %s.
+EntityCompOffscreenMarker: Can't find construct hud object '%s'
+Can't find lifetime script for component!
+EntityCompBinocucom '%s': invalid/missing projectile entity def '%s'.
+Couldn't find compass geomInst '%s'
+FX comp %s: def '%s' not found.
+CustomModel component for '%s': group %d skeleton mismatch with main display object.
+CustomModel component for '%s': group %d object ('%s') not found.
+Couldn't find EntityProjectileDef '%s' for EntityCompWeapon part '%i' that was using it as projectile!
+EntityCompProcAnim for '%s': could not find bone '%s'.
+Trying to clone an InventoryGroupDef from a non-existing InventoryGroupDef '%s'! Skipping cloning!
+'deathLootSpawnCountMin' attribute '%d' out of range, must be >= 0, ignored.
+'deathLootSpawnCountMax' attribute '%d' out of range, must be >= 'deathLootSpawnCountMin' value, ignored.
+'stealthDeathLootSpawnCountMin' attribute '%d' out of range, must be >= 0, ignored.
+'stealthDeathLootSpawnCountMax' attribute '%d' out of range, must be >= 'stealthDeathLootSpawnCountMin' value, ignored.
+InventoryLootDrop: Trying to add another loot item but we are at capacity '%i'! Skipping!
+%s(%ld): Unrecognized target type specifier, must be Item or InventoryItem.
+'spawnCountMin' attribute '%d' out of range, must be >= 0, ignored.
+'spawnCountMax' attribute '%d' out of range, must be >= 'countMin' value, ignored.
+Trying to clone an InventoryGroupInst from a non-existing InventoryGroupInstDef '%s'! Skipping cloning!
+Couldn't find an InventoryGroupDef named '%s'!
+%s(%ld): Inventory component definition with no name.
+No root element in inventory data file '%s'
+xOv+
+}6 6
+s>Lpickpocketed a '%s'
+  def index %2d
+numPickpocketedDefs = %2d
+Can't spawn current entities since Inventory Group is empty!
+Shape raycast failed when determining shape keys for edge info.
+no valid contact information
+%s(%ld): Physics component definition with no name.
+%s(%ld): Unrecognized target type specifier, must be one of: Visual, Audible, Carry, Interact or Collect.
+%s(%ld): Targeting component definition with no name.
+%s(%ld): CombatAttack '%s': invalid Upgrade specifier - must contain both 'attack' and 'flag' fields, flag must be an integer between 1 and %d.
+%s(%ld): CombatAttack '%s' max upgrades (%d) reached - extra definitions ignored.
+%s(%ld): CombatAttack '%s' already exists - duplicate definition ignored.
+%s(%ld): CombatAttack has no 'name' specifier.
+%s(%ld): CombatReaction '%s' already exists - duplicate definition ignored.
+%s(%ld): CombatReaction has no 'name' specifier.
+%s(%ld): Combat component '%s': duplicate Reaction type '%s' specifiers.
+%s(%ld): Combat component '%s': Reaction block must have both 'type' and 'name' attributes.
+%s(%ld): Combat component definition with no name.
+No root element in combat data file '%s'
+failed to play anim '%s' for def '%s' entity '%s'
+Unknown Anim ctrl value type pass used!
+Reaction '%s': failed to play anim %s
+button name not found.
+%s(%ld): ControlAI component definition with no name.
+%s(%ld): ControlAESpline component definition with no name.
+%s(%ld): ProcAnim '%s': Segment definition with no 'boneName' specifier.
+%s(%ld): ProcAnim component definition with no name.
+%s(%ld): ProcEyes '%s': Eye definition with no 'name' specifier.
+%s(%ld): ProcEyes '%s': Eye definition with no 'material' specifier.
+%s(%ld): ProcEyes '%s': Eye definition with no 'bone' specifier.
+%s(%ld): ProcEyes '%s': Eye definition with no 'controlBone' specifier.
+%s(%ld): ProcEyes '%s': Eye definition with no 'eyeLidBone' specifier.
+%s(%ld): ProcEyes '%s': Eye definition with no 'eyeLidControlBone' specifier.
+%s(%ld): ProcEyes '%s': Eye definition with no 'enableBlink' specifier.
+%s(%ld): ProcEyes '%s': Eye definition with no 'blinkRateMin' specifier.
+%s(%ld): ProcEyes '%s': Eye definition with no 'blinkRateMax' specifier.
+%s(%ld): ProcEyes '%s': Eye definition with no 'blinkDuration' specifier.
+%s(%ld): ProcEyes component definition with no name.
+Upper Lid Blink changed for %s, new value is %f (float track name: %s)
+Upper Lid Angle changed for %s, new value is %f (float track name: %s)
+Lower Lid Blink changed for %s, new value is %f (float track name: %s)
+Lower Lid Angle changed for %s, new value is %f (float track name: %s)
+%s(%ld): AnimMap component definition with no name.
+Animation Map '%s' lookup failed for Set %d ('%s'), Motion %d ('%s'), file %d ('%s').
+%s(%ld): Animation map Set definition with no name.
+%s(%ld): Animation Map Motion definition with no name.
+%s(%ld): Animation Map '%s': unrecognized 'find' specifier, should be sequential or random.
+%s(%ld): Animation Map '%s': unrecognized 'repeat' specifier, should be loop, hold or fail.
+%s(%ld): Animation Map File definition with no name.
+%s(%ld): AnimMapData has no 'name' specifier.
+No root element in animation map data file '%s'
+%s(%ld): Projector component definition with no name.
+%s(%d) : ***NOT CODED*** %s
+%s(%ld): CustomModel '%s': group %d, option %d has no 'name' attribute.
+%s(%ld): CustomModel '%s': max Options is %d, extra definitions ignored.
+%s(%ld): CustomModel '%s': group %d has no 'name' attribute.
+%s(%ld): CustomModel '%s': max Groups is %d, extra definitions ignored.
+%s(%ld): CustomModel component definition with no name.
+%s(%ld): FacePlayer component definition with no name.
+%s(%ld): Unrecognized FX type block, must be one of: Cloak, Electricity, Fire, SuperAbility or SlowTime
+%s(%ld): FX component definition with no name.
+%s(%ld): Combat component definition with no name.
+%s(%ld): JointTwoSolver '%s': unrecognized 'type' specifier, must be one of: target or layer.
+%s(%ld): JointThreeSolver '%s': unrecognized 'type' specifier, must be one of: target or layer.
+'projPerSecMin' is set to 0 or less! Defaulting to 1 so we at least shoot something!
+'projPerSecMax' is set to 0 or less! Defaulting to 1 so we at least shoot something!
+%s(%ld): EntityCompCInfoWeapon '%s': max %d Part definitions - extra ignored.
+%s(%ld): Anim component definition with no name.
+failed to play additive anim '%s' for def '%s' entity '%s' due to no anim node (additive will not create default node.  must play non-additive first)
+Too many sounds attached to %s anim comp - %s will not play
+%s(%ld): Binocucom %s: unrecognized ability flag '%s'.
+%s(%ld): Binocucom component definition with no name.
+%s(%ld): Buoyancy component definition with no name.
+%s(%ld): Jumprope component definition with no name.
+%s(%ld): Vortex component definition with no name.
+%s(%ld): System Cracker component definition with no name.
+%s(%ld): Scoring component definition with no name.
+%s(%ld): Magnet component definition with no name.
+No def type found
+%s(%ld): Monster Closet component definition with no name.
+%s(%ld): SpeedBoost component definition with no name.
+Max entity filters reached for receptacle component: '%s'! MAX: %i
+%s(%ld): Receptacle component definition with no name.
+%s(%ld): Mover component definition with no name.
+EntityCompWheelchair '%s': max # IK arms is %d, extra definitions ignored.
+EntityCompWheelchair '%s': multiple Arm Root definitions.
+EntityCompWheelchair '%s': max # IK bones is %d, extra definitions ignored.
+EntityCompWheelchair '%s': max # slaves is %d, extra definitions ignored.
+EntityCompWheelchair '%s': unrecognized Arm child block.
+%s(%ld): Wheelchair component definition with no name.
+%s(%d) : ***TODO*** %s - %s
+jdg - change the goalscore to accept BombAttached events when we redo the goalscore broadcasts
+EntityCompWheelchair %s:
+rstate: %d
+arm0: %d arm1: %d
+%s(%ld): ShootingAttack '%s': unrecognized 'type' specifier, should be melee, air, throw or special.
+%s(%ld): ShootingAttack '%s' already exists - duplicate definition ignored.
+%s(%ld): ShootingAttack has no 'name' specifier.
+Invalid projectile def hash for ammo type %d
+Couldn't find EntityProjectileDef '%s'
+%s(%ld): WallClimb component definition with no name.
+%s(%ld): BallRoll component definition with no name.
+$BUTTON_R1_ANIM $STR_SHOOT
+No root element in goal data file '%s'
+Treasure '%s' already added.  Treasure names must be unique across all Episode.xml files.
+Mask with refID '%s' already added.  Mask names must be unique across all Episode.xml files.
+Mask with refID '%s' has no associated reference episode. Please fill out the refEpisode attribute.
+Mask '%s' already added.  Mask names must be unique across all Episode.xml files.
+SafeTreasure '%s' already added.  SafeTreasure names must be unique across all Episode.xml files.
+No Episode node found in '%s'.
+XML error: %s(%ld:%ld): %s.
+CostumeDoor '%s' already added.  CostumeDoor names must be unique.
+No MasterEpisodes node found in '%s'.
+Couldn't find mask spawner '%s' in the mask info map! Please have an engineer check the name or add it to the list!
+CostumeDoor: '%s' not found in this episode's hub!
+Couldn't find treasure spawner '%s' in the treasure info map! Please have an engineer check the name or add it to the list!
+IsGoalInActiveLevel has an root goal index passed in '%i'. Range is [0:%i]
+Error unlocking movie '%s' as it was not found.  Ensure name is correct in Episodes.xml
+Movie index %d out of range.
+Goal Counter: '%s' has not been modified to the new standard of controlling the numerator and denominator separately!
+Can't find the mask spawner group 'SSpawnerGroup_Mask'.  Make sure it's spelled correctly.
+OnMaskCollected: collected mask '%s' doesn't have a spawner!
+Couldn't find mask '%s' with associated spawner '%s' in the mask info map! Please have an engineer check the name or add it to the list!
+$BUTTON_X $STR_YES $BUTTON_CIRCLE $STR_NO
+arcades unlocked: %d / %d
+Couldn't find treasure '%s' with associated spawner '%s' in the treasure info map! Please have an engineer check the name or add it to the list!
+arcade high score  level = %d  index = %d  num = %d
+arcade not high score  index = %d
+$BUTTON_X $STR_CONTINUE
+Warning: File %s is missing from glob.
+Warning: File %s is an empty file in glob.
+Warning: Unable to prefetch '%s': %s
+Creation of async read op of FTD header failed on %s
+Read of %llu bytes from %s failed: %s
+Read of %llu bytes from %s failed: only read %llu bytes
+%s contains an unknown version (%llu)
+Async Open of %s failed: %s
+Async Open of %s did not return a file handle, loading failed
+Failed to open %s
+Loading.Use Anim Globs
+Fail to find geo def %s for FXAnimControlGeoDisplay!
+Fail to find bone (%s) from entity (%s)
+FXDelay: display object '%s' skeleton does not match position object '%s'
+%s(%d) : ***TODO*** %s - %s
+Thread-Disabled: FXLensFlare
+Thread-Disabled: FXSpotlight
+Too many active camera shakes.  Ask a programmer to increase the limit (%u)
+Eye not found!
+Can't find weakpoint
+Script can't be found!
+%s(%d) : ***TODO*** %s - %s
+jdg - fix these up when we get final names
+can't find flame obj.
+can't find triggerflame
+can't find wind effect
+can't find baby dragon spawner.
+Can't find interact position
+Can't find finisher interact point for where the marker needs to be placed.  Marker will spawn at origin.
+Smash is depricated!
+Invalid sequence command type '%u'
+Thread has no commands.  Will not execute properly!
+No threads in collection.  Will not execute properly!
+No thread collections in behavior! will not execute properly!
+%s(%ld): Attempting to clone an EntityDefDragonBoss from non-EntityDefDragonBoss prototype '%s'.
+About to enter a state where the dragon head can be attacked, but the head has no hp!
+About to enter a state where the dragon head can be attacked, but it is already dead!
+Invalid state!
+Body part is not a head!  Why is it being stunned?
+Hit Wildcard script can't be found!
+Invalid homing state!
+Can't find bone!
+updir needs to have length.  defaulting to unitY
+Can't find body part for thread '%s'!
+Starting collection that is already active!
+Attempting to start attack but body part is null!
+Attempting to start an attack, but body part is active in another state.  This may screw up effects & sequence.
+Attempting to restart an attack that has already been started!
+invalid script hash.  defaulting to FireballHoming
+flame duration too low.  Forcing to 1.0
+stun duration too low.  Forcing to 1.0
+Attack couldn't be created!
+Can't find projectile Def.
+Can't find homing projectile Def.
+Could not find a current behavior!
+Depricated message
+No sender for spawnhealth.  We wouldn't know where to put it!
+Unknown Dragon Message
+Can't find var
+unknown megaknight stamp type '%u'
+unknown megaknight behavior action '%u'
+invalid action
+Unknown Stamp Command in stamp: '%s'
+laser Y scale is messed up.  needs to be greater than zero.
+Could not create laser for boss.
+can't find ripple entity
+can't find shoulder plate
+can't find shoulder target
+name is null
+can't find script
+Can't find laser spline inst.
+Can't find missile definition
+Can't find egg definition
+ease in must be greater than or equal to zero.  forcing to zero.
+Identical types in list.
+Action type not set!
+can't find force field spawner.
+can't find seige tower.
+can't find trampoline or tower.
+can't find arrow bucket. or entity type is wrong
+can't find heart!
+can't find effects lifetime script
+can't find force field script
+%s(%ld): Attempting to clone an EntityDefMegaKnight from non-EntityDefMegaKnight prototype '%s'.
+can't find entity def
+can't spawn baby dragon
+too many baby dragons. ignoring call to spawn one.
+reticle already exists.
+couldn't spawn reticle
+invalid position!
+hitdir is zero, player won't do anything.  forcing to unit_y
+no missiles to spawn in stampdef.
+unknown type.
+unitSize must be greater than zero.  forcing to 1.0f
+timeScalar must be greater than zero.  forcing to 1.0f
+not enough goal markers.  ask a programmer to increase limit.
+part is at zero, nan length detected
+action doesn't exist
+invalid position
+can't find camera behavior.
+idle state not found
+smash sequence is empty!
+invalid behavior!
+can't find missile stamp.
+invalid action.
+Boss stuck in loop b/c he can't do any attacks.  Perhaps he's trying to shoot a laser but you're constantly hidden?  Make sure to also sync missiles!  Forcing to idle for 1 second.
+setting state inside action chooser.  this will end badly
+invalid position.
+invalid target hit
+Unknown MegaKnight Message
+Only one force field active at a time!  Assuming a debug/artviewer situation and will let you do this.
+can't find spawn pt
+no target bone idx for position
+director script state for boss action not found.
+invalid state
+laser duration must be greater than 0.  forcing to default
+invalid position.  defaulting to center.
+depricated state.  we should be switching straight to kMonitorPlatform_Done
+shouldn't be able to shoot an arrow unless you're using artviewer... let jon know if this happens
+invalid platform
+invalid position. defaulting to left
+can't find bone!
+Depricated State
+can't smash!  arms are both deactivated or dead
+no smash sequence specified (this is ok if using smash from debug).  forcing sequence of 'SFSF'
+can't determine smash anim
+invalid position.  defaulting to left.
+depricated state
+player not on a platform, defaulting to center
+LevelScroller: Group can't find start pt named: '%s'!
+LevelScroller: start pt not specified for group!
+LevelScroller: Group can't find end pt named: '%s'!
+LevelScroller: end pt not specified for group!
+LevelScroller: group start and end points, '%s' and '%s' are at the same position!
+LevelScroller: group can't find geom instance named: '%s' to clone from in level!
+LevelScroller: group doesn't have a named geom instance!
+LevelScroller: set '%s' has a group with 'numGeomClones' set to zero or less! Group will not be created!
+LevelScroller: layer '%s' has already been created!
+LevelScroller: set '%s' has already been created!
+LevelScroller: slot piece group queue for layer '%s' is at capacity!
+GoalObject 'Trigger' not found from entity named: '%s'
+GoalObject 'Trigger' entity isn't a trigger: '%s'
+GoalObject 'Interactive' not found from entity named '%s'
+GoalObject 'Interactive' entity doesn't have an interact component: '%s'
+GoalObject 'Spawner' not found from spawner named: '%s'
+GoalObject 'SpawnerGroup' not found from spawner group named: '%s'
+GoalObject 'Laser' not found from laser named: '%s'
+GoalObject 'LaserField' not found from laser field named: '%s'
+GoalObject 'LaserGroup' not found from laser group named: '%s'
+GoalObject 'Teleporter' not found from teleporter named: '%s'
+oneGoalPerUpdate specified for non-sequential goal - ignoring
+%s(%ld): Goal '%s' has invalid 'op' specifier.
+%s(%ld): Goal '%s' has no 'op' specifier.
+%s(%ld): Goal '%s': Max Goal Scripts reached [Max:%d], extra goal script ignored.
+<unknown goal name>
+<unknown goal description>
+Trying to add a goal object when the max has been reached '%i'! Have an engineer increase if needed!
+%s(%ld): Goal '%s': Prerequisite block missing a 'goal' attribute - ignored.
+%s(%ld): Goal '%s': Max Prerequisite blocks is %d, extra block ignored.
+GoalHub and GoalHubSpoke are depricated.
+%s(%ld): Unrecognized goal block '%s'.
+Tuning Var: Game.JobGoalName too long.  Talk to a programmer about extending maxNameLen
+Too many targets to sort in game goal set - skipping sort (Tell Ian S. if you need this to work)
+Max number of slots reached for Bartender Minigame (Max: %i)! Ignoring Extra Slots!
+'plyPtName' for Bartender Minigame has no 'name'! Ignoring Slot!
+'enemyPtName' for Bartender Minigame has no 'name'! Ignoring Slot!
+GameGoalBinocucomPhoto: Couldn't find point '%s' for variable 'forceUsePtOrientation'
+GoalBinocucomPhoto: Max Binocucom Targets reached (Max: %i)!
+Photo target specified with max occlusion ration greater than 1.0 - clamping
+Photo target specified with max occlusion ration less than 0.0 - clamping
+[Missing Display Name]
+[Missing CheckBox Name]
+[Missing Target Name]
+[Missing Photo Name]
+%s(%ld): Goal '%s' Entity block requires a 'name' specifier.
+Unsupported costume check.
+%s(%ld): Goal '%s' EntityItemBase block requires a 'name' specifier.
+%s(%ld): Goal '%s' has invalid 'op' specifier, must be one of: enable or disable.
+GoalFollow: warning radius '%f' must be larger than follow radius '%f'. You might not get warning script events!
+invalid state
+can't find mouse trap hash element
+can't set spawn pt
+failed to spawn fire bulb
+can't find entity
+Penguin spawn field isn't spawn field?!
+Missing spawner - can't teleport penguins
+RewardSeq of ID: '%i' not found or created before this event! Make sure all RewardSeq are declared before the events in the GoalQTEGame param block!
+delayBetweenMax must be greater than or equal to delayBetweenMin for shooting gallery spawner group '%s'
+maxActive must be greater than or equal to minActive for shooting gallery spawner group '%s'
+invalid shooting gallery cmd
+already has active spawner.
+null closet
+ran out of closets
+can't find spawner group
+--ShootingGalleryGroup %s--
+NumActive/MaxActive: %i/%i
+MinActive: %i
+NumSpawned: %i
+Delay Min/Max: %.2f/%.2f
+MonsterCloset: %.2f
+error, can't find spawner.
+unknown cmd '%u'
+can't find group %u
+invalid cmd
+%s(%ld): Goal '%s' has invalid/no 'target' specifier.
+%s(%ld): Goal '%s' has invalid 'op' specifier.
+%s(%ld): Goal '%s' has no 'op' specifier.
+%s(%ld): Goal '%s' has missing/invalid 'scoreType' specifier.
+Player number invalid.  Defaulting to 0.
+No axis specified.  Goal will auto-complete!
+character has no input component.  let JonG know if you encounter this.
+player is not a character (possibly a vehicle?) ask JonG to add input support for your character type.
+Havok objects in file are outside the broadphase range of the world - try making the base world bigger in Maya.
+could not open file "%s" for reading.
+ Collision Report
+ Rigid Body: (%s) Position (%3.2f,%3.2f,%3.2f)
+ End Collision Report
+%s(%ld): AnimTree has no 'name' specifier.
+%s(%ld): AnimBlendMap has no 'name' specifier.
+%s(%ld): AnimChannelMap has no 'name' specifier.
+Animation has already been loaded or has a duplicate entry. file (%s) ID: (%s)
+Error loading animation file: %s, animation has no skeleton name
+Duplicate Havok skeletons in table: %s
+Duplicate Havok skeleton map in table: %s
+Unable to open "%s" for reading.
+Couldn't find Havok skeleton '%s'.
+Skeleton not found (%s)
+HavokAnimation: Skeleton not found for object (%s)
+Could not find bones for foot solver setup: hip:'%s', knee:'%s', ankle:'%s' for object '%s'
+gmHkMemory: LevelShutdown: Total:   InUse: %9dk
+gmHkMemory: LevelShutdown: Total: PeakUse: %9dk
+gmHkMemory: LevelShutdown: Heap:  MinFree: %9dk
+gmHkMemory: LevelShutdown: Level: PeakUse: %9dk
+gmHkMemory: blockAlloc: failed to alloc:%d
+gmHkMemory: blockAlloc: Level:    Used:%9dk PeakUse: %dk
+gmHkMemory: blockAlloc: Total:    Used:%9dk PeakUse: %dk
+gmHkMemory: blockAlloc: Heap:  MinFree:%9dk
+Debug.Reports.Dump Havok Memory
+Entity.Character.EdgeGrab.Process In Game
+Entity.Character.EdgeGrab.Validate Loaded
+hud object '%s' lifetime script '%s' has no commands
+exceeded max slot priority of %u.  forcing to max.
+3dText number out of allocated range
+CloneHudSimpleObj: Can't find hud prototype object or is not simple object '%s'
+HudWheel: No script slot setup for this number of slots. Have an engineer add a new one
+$STR_GAME_COMPLETE %d$STR_PERCENTAGE
+$STR_EPISODE_COMPLETE %d$STR_PERCENTAGE
+$STR_EPISODE %s
+$STR_JOB %s
+$STR_GOAL %s
+$STR_EPISODE $STR_NONE
+$STR_JOB $STR_NONE
+$STR_GOAL $STR_NONE
+$BUTTON_FIRE3 $STR_INTERACT_ENTER
+$BUTTON_FIRE3 $STR_INTERACT_SAFEHOUSE_ENTER
+$BUTTON_FIRE3 $STR_INTERACT_EXIT
+UI.MainMenu.UV Scaling
+Cannot add string (%s) to the knowledge data, run out of string buffer!
+Fail to find the required string attribute (%s) in script file (%s %d:%d)!
+%s: (Error!) %s
+Fail to added new result to the execution list, run out of execution list slot!
+Run out of KData Block (%d), please increase the block list (_MAX_NUM_OF_KNOWLEDGE_DATA_BLOCK)!
+ResultList: Will not append result (%s) because it contains error
+ResultList: Will not append result container since it contains error!
+Fail to add a result to the result queue since run out of result queue space!
+Cannot find a result type (%s) in the system in (%s %d:%d)
+Fail to find the type hash for this result container (%s)
+Cannot find the result element in result container (%s) (%s)
+Fail to find a result def (%s) in result container (%s)
+Cannot find a cause type (hash 0x%08x) in the system in (%s %d:%d)
+Cannot find the cause element in knowledge (%s) (%s %d:%d)
+Cannot find the result element in knowledge (%s) (%s %d:%d)
+A knowledge state contains no name! (%s %d:%d)
+Error to read int value KVarData (%s)
+Error to read float value KVarData (%s)
+Error to read bool value KVarData (%s)
+Error to read hash value KVarData (%s)
+Fail to load knowledge list (%s) from file (%s)
+Ignore cloning operation of the knowledge list (%s) since it contains error!
+Cannot find a cause type (hash 0x%08x) in the system!
+Cannot find a result type (hash 0x%08x) in the system!
+CIsVarDef: no var data define in this script!
+CIsVarDef: Null var name pass in!
+CIsVarDef: Cannot find the var data (%s) from the script!
+CIsVarDef: Don't support string comparison!
+CIsTimerLargerEqualThan: Cannot find the KTimer variable with name (%s)
+CIsTimerLargerEqualThan: No timer is specified!
+Run out of knowledge list slot, please increase the size of the knowledge list container!
+Fail to add KList (%s) to the KList Def Lib, duplicate KList def found!
+Cannot find the script root tag (%s) of the script xml file (%s)!
+Cannot find the script tag (%s) under the root tag (%s) in the script file (%s)!
+Fail to load script file (%s)
+Fail to use the script file ID (%s) to load up the setting file!
+Fail to change to new state (%s)
+Cannot find KVarData with name (%s) to set!
+The KVarData (%s) is not type int!
+Null var data name pass in!
+The KVarData (%s) is not type float!
+The KVarData (%s) is not type Bool!
+The KVarData (%s) is not type hash!
+RIncrementKVarDataDef: Cannot find KVarData with name (%s) to set!
+RIncrementKVarDataDef: Null var data name pass in!
+RIncrementKVarDataDef: VarData (%s) data type (%s) do not support increment!
+ResultPlaySoundDef: Null snd name pass in, no snd will be played!
+Failed to find sound %s
+RPlayDirScriptDef: No dir script name pass in!
+RResetTimer: Cannot find the KTimer variable with name (%s)
+RResetTimer: No timer is specified!
+ResultSetMeleeAttackRaidus: No attach bone name associate with!
+RStartMeleeAttack: Cannot find bone (%s) for character %s!
+RFireProjectile: No projectile def name defined!
+RFireProjectile: Cannot find bone (%s) for character %s!
+RFireProjectile: Fail to find the projectile def (%s) to fire
+Laser ('%s'): The spline laser trying to be created has a moveable spline 1 that can't be found '%s'. Laser will try and find the spline from its children!
+Laser ('%s'): The spline laser trying to be created has a moveable spline 2 that can't be found '%s'. Laser will try and find the spline from its children!
+Laser ('%s'): Laser Point%i's spline start offset is out of range! Check the variance value! The offset will be clamped [0.0-1.0]!
+Laser ('%s'): The spline spline laser trying to be created doesn't have a 2 splines as children (siblings) or 2 splines where one spline is a child of the other!! Laser will be disabled and not render!
+Laser ('%s'): The anchor laser trying to be created has a moveable spline that can't be found '%s'. Laser will try and find the spline from its children!
+Laser ('%s'): The anchor laser trying to be created has a moveable anchor object that can't be found '%s'. Make sure it has a geo prop tag with the 'Entity' field selected. Laser will try and find the object from its children!
+Laser ('%s'): The spline start offset is out of range! Check the variance value! The offset will be clamped [0.0-1.0]!
+Laser ('%s'): The anchor spline laser trying to be created doesn't have a spline and obj as children! Laser will be disabled and not render!
+Laser ('%s'): The fixed laser trying to be created has a moveable spline that can't be found '%s'. Laser will try and find the spline from its children!
+Laser ('%s'): The fixed laser trying to be created has a moveable object 1 that can't be found '%s'. Make sure it has a geo prop tag with the 'Entity' field selected. Laser will try and find the object from its children!
+Laser ('%s'): The fixed laser trying to be created has a moveable object 2 that can't be found '%s'. Make sure it has a geo prop tag with the 'Entity' field selected. Laser will try and find the object from its children!
+Laser ('%s'): The fixed laser trying to be created doesn't have a spline, 2 objs as children (siblings) or 2 objs where one object is a child of the other! Laser will be disabled and not render!
+LaserGroup Setting '%s' can't find activation trigger or the entity found is not a trigger type '%s'!
+Laser ('%s'): The spline start offset 1 is out of range! Check the variance value! The offset will be clamped [0.0-1.0]!
+Laser ('%s'): The spline start offset 2 is out of range! Check the variance value! The offset will be clamped [0.0-1.0]!
+LaserFieldSetting: Layer Num %i: Material name '%s' couldn't be found!
+LaserField Setting '%s' can't find activation trigger or the entity found is not a trigger type '%s'!
+Can't find lifetime script for LaserField: '%s'
+Ran out of laser group slots (Max %i), laser group (%s) and any laser group added after will not be added to the system!
+Fail to find the associate object (%s) from the scene, this Laser Group will be ignored!
+Duplicate laser found! (%s)! Duplicate will not be added to the system!
+Ran out of laser slots (Max %i), laser (%s) and any laser added after will not be added to the system!
+Fail to find the associate object (%s) from the scene, this Laser will be ignored!
+Duplicate laser field found! (%s)! Duplicate will not be added to the system!
+Ran out of laser field slots (Max %i), laser field (%s) and any laser field added after will not be added to the system!
+Fail to find the associate point (%s) from the scene, this LaserField will be ignored!
+void agxSetDepthBias(float, float)
+Thought Bubble Geom def for bartender minigame is not found '%s'!
+Highlighter Geom def for bartender minigame is not found '%s'!
+Thought Bubble GUI Frame is not found '%s'!
+Thought Bubble GUI Label is not found '%s' under frame '%s' or is not of GUI Label Type!
+Highlighter Child Geom def part for bartender minigame is not found '%s' in Slot %i!
+Thought Bubble Bar part for bartender minigame is not found '%s' or is not a geom instance type!
+Thought Bubble Bar BG part for bartender minigame is not found '%s' or is not a geom instance type!
+Thought Bubble Text part for bartender minigame is not found '%s'!
+Thought Bubble Text Num part for bartender minigame is not found '%s'!
+Player Point instance '%s' not found for slot in Bartender Minigame!
+Enemy Point instance '%s' not found for slot in Bartender Minigame!
+Player entity for bartender minigame is not found '%s' or is not a damageable type!
+Entity def for bartender minigame is not found '%s' or is not a damageable type!
+Enemy def for bartender minigame is not found '%s' or is not a damageable type!
+Beer served counter def for bartender minigame is not found '%s'!
+Beer failed counter def for bartender minigame is not found '%s' or is not of HudSlottedMeter type!
+can't play mech anim
+can't play pilot anim.
+warning. SetAnimSpeed is <= 0.0f.
+invalid attack
+invalid anim defaulting to light
+invalid attack state: how did we get here?
+can't find m_centerSpawnPt
+bentley mech is not of type damagable!
+couldn't spawn BentleyMech
+penelope mech is not of type damagable!
+couldn't spawn PenelopeMech
+chase dist min is less than chase dist max.  fix this or penelope will be stuck.  auto-forcing some separation.
+invalid state.
+spawning non damagable enemy.
+spawnPtStart couldn't be found for Hideout Selectable '%i'!
+spawnPtCharacterSelect couldn't be found for Hideout Selectable '%i'!
+spawnPtCostumeView couldn't be found for Hideout Selectable '%i'!
+spawnPtLevelSelect couldn't be found for Hideout Selectable '%i'!
+spawnPtArcadeSelect couldn't be found for Hideout Selectable '%i'!
+spawnPtCollectableView couldn't be found for Hideout Selectable '%i'!
+Entity Def couldn't be found for Hideout Selectable '%i'!
+Indicator object not found (%s)
+$BUTTON_X $HIDEOUT_BUY
+Thiefnet object not found (STATIC_ThiefNetNew)
+%s%s $HIDEOUT_JOB_AVAILABLE %s $HIDEOUT_SELECT
+%s%s $HIDEOUT_JOB_AVAILABLE %s $HIDEOUT_SELECT %s.
+$HIDEOUT_SELECT %s.
+$BUTTON_TRIANGLE $HIDEOUT_THIEFNET_TITLE
+<Title not entered yet>
+<Desc not entered yet>
+$RSTICK_CIRCLE_ANIM $HIDEOUT_STR_ORBIT
+%s $HIDEOUT_PROMPT_START_AS_SLY
+$BUTTON_X $STR_YES $BUTTON_CIRCLE $STR_NO
+$HIDEOUT_PROMPT_NO_HUB_1 %s $HIDEOUT_PROMPT_NO_HUB_2
+%s%s $HIDEOUT_PROMPT_JOB_AVAILABLE
+$BUTTON_X $HIDEOUT_PROMPT_PINGPONG_1P $BUTTON_CIRCLE $STR_NO
+Arcade instance not found in scene (%s), camera will not function properly.
+Out of job header entries. Please increase the tuning variable: Mechanic.Hideout.NumJobHeaders and create new job headers in the job UI xml
+Job object not found (%s)
+Fhit ball
+Sly: %d
+Bentley: %d
+Bentley (%.1f): %d
+Shaking: %f %f %f 
+Shaking: %f
+camera anim  %s
+player anim  %s          clip  %s
+timer %6.2f
+ID (%s): %i COMPLETE
+ID (%s): %i INACTIVE
+ID (%s): %i %s
+Timer: %.2f
+SystemCracker: TopLayer
+SystemCracker: CompLayer
+$BUTTON_X $ArcadePlay
+Missing penguin counter
+(%.2f,%.2f) Length %.2f
+Missing montage counter
+void agxTextureSamplerSetFilter(int, AgxFilterMode, AgxFilterMode, AgxFilterMode)
+void agxTextureSamplerSetWrap(int, AgxAddressMode, AgxAddressMode)
+Invalid Thread Idx!
+SequenceCommandEnableComponent failed for entity (%s) because the component was not found (%s)
+SequenceCommandEnableComponent failed because control entity (%s) could not be found. Did you call 'SetEntity' to add it to the entity list?
+SequenceCommandEnablePhysics failed because entity (%s) is not a character type
+SequenceCommandEnablePhysics failed because control entity (%s) could not be found. Did you call 'SetEntity' to add it to the entity list?
+EnableSpawner: couldn't find 'spawner': '%s'
+EnableSpawnerGroup: couldn't find 'spawnerGroup': '%s'
+SequenceCommandEntitySuppressAudio references unknown entity %s
+SeqEnqueueStream waiting for stream %s that hasn't started buffering (Check the stream queue) - This wait is ignored
+SequenceCommandPlayAnim failed because anim (hash: %s) for def '%s' entity '%s' did not play in sequence '%s'
+no def
+SequenceCommandPlayAnim '%s' failed because control entity '%s' could not be found in sequence '%s'
+Queued binocucom dialog fails to play
+SeqPlayHUDFreezeScreen: entity '%s' is not found in the sequence!
+$BUTTON_X $STR_YES $BUTTON_CIRCLE $STR_NO
+SeqPlaySound references unknown entity %s
+SeqPlaySound attempts to play %s before it started buffering (check your stream queue) - this sound will not play
+character has no input component.  let JonG know if you encounter this.
+can't play idle anim.
+can't find mash entity.
+can't play mash anim.
+can't find chase entity.
+can't find entity or chase entity.
+can't find wildcard script.
+unknown event '%s'
+SetBartenderMGProps: There isn't a current game mechanic or the type of the game mechanic is not of type Bartender!
+SequenceCommandSetEntityVisible failed because control entity (Parent: %s | Child: %s) could not be found in sequence '%s'. Did you call 'SetEntity' to add it to the entity list?
+SequenceCommandSetEntityUpdate failed because control entity (%s) could not be found. Did you call 'SetEntity' to add it to the entity list?
+SequenceCommandSetScriptState failed because control entity '%s' could not be found
+Trying to create a VO file path that exceeds that max character limit (%i)! File path: (%s)
+Setting of sound params fails
+The enqueued sound %s failed to play
+Stopping buffered queueud sound %s - something is probably counting on this not happening
+Buffered stream got stolen out from under the stream queue - Check to make sure the streams for the sound %s exist and are properly named
+Sound from unloaded bank in stream queue?
+Bailing on wait for Async File group stream %s, which has buffered for more than %0.04f seconds
+File group sound %s can't buffer (is the stream queue full)?
+NULL StreamQueueEntry
+Improperly formatted XML file
+Duplicate sound zone param entry %s
+Improperly formatted worksheet for SoundZones
+SCREAM Init Failed: system already started!
+SCREAM Init Failed: didn't receive SPURS instance pointer!
+SCREAM Init Failed: synthesizer failed to initialize!
+SCREAM Init Failed: unknown reason!
+Freeing memory to bank heap before initialization
+Trying to shutdown a SoundMgr that was never initialized!
+Negative crossfade duration passed to SetMusicRegister
+[ISDebug] Relinked %d of %d sound headers in %.4fms
+[ISDebug] Unlinked %d of %d sound headers in %.4fms
+Too many nested Mix States, limit is %d
+Setting audio playback speed to an inappropriately low value.  Clamping to %0.04f.
+Setting audio playback speed to an inappropriately high value.  Clamping to %0.04f.
+Allocating memory from bank heap before initialization
+%s : %d - ERROR! bitstreamId %d exceeds maximum of %d.
+%s : %d - ERROR! Unfinished async open for stream %i.
+%s : %d - ERROR Opening bitstream with unfinished async read for stream %d, buffer %d.
+%s : %d - ERROR! Unfinished async read for stream %d, buffer %d.
+%s : %d - ERROR - Read past EOF.
+%s : %d - WARNING Closing bitstream with unfinished async read for stream %d, buffer %d.
+Duplicate bank data specified for sound bank  in %s - later data is ignored
+Spawn point (%s) fail to spawn object with setting (%s)
+KillSpawnedEntities won't work on an untracked spawner! Set TrackSpawnedObjects to true to have the spawner track!
+Spawn group %s contains no spawners
+Number of spawner is more than %d, please increase the max number of the spawner in SpawnManager
+Cannot activate spawner (%s) because out of active spawner space!
+Run out of space for spawner group (%d), spawner group (%s) will not add to the system!
+Cannot find the def (%s) in the level
+Invalid def pointer passed in
+Cannot find the spawn point object instance (%s) to associate with Spawner Setting (%s)
+Cannot find the spawn group object instance (%s) to associate with Entity Spawn Group Setting (%s)
+void agxTextureSamplerSetFilter(int, AgxFilterMode, AgxFilterMode, AgxFilterMode)
+void agxTextureSamplerSetWrap(int, AgxAddressMode, AgxAddressMode)
+void agxTextureCacheInvalidate()
+void agxSetDepthBias(float, float)
+KZR@[~/V
+corrugated metal
+boxing ring
+%s(%d) : ***TODO*** %s - %s
+Not compatible with JumboTron.
+Sly4 command-line options: (all case-insensitive, names can be enclosed in quotes)
+  -l <levelName>:   specify initial level
+  -e <episodeName>: specify initial episode
+  -j <jobName>:     specify initial job
+  -g <goalName>:    specify initial goal
+  -h:               start the job from the hideout
+  -b:               start the job from the hub (b for base)
+  -c:               disable combined SAN files
+  -o:               disable outlines
+  -v:               validate tuning vars (warns if code/XML don't match)
+%s specified without a value
+Combined SAN files disabled
+Associated file or directory does not exist
+Too many files are open
+Associated device was not found
+Operation is not supported by device
+Invalid file descriptor
+Invalid argument
+Unknown code 0x%08x
+Error reading from %s: %s
+Unable to open preorder loot key file '%s': %s
+Attempted read from %s of %llu bytes returned zero bytes, doesn't seem right.
+Sanzaru thanks you: you rock!
+Preorder loot unlock key detected & validated: %s
+Trying to add another cutscene to the queue but the queue is full! Max: %i! Have an engineer increase
+Can't find script '%s' to play from script library '%s'
+Attempting to send event to a null entity.  Event will be ignored.
+[Missing cloud message]
+Enemies Alerted:
+Enemies Killed:
+Coins Collected:
+Gems Collected:
+Couldn't find a contextual type for entity def '%s'! Have an engineer add this entity def if needed
+Old level scroller was never cleaned up!
+Window Silhouette: Ran out of # characters. Please ask an engineer to increase the maximum (current max: %d)
+Trying to creating a level scroller sequence but no sets were specified in the level params!
+Trying to creating a level scroller sequence but there is no name specified in the level params!
+Trying to creating a level scroller group but no geometry instances were specified in the level params!
+Trying to creating a level scroller group but no layer was specified in the level params!
+Trying to creating a level scroller set but no groups were specified in the level params!
+Trying to creating a level scroller set but there is no name specified in the level params!
+Trying to creating a level scroller layer but there is no name specified in the level params!
+Trying to creating a level scroller layer but the number of slots is <= 0!
+Trying to creating a level scroller but no layers were specified in the level params!
+Trying to creating a level scroller set but no sequences were specified in the level params!
+Trying to creating a level scroller but no scrolling sets were specified in the level params!
+Trying to creating a level scroller but their are no sets in the sequence in the level params!
+Trying to adding more Hideout Selectables then are allowed in game '%i'! Have an engineer increase the max if needed!
+Trying to add a Hideout Selectable that has no Entity def hash ('def') defined! Please give it an entity def!
+%s(%ld): Unrecognized level params block, must be one of: Player or ....
+Only one LevelParams is allowed for a given level! Skipping creating another!
+No root element in level param data file '%s'
+<unknown headline string! Check level params for level!>
++ %d
+Out of space in filename buffer - increase GAMEMGR_FILENAMEBUF_SIZE.
+HavokFile block in level data with no 'name' specifier.
+HavokSkeletonFile block in level data with no 'id' specifier.
+HavokSkeletonFile block in level data with no 'name' specifier.
+HavokSkelMapFile block in level data with no 'id' specifier.
+HavokSkelMapFile block in level data with no 'name' specifier.
+HavokAnimFile block in level data with no 'id' specifier.
+HavokAnimFile block in level data with no 'name' specifier.
+EntityFile block in level data with no 'name' specifier.
+There is already a LevelParamsFile loaded for this level '%s'! Overwriting with new LevelParamsFile '%s'!
+LevelParamsFile block in level data with no 'name' specifier.
+Couldn't find a controllable to make a camera for ! Camera will default to looking at (0,0,0)!
+awards unlocked %d / total %d
+Too many extra entities added to the freeze screen ('%s')!
+D$HUD_PROMPT_FRONTEND
+$BUTTON_X $STR_YES $BUTTON_CIRCLE $STR_NO
+[Missing Load Error String]
+GUI BinkSubtitles not found!
+BinkSubtitles.TextFrame.Text not found or is not of type label!
+type: %s
+surface: %s
+jmpHt: %4.01f
+uData1: %5.02f
+uData2: 0x%08x
+%s: culled by distance (%0.02f/%0.02f(*Level Default))
+%s: culled by distance (%0.02f/%0.02f(*Default))
+%s: culled by distance (%0.02f/%0.02f)
+%s: culled by distance (%0.02f/(no cull))
+%s: noUpdate
+%s: culled by visibility
+%s: primary ref released
+%s: ExtControl
+%s: culled by ???
+!!INVALID SOUNDZONE!!
+(%.2f, %.2f, %.2f)
+damageable entity '%s' def '%s' tuned not to allow art viewer kill
+$BUTTON_X: Select Entity
+$BUTTON_X: Delete Entity
+$BUTTON_X + ($BUTTON_UP/$BUTTON_DOWN) Category: %s
+$BUTTON_UP/$BUTTON_DOWN/$BUTTON_FIRE3/$BUTTON_START Sent to selected entities
+$BUTTON_UP/$BUTTON_DOWN/$BUTTON_FIRE3/$BUTTON_START Sent to deleted entities
+$BUTTON_UP/$BUTTON_DOWN/$BUTTON_FIRE3/$BUTTON_START Entity: %s (%s)
+entities filtered
+active phantoms
+spawn points
+spawner groups
+path splines
+climb splines
+camera splines
+nav mesh
+$BUTTON_LEFT/$BUTTON_RIGHT Highlight: %s
+$BUTTON_FIRE1 + ($BUTTON_UP/$BUTTON_DOWN) Game Update: %s
+$BUTTON_FIRE2/$BUTTON_FIRE3(Hold): entity camera lock (%s)
+Rigid Body
+lyr:%02d grp:0x%04x ssid:%02d
+grab=%d clmb=%d noRspn=%d ncCam=%d
+surf:%d mtn:%02d qlty:%02d
+Cull Distance:
+State Info:
+no cull
+level %2d: %2d, %7.3fs
+X Rot:
+Y Rot:
+Z Rot:
+{%.3f, %.3f, %.3f}
+Couldn't find entity def '%s' for level editor piece %d, alt %d.
+%s(%ld): Entity block has no 'def' attribute.
+%s(%ld): Max alts exceeded - increase LE_PIECE_MAX_ALTS in gmLevelEditor.cpp.
+%s(%ld): Piece block has no 'name' attribute.
+%s(%ld): Unrecognized Group name "%s", must be one of: Terrain, Hazard, Attach, or Special.
+%s(%ld): Group block has no 'name' attribute.
+Unexpected error looking for preorder loot when calling sceAppUtilDrmOpen(): %s
+Unexpected error looking for preorder loot when calling sceAppUtilDrmClose(): %s
+Lifetime script not found for main start menu, will not be able to localize logo properly
+[Missing save settings error]
+[Missing Not Your Settings]
+[Connecting to AR Server]
+[Missing AR dialog message]
+$BUTTON_X $STR_CONTINUE
+Havok Rigid Body leak: previous %d, now %d.
+Havok Phantom leak: previous %d, now %d.
+ADD GOAL FAIL MESSAGE
+purchased %2d / %2d
+Too many lifetime script variables created for infstance override! Max is %i! Rest will be ignored!
+Entity: '%s' is not found in sequencer
+Entity: '%s' variable it is mapping to is not an Object type variable in sequencer
+Entity: '%s' is not found in script '%s'
+UNKNOWN SCRIPT
+Entity: '%s' variable it is mapping to is not an Object type variable in script '%s'
+Trigger: '%s' is not found in sequencer or variable it is mapping to is not a Trigger type variable
+Trigger: '%s' is not found or variable it is mapping to is not a Trigger type variable
+Spawner: '%s' is not found or variable it is mapping to is not a Spawner type variable
+SpawnerGroup: '%s' is not found or variable it is mapping to is not a SpawnerGroup type variable
+Laser: '%s' is not found or variable it is mapping to is not a Laser type variable
+LaserField: '%s' is not found or variable it is mapping to is not a LaserField type variable
+LaserGroup: '%s' is not found or variable it is mapping to is not a LaserGroup type variable
+The input number of index used (%d) is > the max number (%d) of index in the random pick data!
+Error! Do not have any index for random pick! Please reset the random pick data
+goal-specific hint string '%s'
+job-specific hint string '%s'
+general hint string '%s'
+/<OyO:R
+<8^*; h
+<Wt;<O
+( 92
+[:	=U9H
+p<O l;
+:Lz:33
+=qO!<0@K;U
+=[c	=;1<
+n<W
+[ <{
+<q+<
+=R l=Xg
+sv=oz=\
+x>-u
+mh>
+>At>GO
+>;1>
+h>$( >2
+n>W&>4
+<?q=?
+S?0L/?
+:?w
+?$2
+6?r+?
+p?R l?[gg?
+?TtConvex verts
+deleting wind group with controllers that still exist.  this shouldn't happen!
+controller not added to this wind group.  this shouldn't happen
+attempting to destroy wind group with references still active.  this shouldn't happen.
+wind group not a part of the manager.  perhaps deleted twice?  this shouldn't happen.
+Wind Mtx has scale.  Wind will be stronger than expected.
+can't find or create wind group!
+invalid wind state %h
+can't transfer ownership because the action doesn't exist in the given wind controller
+Entity already in WindController and ramping up.
+entity RB has no world.  perhaps the RB is disabled?  entity will not be added to wind since it's not in the physics simulation.
+Debug.Display.Memory (RSX Main)
+Cannot find the root element (%s) in the anim set file (%s), the anim set will be empty!
+Cannot find the set to inherit from. Current Set: (%s), Inheriting from: (%s)
+Fail to load AnimClip file (%s)
+Run out of anim set slot, please increase the size of the anim set list (%d)
+Fail to find the anim clip def (%s) from from the creation map!
+No clip name for this anim clip!
+Fail to add the clip name (%s) to the anim clip string buffer!
+Run out anim clip string buffer for clip name (%s) for play node name (%s)
+Run out of string buffer for transition name %s
+Run out of ACList Entry, anim event will not be created!
+The anim event percentage (%.2f) is not in range, it will set to 100 percentage! (%s)
+Null anim name for animation simple element in anim clip (%s)
+Cannot get the weight for the anim element (%s). This anim will not be played!
+Fail to allocate random anim element for anim random clip (%s)
+Null clip name for animation selection element in anim (%s)
+Fail to allocate anim clip element for anim clip selection (%s)
+ApeAnimClipSelectionDef: Null anim control value type pass in!
+Null clip name for animation container element in anim clip (%s)
+Fail to allocate anim clip element for anim clip container (%s)
+Null clip name for animation blend element in anim (%s)
+Fail to allocate anim clip element for anim clip blend (%s)
+ApeAnimClipBlendDef: Null anim control value type pass in!
+Script has no name associated with it (file: %s)
+%s: Declared the same variable '%s' more than once!
+UNKNOWN FILE
+%s: Declared the same state '%s' more than once!
+%s: unrecognized AnimScript element '%s'
+Loading in same script twice '%s'! Is this on purpose?
+Could not load director file '%s' since there are no director scripts in file!
+DebugPrint: '%s'
+ApeAnimScriptCommandSetObject: target object not found (%x)
+ApeAnimScriptCommandSetObject: target object variable is not type 'object'
+ApeAnimScriptCommandSetObject: object not found in level (%x)
+SetObject fails to find part %s - setting to parent instead
+SetVisible command: can't find part '%s' in object's hierarchy '%s'!
+Exceeded max params for CallRandom! Max: '%i'! Have an engineer increase if needed!
+Exceeded max scripts for CallRandom! Max: '%i'! Have an engineer increase if needed!
+ApeAnimScriptCommandSetFloat: object not found (%s)
+ApeAnimScriptCommandSetInt: Add on hash (%s)
+ApeAnimScriptCommandSetInt: sub on hash (%s)
+ApeAnimScriptCommandSetInt: mul on hash (%s)
+ApeAnimScriptCommandSetInt: div on hash (%s)
+ApeAnimScriptCommandSetInt: object not found (%s)
+ApeAnimScriptCommandSetMatrix: can't find object (%s)
+ApeAnimScriptCommandSetMatrix: can't find var (%s)
+Target object var name (object="<name>") is required.
+en:%d, ad:%d, hd:%d, st:0x%08x, t:%06.2f, dur:%4.2f
+AnimScripts: (total:%d)
+Script Name	Owner	Enabled	AutoDelete	Hold	State Hash	Time	Duration
+%s	this:%s	en:%d	ad:%d	hd:%d	st:0x%08x	t:%06.2f	dur:%4.2f
+BINK ERROR: Unable to open the Bink file %s
+Leaked GUI instance '%s'.
+Leaked GUI asset '%s'.
+GUI script '%s' appears to loop infinitely
+%s(%ld): Texture '%s' has no filename specifier.
+%s(%ld): Texture definition with no name.
+%s(%ld): FontPage '%s': invalid firstchar format '%s', should be \u<code>, using default.
+%s(%ld): Unicode firstChar parsing not yet implemented.
+%s(%ld): FontPage '%s': Map(%d): invalid char format '%s', should be \u<code>.
+%s(%ld): FontPage '%s' has no filename specifier.
+%s(%ld): Could not find Texture '%s'.
+%s(%ld): Font '%s' has no texture specifier.
+%s(%ld): FontPage definition with no name.
+%s: Font page character overflow - limit of %d chars per page - skipping.
+%s: (%dpx,%dpx) Animation frames are not an even multiple of preceeding character width.
+%s: (%dpx,%dpx) Animation frames must immediately follow character rectangle, with no blank space - skipping.
+%s: (%dpx,%dpx) Animation frame boundary with no preceeding character - skipping.
+%s: Font page row: (%d) has no character animation frames! - skipping. Make sure the blue baseline isn't over the green/red boundaries.
+%s(%ld): Could not find FontPage '%s' for font '%s'.
+%s(%ld): Page block with no 'name' specifier.
+%s(%ld): Font definition with no name.
+%s(%ld): Attempting to clone a ClipRegion from non-frame prototype '%s'.
+%s(%ld): Attempting to clone a WorldObj from non-WorldObj prototype '%s'.
+%s(%ld): Attempting to clone a Group from non-group prototype '%s'.
+%s(%ld): Group '%s': invalid 'pattern' specifier, must be one of: column or row.
+%s(%ld): Group '%s': invalid 'arrange' specifier, must be one of: center or padding.
+%s(%ld): Attempting to clone a Tile from non-Tile prototype '%s'.
+%s(%ld): Texture '%s' not found for tile '%s'.
+Warning: ApeGUILabel '%s': recursive string loop: '%s'.
+%s(%ld): Font '%s' not found for label '%s'.
+%s(%ld): Label definition with no font specifier.
+%s(%ld): Unrecognized animMode specifier, must be one of: loop, hold or pingpong.
+%s(%ld): Attempting to clone a Ticker from non-Ticker prototype '%s'.
+%s(%ld): Attempting to clone an Gradient from non-Gradient prototype '%s'.
+%s(%ld): Attempting to clone an Image from non-Image prototype '%s'.
+%s(%ld): Texture '%s' not found for label '%s'.
+%s(%ld): Attempting to clone a Frame from non-frame prototype '%s'.
+%s(%ld): Clone: could not find prototype instance '%s'.
+%s(%ld): Clone block with no 'from' specifier.
+%s(%ld): Unrecognized blend mode '%s', must be average, additive, or subtractive.
+%s(%ld): Cannot clone instance '%s' - wrong object type.
+%s(%ld): Unrecognized instance type (hash 0x%08x).
+%s(%ld): Instance definition with no name.
+%s(%ld): SendMsg element has invalid 'msg' specifier '%s'.
+%s(%ld): SendMsg element with no 'msg' specifier.
+%s(%ld): Interp/Set element has invalid 'property' specifier.
+%s(%ld): Interp/Set element with no 'property' specifier.
+%s(%ld): Interp/Set element has invalid 'ramp' specifier.
+%s(%ld): Interp/Set element has invalid 'loop' specifier.
+%s(%ld): Unrecognized event type (hash 0x%08x).
+%s(%ld): Script definition with no name.
+No GUI element found in '%s'.
+XML error: %s(%ld:%ld): %s.
+'%s' has no '%s' root block
+Fail to load up the level xml file (%s)!
+Trying to continue to load all siblings!
+'%s' has no '%s' level block
+'%s' has no '%s' levels block
+Include block with no 'fileName' attribute - ignored
+'Include' block with no 'level' attribute
+Could not load director file '%s'.
+%s - Loading def number:%d.  Could not find included level def 0x%08x
+Getting error when parsing setting file setting (%s)
+Getting error when parsing setting array type (%s)
+Fail to find the setting file root element (%s)! The setting file will not be loaded!
+Fail to load setting file (%s)
+Fail to use the setting file ID to load up the setting file!
+Fail to open the binary setting file (%s)!
+Do not support data type DTD_ATTRIBUTE_TYPE_VECTOR2 for tag setting (%s)
+Do not support data type DTD_ATTRIBUTE_TYPE_VECTOR3 for tag setting (%s)
+Do not support data type DTD_ATTRIBUTE_TYPE_CUSTOM for tag setting (%s)
+Fail to find the setting def %s to LoadTagSetting
+Getting error when parsing tag setting file in setting reading phase(%s)
+Getting error when parsing tag setting file in association reading phase(%s)
+Fail to load tag setting file (%s)
+Fail to use the tag setting file ID to load up the tag setting file!
+Error! The setting (%s) is type (%s) but not type (%s)
+Error! Cannot find the setting (%s : type %s) from the setting manager!
+Error! The setting array (%s) is type (%s) but not type (%s)
+Error! Cannot find the setting array (%s : type %s) from the setting manager!
+The source setting type (%s) is different than the dest setting type (%s)
+Unsuccessfully clone the child setting type (%s) when cloning the source setting type (%s) to the dest setting type (%s)
+Fail to fully inherit all the setting data from setting (%s) to setting (%s) (%s %d:%d)
+Make sure the inherit setting is in front of this setting (%s: type %s)! (%s %d:%d)
+Make sure the inherit setting is in front of this setting (Unknown name: type %s) and have parent (%s)! (%s %d:%d)
+Fail to find the inherit setting(%s), no inherit operation will be performed! %s
+The setting (%s) exist already, the new setting will not be added to the system!
+%s %d:%d
+Fail to read the name of the setting array with setting array type (%s), this setting will not be able to used in the game! XML Element info (%s)
+There is no child setting in the setting array (%s), the setting array will not be created! (%s)
+Do not support data type DTD_ATTRIBUTE_TYPE_RGBA for tag setting (%s)
+The tag setting node with node type, the system will ignored it!
+No such setting def (%s), the tag setting definition will be ignored!
+Fail to read the name of the tag setting with setting type (%s), this setting will not be able to used in the game! XML Element info (%s)
+Data error when read the vector2 attribute (%s) for setting (%s)
+Data error when read the vector3 attribute (%s) for setting (%s)
+Data error when read the color attribute (%s) for setting (%s)
+(%s) %s: %s, 
+No Name
+%s: %d%c 
+%s: %.2f%c 
+%s: 0x%08x%c 
+%s: %s%c 
+%s: {%2f, %.2f}%c 
+%s: {%2f, %.2f, %.2f}%c 
+%s: {%2f, %.2f, %.2f, %.2f}%c 
+String id '%s' not found
+No error
+Failed to open file
+Memory allocation failed.
+Error parsing Element.
+Failed to read Element name
+Error reading Element value.
+Error reading Attributes.
+Error: empty tag.
+Error reading end tag.
+Error parsing Unknown.
+Error parsing Comment.
+Error parsing Declaration.
+Error document empty.
+Error null (0) or unexpected EOF found in input stream.
+Error parsing CDATA.
+Error when TiXmlDocument added to document, because TiXmlDocument can only be at the root.
+Fail to initialize the NP library!
+Fail to initialize trophy module!
+Fail to initialize the np system!
+Fail to initial the trophy system!
+Fail to create the trophy system context!
+Fail to create the trophy handle!
+Fail to destroy the trophy system handle!
+Fail to destroy the trophy system context!
+Fail to terminate the trophy system!
+Fail to terminate the np system!
+Fail to terminate the trophy module!
+Fail to terminate the network module!
+Trophy Manager Exit Success....
+Trophy Thread Error: sceNpTrophySetupDialogInit = %08x
+Trophy Thread Error: sceNpTrophySetupDialogGetResult = %08x
+Trophy Thread Error: sceNpTrophySetupDialogTerm = %08x
+Unable to unlock trophy (%d)!
+Trophy Thread Exit Success....
+Tuning var '%s': loaded value differs from code.
+Error parsing boolean value from var '%s'.
+Error parsing integer value from var '%s'.
+Error parsing float value from var '%s'.
+Error parsing vector value from var '%s'.
+Error parsing RGBA value from var '%s'.
+Error parsing string value from var '%s'.
+Tuning var '%s' not declared in code.
+Tuning var declaration with no name.
+No Tuning node found in '%s'.
+XML error: %s(%ld:%ld): %s.
+void agxVertexDeclDestroy(AgxVertexDecl &)
+void agxTextureSamplerClear(int)
+void agxTextureSamplerSetFilter(int, AgxFilterMode, AgxFilterMode, AgxFilterMode)
+void agxTextureSamplerSetWrap(int, AgxAddressMode, AgxAddressMode)
+void agxTextureCacheInvalidate()
+void agxSurfaceSetDepthAndColorRT(_AgxSurface *, _AgxSurface *, unsigned int)
+void agxSetAlphaTestEnable(bool)
+void agxSetAlphaTest(AgxCmpMode, unsigned int)
+void agxSetDepthBias(float, float)
+void agxSetTwoSidedStencilEnable(bool)
+void AglSimplePtlContainer_BindVertexElements(AgxVertexDecl &)
+%s(%d) : ***TODO*** %s - %s
+*** Vertex Shader Dynamic patching enabled!!!!!
+SubMeshName:Not set
+SMesh: 
+ Refs=%d
+ NVtx=%4d
+ NIdx=%4d
+ Mtl:0x%08x
+ Sort:%3d
+ %s 
+NOT SET
+Mesh: 
+ MemSize:%6d
+ Refs=%2d
+ Hash:0x%08x %s 
+%s - Failure allocating temp memory for texture data.
+%s - Cannot allocate texture from BMP data with >1 color plane.
+%s - Cannot allocate texture from non-Windows-format BMP data. (dataOffset = 0x%08x, format ID = 0x%08x)
+%s - Failure allocating temp memory for TGA texture data.
+%s - Cannot allocate texture from 32b TGA data with non-8b alpha channel.
+%s - Cannot allocate texture from non-32b TGA data.
+%s - Paletted TGA files are not yet supported.
+POINT 
+ANISO 
+WRAP  
+CLAMP 
+Txr: 
+ W:%4d H=%4d Mips:%2d MemSize:%7d
+  Sort:%4d
+  Filter:
+  Address:
+ Type:%-12s
+ Refs=%3d
+ 0x%08x %s 
+Shader profile not found on material: %s
+Mtl: 
+ Sort:%4d
+ Txrs:%d
+ Diff(%3d,%3d,%3d)
+ Spec(%3d,%3d,%3d)
+ Power:%2f
+ Lit
+ Fog
+ Vis
+ BFCProj
+ CheckStencilBit6
+ 0x%8x
+ -> %s
+AglRenderBuffer: DataBuffer: Peak: %5dk Free:%5d
+AglRenderBuffer: VertexBuffer: Peak: %5dk Free:%5d
+**NOTE** AglEmitPropertiesMgr: Limiting particle emit rate: emitRate > %d is scaled by %f
+ShadowCaster: %s (0x%x)
+%s(%d) : ***NOT CODED*** %s
+Shader not found:%x
+Load texture from IFF - Using default
+CmndBuf: 
+DataBuffer used %dk/%dk - 
+Verts used %d/%d
+Emitter: Material not found 0x%x
+Particle VBO overflow! - Reduce the number of emitters or tweak the cull settings
+Couldn't find material on sub-mesh: MtlHash=0x%x NumVert:%d NumIdx:%d
+Too many shadow casters in this frame.
+%s - Deflector will be ignored as particles not emit in world space
+void agxTextureSamplerClear(int)
+void agxTextureSamplerSetFilter(int, AgxFilterMode, AgxFilterMode, AgxFilterMode)
+void agxTextureSamplerSetWrap(int, AgxAddressMode, AgxAddressMode)
+void agxTextureCacheInvalidate()
+void agxSurfaceSetDepthStencil(_AgxSurface *)
+void agxSurfaceSetDepthAndColorRT(_AgxSurface *, _AgxSurface *, unsigned int)
+void agxSetAlphaTestEnable(bool)
+void agxSetTwoSidedStencilEnable(bool)
+AGX_DECL_USAGE_POSITION    
+AGX_DECL_USAGE_BLENDWEIGHT 
+AGX_DECL_USAGE_NORMAL      
+AGX_DECL_USAGE_COLOR       
+AGX_DECL_USAGE_FOGCOORD    
+AGX_DECL_USAGE_PSIZE       
+AGX_DECL_USAGE_TEXCOORD    
+AGX_DECL_USAGE_TANGENT     
+AGX_DECL_USAGE_BINORMAL    
+SCE_GXM_ATTRIBUTE_FORMAT_U8  
+SCE_GXM_ATTRIBUTE_FORMAT_S8  
+SCE_GXM_ATTRIBUTE_FORMAT_U16 
+SCE_GXM_ATTRIBUTE_FORMAT_S16 
+SCE_GXM_ATTRIBUTE_FORMAT_U8N 
+SCE_GXM_ATTRIBUTE_FORMAT_S8N 
+SCE_GXM_ATTRIBUTE_FORMAT_F16 
+SCE_GXM_ATTRIBUTE_FORMAT_F32 
+UNKOWN USAGE
+ %s%d - %s*%d - Offset:%2d, Stream:%d
+SCE_GXM_PARAMETER_SEMANTIC_NONE        
+SCE_GXM_PARAMETER_SEMANTIC_ATTR        
+SCE_GXM_PARAMETER_SEMANTIC_BCOL        
+SCE_GXM_PARAMETER_SEMANTIC_BINORMAL    
+SCE_GXM_PARAMETER_SEMANTIC_BLENDWEIGHT 
+SCE_GXM_PARAMETER_SEMANTIC_COLOR       
+SCE_GXM_PARAMETER_SEMANTIC_DIFFUSE     
+SCE_GXM_PARAMETER_SEMANTIC_FOGCOORD    
+SCE_GXM_PARAMETER_SEMANTIC_NORMAL      
+SCE_GXM_PARAMETER_SEMANTIC_POINTSIZE   
+SCE_GXM_PARAMETER_SEMANTIC_POSITION    
+SCE_GXM_PARAMETER_SEMANTIC_SPECULAR    
+SCE_GXM_PARAMETER_SEMANTIC_TANGENT     
+SCE_GXM_PARAMETER_SEMANTIC_TEXCOORD    
+SCE_GXM_PARAMETER_TYPE_U8 
+SCE_GXM_PARAMETER_TYPE_S8 
+SCE_GXM_PARAMETER_CATEGORY_UNIFORM  
+SCE_GXM_PARAMETER_CATEGORY_SAMPLER  
+ %s%d 
+ %s*%d*%d 
+ %s:%d 
+ ResourceIndex:%2d
+ - %s
+ Shader:%s ParamCount:%d
+void agxPsp2BindVertexElements(const AgxVertexDecl &, unsigned int)
+%s(%d) : ***TODO*** %s - %s
+*** Vertex Shader Dynamic patching enabled!!!!!
+void _agxPsp2FlushPixelShader()
+*** PixelShader: Dynamic patching enabled!!!!!
+_aglPsp2MemAddUIDAllocSize: CDRAM_RWDATA:%dk
+sceGxmCreateRenderTarget: %2d: %3dx%3d Scenes:%d Flags:%d msaa:%d - %4dk - Total:%4dk
+ERROR: sceAppUtilInit = %08x
+void agxSetOrthoMatrix(float, float, float, float, float, float, int)
+%s(%d) : ***NOT CODED*** %s
+NONE        
+ATTR        
+BCOL        
+BINORMAL    
+BLENDWEIGHT 
+COLOR       
+DIFFUSE     
+FOGCOORD    
+NORMAL      
+POINTSIZE   
+POSITION    
+SPECULAR    
+TANGENT     
+TEXCOORD    
+void agxTextureCopy(AgxTexture &, AgxTexture &)
+agxTextureCopy: Is slow - It does a CPU copy!
+%s - Failure allocating memory for texture data.
+%s - Invalid texture dimensions: width and height must be multiples of 4.
+AglTexture: Unknown extension:%s - %s
+Shader: %s Parameter %s not found
+DOF: Only 1 iteration of blur is supported in PSP2.
+Viewport: (%u, %u, %u, %u)
+ n;^
+Zjz
+max system bytes = %10lu
+system bytes     = %10lu
+in use bytes     = %10lu
+{% 2.4f,% 2.4f,% 2.4f}
+{% 2.4f,% 2.4f,% 2.4f} - %s
+{% 2.4f,% 2.4f,% 2.4f,% 2.4f}
+{% 2.4f,% 2.4f,% 2.4f}
+Dump free lists
+MemUsed,  MemUnused,  AllocSize,  NumInUse,  NumFree,  MaxUsed,  Name
+,    %7d
+,      %5d
+,     %5d
+,    %5d
+, %s
+TotalMem - %6d
+Replacing %c%c%c%c (%s) with %s
+%s - Open
+ApeInputMgr: Closed keypresses file %s
+ApeInputMgr: Recording keypresses to %s
+ApeInputMgr: Playing keypresses from %s
+ApeFile: Cannot allocate memory (%d bytes) for:'%s'
+Operation %s on file %s returned error %s
+Error! The string buffer overflow!
+%s - Write %d bytes to %x
+Chunk function not found: %c%c%c%c 
+MemPool %d: Total 64k blocks allocatable - %4d (%6dk %9dbytes)
+APE_DEBUG enabled in APE_FINAL
+ERROR, unable to set commond dialog language: sceCommonDialogSetConfigParam = %08x
+Versions:SNC:%d  SDK:%x
+  elf: 0x%07x-0x%07x (%5dk)
+  totalUserMemory:       %3dMb
+  available_user_memory: %3dMb
+Associated file or directory does not exist
+Too many files are open
+Associated device was not found
+Operation is not supported by device
+Invalid file descriptor
+Invalid argument
+%s(%d) : ***NOT CODED*** %s
+ApeInput: Front Panel Active X(%4d-%4d) Y(%4d-%4d) Disp X(%4d-%4d) Y(%4d-%4d) F(%4d-%4d)
+ApeInput: Back  Panel Active X(%4d-%4d) Y(%4d-%4d) Disp X(%4d-%4d) Y(%4d-%4d) F(%4d-%4d)
+Fail to read the controller data for this frame! %x
+Fail to read the motion data for this frame!
+%s - Open
+FindFirst: cellFsReaddir failed
+FindFirst: 1st cellFsReaddir failed
+FindFirst: cellFsOpendir failed
+FindNext: cellFsReaddir failed
+FindNext: 1st cellFsReaddir failed
+Failed to mount archive %s. %s
+Failed to mount archive %s
+%s - Write %d bytes to %x
+%s - Close
+%s - Seek - Mode=%s Offset=%d
+%s - GetSize
+ApeFile: Failed to delete:'%s' (err=%s)
+void agxTextureSamplerSetFilter(int, AgxFilterMode, AgxFilterMode, AgxFilterMode)
+void agxTextureSamplerSetWrap(int, AgxAddressMode, AgxAddressMode)
+void agxSetAlphaTestEnable(bool)
+void agxSetAlphaTest(AgxCmpMode, unsigned int)
+PVS BONSGEOBLITBCAMCEMITPNDCSPDSGINSLINSEINSCAMIPNTCSPISSKELOCCPOCCVOCHTOCFTOCNT_Link_
+ApeProjectorMgrBase: Too many projectors rendered: %u, max is %u
+Definition not found for instance: (%s)
+ApeObj: Object is already attached to another
+Couldn't unlink child:%s from %s
+ ->0x%x
+ %s %x
+ Refs:%2d
+ Pos=(%3.2f,%3.2f,%3.2f)
+ Def: %s
+Getting low on Instance render data. 50 remaining slots
+all available slots on: %s
+%s (0x%08x)
+ Pose=
+ Parent=%d 
+%sIndex (%03d): (0x%08x) %s
+Skeleton - %d bones
+ LGrp:0x%4x
+ %s (0x%8x)
+ Refs:%2d LGrp:0x%x
+GeomDef: 
+ NLOD:%d
+ Col=%f,%f,%f
+ Intensity=%f
+ Priority=%u
+ Atten=%f,%f,%f
+%s(%d) : ***TODO*** %s - %s
+Optimise resource destroy callback search
+ProcAnim: Object has scale:%s - (%f,%f,%f)
+%s is not a valid shrub - In a hierarchy
+%s is not a valid shrub - No skinning allowed
+%s is not a valid shrub - Too many LODs.  Only %d is allowed
+%s is not a valid shrub - Too many Meshes, only 1 is allowed
+%s is not a valid shrub - Not using shrub shader
+- Objects with most invisible instances
+- Calculating...
+- Geometry: Visible:%5d Invisible:%4d WastedSpace:%4dk
+- Emitter : Visible:%5d Invisible:%4d WastedSpace:%4dk
+- Light   : Visible:%5d Invisible:%4d WastedSpace:%4dk
+%s: %3d visible %2d invisible - %-32s Sum:%4d
+- Most instanced geometry defs
+%3d instances %2d invisible %2d materials %5d tris %dLod - %s %s
+                                                        - LOD%d: %5d tris %s
+ProcAnim: 
+- Anims:
+- Sync:
+ - Cull:
+ - Eval:
+Auto  
+ - %s*%d
+World: %s
+Geometry Instances
+Geometry Defs
+Light Instances
+Light Defs
+Emitter Instances
+Emitter Defs
+Camera Defs
+Point Instances
+Point Defs
+Spline Instances
+Spline Defs
+ FOV=%f
+ MTX0=%f,%f,%f
+ MTX1=%f,%f,%f
+ MTX2=%f,%f,%f
+ MTX3=%f,%f,%f
+EmitterDef: 
+GeomInst: 
+ Refs:%2d Vis:%d
+ LiteGroup:0x%08x
+ Hash:0x%08x - %-32s
+ LPos=(% 8.2f,% 8.2f,% 8.2f) 
+ WPos=(% 8.2f,% 8.2f,% 8.2f) 
+ Def:%s
+LightInstance: 
+DIRECT 
+POINT  
+NONE   
+LiteInst: 
+ Type:%s
+EmitInstance: 
+EmitInst: 
+ NumPtl:%3d
+CameraInstance: 
+PointInstance: 
+SplineInstance: 
+void agxVertexShaderSetConstantB(int, bool)
+void agxTextureSamplerSetFilter(int, AgxFilterMode, AgxFilterMode, AgxFilterMode)
+void agxTextureSamplerSetWrap(int, AgxAddressMode, AgxAddressMode)
+void agxSetAlphaTestEnable(bool)
+void agxSetAlphaTest(AgxCmpMode, unsigned int)
+void agxSetDepthBias(float, float)
+Falloff texture not supported without per pixel lighting!: %s
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***TODO*** %s - %s
+Don't copy full screen
+ n;^
+Zjz
+Z* ,	
+_~6
+	#jT$
+=G\p
+i8P/_
+l!;b	F
+6~_'
+\G=
+D`T
+incorrect header check
+unknown compression method
+invalid window size
+unknown header flags set
+header crc mismatch
+invalid block type
+invalid stored block lengths
+too many length or distance symbols
+invalid code lengths set
+invalid bit length repeat
+invalid literal/lengths set
+invalid distances set
+invalid literal/length code
+invalid distance code
+invalid distance too far back
+incorrect data check
+incorrect length check
+invalid distance too far back
+invalid distance code
+invalid literal/length code
+ inflate 1.2.3 Copyright 1995-2005 Mark Adler 
+need dictionary
+stream end
+file error
+stream error
+data error
+insufficient memory
+buffer error
+incompatible version
+%s (%i) %4.1f%%
+%s (%i)
+% 12.3f: 
+********** Per Type Times    *******
+%s (%4.1f)
+% 12.3f
+Unknown Heading
+Accumulate Actions
+Collide And Solve
+Input Conversion
+Output Conversion
+Mesh Mesh Deform
+Mesh Bone Deform
+Gather All Vertices
+Gather Some Vertices
+Copy Vertices
+Recalculate Some Normals
+Recalculate All Normals
+Update Some Vertex Frames (N)
+Update Some Vertex Frames (T)
+Update Some Vertex Frames (TB)
+Update All Vertex Frames (N)
+Update All Vertex Frames (T)
+Update All Vertex Frames (TB)
+%s (%i) 
+%-6.3f (%i)
+Timer Name
+Thread %d
+Spu %d
+Average Cpu
+Average Spu
+Havok version: %s
+********** Total Times    *******
+Timers are added together
+********** Per Frame Time *******
+Ascii Art all frames overview
+%i %-12s %f
+****** Summary Frame:%i Thread:%i ******
+****** Summary Frame:%i ******
+***** Details Frame-%i Thread:%i ******
+***** Details Frame-%i Spu:%i ******
+StatisticsDumpInfo(num_threads=%i, num_spus=%i, num_frames=%i)
+FrameInfo(heading='%s', frame=%i, thread_id=%i, time_counter=%i)
+%sTimerBegin('%s', %u, %u)
+%sTimerSplit('%s', %u, %u)
+%sTimerEnd('%s', %u, %u)
+%s%s%s(ptr=0x%p, nbytes=%i)
+struct %s*
+%s&lt;struct %s&gt;
+enum %s
+flags %s
+struct %s
+struct %s[%i]
+enum 
+flags 
+Could not find the most derived class for virtual object 
+ at 
+. The object is replaced with HK_NULL.
+%s(%d): [0x%08X] %s: %s
+%s(%d): %s: %s
+Stack trace is:
+Reference count error on object 
+ with ref count of 
+ in 
+ * Are you calling delete instead of removeReference?
+ * Have you called removeReference too many times?
+ * In a multithreaded environment, what is the hkReferencedObject lock mode you use (see setLockMode())?
+ * Is this a valid object?
+ * Do you have more than 32768 references? (unlikely)
+Net setup
+sceNetCtlAdhocRegisterCallback failed
+sceNetCtlInetRegisterCallback failed
+sceNetCtlInit failed
+sceNetInit failed
+Havok server epoll
+sceNetEpollCreate() failed (errno=%d)
+sceNetEpollControl(ADD) failed (errno=%d)
+, port == 
+IP ADDR: %s
+Socket got connection from [%lx:%d]
+No stack trace
+TtCollision Query
+TtRayCast Query
+TtAnimation Sample and Combine
+TtAnimation Sample and Blend
+TtAnimation Mapping
+TtPathfinding Jobs
+TtAI Dynamic Jobs
+TtLocalSteering Jobs
+TtAI Generation
+TtCharacter Proxy
+hkSem %i
+CFailed to locate key 
+ among the existing properties!
+Cannot find symbol
+Too many threads
+hkFreeListMemorySystem memory overview:
+    Allocation totals:
+%20i allocated by heap
+%20i allocated by debug
+%20i allocated by solver
+%20i total allocated
+    Heap usage:
+%20i (%2i%%) unused in thread local freelists
+%20i (%2i%%) unused in main heap
+%20i (%2i%%) used in main heap
+    Peak usage:
+%20i (%2i%%) peak heap used (versus current)
+%20i (%2i%%) peak solver used (versus available)
+Class mismatch, cannot resolve link: 
+ != 
+Member is not of type struct : 
+Cannot find member : 
+Cannot parent '
+' to '
+' as this would create a circular dependency 
+Patching to latest version failed. Have you registered the necessary patches? e.g. hkFeature_serializeRegisterKeycodePatches() See the hkError output for more details
+Unable to version data of class %s, version 0x%p
+Class signatures not up to date.
+Wrong platform for packfile
+<hkpackfile 
+<hktagfile 
+Stream pointer is null
+Stream is not ok
+Unable to detect format from stream
+Packfile required versioning but versioning not supported in this context.
+Intermediate version found in a release build. The asset probably needs to be re-exported
+Class 
+ is not registered. If this is a Havok class, make sure the class's product reflection is enabled near where hkProductFeatures.cxx is included. Otherwise, check your own class registration.
+Source contains 
+ version 
+, but  
+ is the current version.
+Make sure required patches are registered to update this class.
+The object of class 
+ is about to be removed and all references to it will be invalid.
+However, the object is referenced (
+) from outside the world and it will lead to unexpected behavior or crash.
+Ignore object at 0x
+. Class '
+' is not registered in the provided hkDataWorldNative.
+Conflicting metadata found for class 
+. Perhaps you have called setContents on data which has not been updated to the current version.
+Found an un-registered class derived from 
+. Derived class will not be serialized unless added to class registry.
+All saved pointers to this object will be set to NULL.
+Saved file will not generate warnings (or asserts) on load but NULL pointers may cause runtime crashes.
+Unconstrained Rigid Bodies
+Fixed Rigid Bodies
+Keyframed Rigid Bodies
+Constrained System
+Didn't find the root 'hktagfile' block
+Expecting 'hktagfile' block
+class 
+homogeneous/variant class
+Pointer is null
+Missing packfile magic header. Is this from a binary file?
+Trying to process a binary file with a different pointer size than this platform.
+Trying to process a binary file with a different endian than this platform.
+Trying to process a binary file with a different padding optimization than this platform.
+Trying to process a binary file with a different empty base class optimization than this platform.
+Packfile data source needs to be 4 byte aligned
+Packfile file format is too old
+Packfile contents are not up to date
+Packfile versioning support is not linked. Versioning packfiles at runtime was deprecated in Havok-7.0.0.
+To do so requires linking some deprecated code from Source/Common/Compat/Deprecated
+If you are using hkProductFeatures.cxx, ensure you do not define HK_EXCLUDE_FEATURE_SerializeDeprecatedPre700.
+Note that by default this pulls in a lot of code and data (mainly previous versions of hkClasses).
+Some extra effort is required to strip the unused code and data but it will still cost several hundred Kb.
+Alternatively, you can use Tools/PackfileConvert/AsseetCc2 to convert your packfiles the the latest version before loading.
+XML packfile support is not linked. Perhaps you have HK_EXCLUDE_FEATURE_SerializeDeprecatedPre700 in hkProductFeatures
+Unknown class member found during write of plain data array.
+Unknown class member type found!
+Can't copy homogeneous array. No hkClass for 
+Unknown class member found during write of data.
+TYPE_ZERO should not occur.
+Badly formed comment
+Didn't hit terminating "
+Expecting ?> to close <? section
+Unexpected token
+Error parsing environment string: '
+Internal Error: Unknown action parsing environment string: '
+Unsupported index buffer type - Ignoring
+Bool attribute 
+ not found in 
+ attribute group
+Integer attribute 
+String attribute 
+Float attribute 
+Quaternion attribute 
+Matrix attribute 
+Num bone sections: %d. Num parts: %d.
+Bone section %d. Start bone %d, numBones %d. Num sections %d
+Part %d. Bone %d. Sub-mesh %d. Start vertex %d. NumVerts %d. Start Index %d. NumIndices %d.
+Vtx %d.	(%f, %f, %f)
+Tri (%d, %d, %d).
+Cannot convert vertex format from 
+ to 
+%s(%i) %s(%i)
+Unable to build display geometry from source
+Agent handling types <%s-%s> would override more specialized agent <%s-%s>
+Maybe the order of registering your collision agent is wrong, make sure you register your alternate type agents first
+Entries for (continuous)
+vs %30s <%i:%s-%s>
+Entries for (discrete)
+Cannot create convex hull
+You must implement collideSpheres!
+Failed to decimate
+Cannot use optimized shrinking on non-volumetric(3D) shapes, falling back to legacy method.
+Cylinder shape too small compared to 'extra radius' - unable to shrink.
+Box shape too small compared to 'extra radius' - radius changed from 
+ to 
+Suspicious convex vertices shape
+Convex vertices shape too small compared to 'extra radius' - radius changed from 
+Shape shrinker does not support convex hull dimemsion less than 3
+Shape '
+' : Center Of Mass seems to be outside the object. Looks like the convex hull of the object is corrupted. (
+The Center Of Mass seems to be outside the object. Looks like the convex hull of the object is corrupted. (
+Attach to
+Other Body
+** Havok libs built with version [
+], used with code built with [
+]. **
+TtBroadphase Shift
+TtRecollide PSI
+StRecollide PSI
+StIsland Splitting
+StSolver 1Cpu
+shiftBroadPhase is not supported by the tree broadphase
+AShape already baked! Cannot add more instances.
+Unhandled transform combination
+Unhandled child shape
+Not implemented
+Center Offset
+Controls the default dynamic friction for surfaces hit. A value of 0 maintains character momentum. A value of 1 clips all momentum against the normal of the surface hit.
+Controls the default static friction for surfaces hit.
+This parameter is used to determine when a contact point should be considered as part of the character's contact manifold. The default is 0.1f, which means that points .1 above the keep distance will be considered as part of the manifold. This value should be kept at the its default, as changing it from the default value can have undesirable effects.
+Attempt to keep the character at least this distance from the surface.
+This value is used when deciding which contact points in the manifold are duplicates. Precisely, it determines when two contact points are found, whether they are to be treated as the same based on the angle between the normals. For the default value of 10, contact points with angles less then 2.56 degrees are considered as identical. If you decrease this to 1, contact points with angles less then 8.1 degrees are considered as identical. A larger value will increase the number of contact points considered in the manifold, and make for a more accurate simulation at slightly higher computational expense.
+The maximum number of extra planes the user may add to the simplex input during a processConstraints callback.
+This value is used to clip the characters velocity when it is being squeezed by two moving planes. When two nearly parallel planes squeeze the character, the resultant velocity necessary to move the character so that both planes do not penetrate it can be extremely high, which can cause in the character controller to move at a very fast velocity. This value defaults to 10 which is appropriate if your default walking speed is 10. If this velocity is exceeded by the character solver when solving parallel planes, the solver solves the planes independently. The result is that instead of moving at a high velocity, the character may penetrate one of the planes - based on plane priorities.
+The maximum constant force that the character controller can impart onto moving objects. By default this is HK_REAL_MAX, i.e. the character controller is infinitely strong.
+The mass of the character. This value is only used to apply an extra downward force to dynamic rigid bodies that the character is standing on.  By default this value is 0, which means no additional downward force is applied.  It should only be set to a positive value if you do not apply gravity from your state machine when the character is on the ground.
+The maximum slope that the character can walk up. If the character is standing on a slope that is steeper than this, checkSupport will return false, and an additional vertical plane will be added during integrate that will block the character's movement in the direction of the slope. This angle is measured in degrees from the horizontal. By default this value is set to PI / 2, i.e. vertical, which disables this feature.
+When a penetrating plane is added to the manifold we set its velocity so it will push the character away from the point of penetration. This variable controls the speed at which this recovery takes place. The velocity applied is proportional to the penetration distance. This values controls the proportion. By default this value is set to 1.0
+The number of iterations the character controller will take to resolve an integrate call. The character controller will iterate if it hits a surface, and needs to change direction to complete the integrate for that timestep.  The default is 10 iterations.
+This flag determines whether the character controller refreshes the manifold when checkSupport is called. By default this is set to false, i.e. the manifold is not updated. This leads to a small inaccuracy when the character controller is hit by a rapidly accelerating body, however it is better to accept this inaccuracy, as the extra refresh manifold call can be computationally expensive.
+ AEC
+The character rigid body mass.
+The friction of the character rigid body.
+The maximum linear velocity of the character rigid body.
+The maximum allowed penetration for this object. The default is -0.1. This is a hint to the engine to see how much CPU the engine should invest to keep this object from penetrating. A good choice is 5% - 20% of the smallest diameter of the object.
+The maximum slope that the character can walk up. This angle is measured in radians from the horizontal. The default value is pi / 3.
+ The maximum force of character.
+If the character's shape is a capsule, then this is used to define the height of a region around its center where we redirect contact point normals. The region extends from above the capsule's upper vertex to below the lower vertex by this height, expressed as a factor of the capsule's radius.
+The maximum speed for the simplex solver.
+A character is considered supported if it is less than this distance above its supporting planes.
+A character should keep falling until it is this distance or less from its supporting planes.
+Max. Objects Picked
+Max. Object Mass
+Max. Distance
+Impulse on Unpicked
+Throw Velocity
+Captured Object's Position
+Captured Object's Offset
+World Position
+Max Projectiles in World
+Reload delay
+Pivot On Other Body
+Resting Length
+Cannot find a chain of constraints linking one of the entity pairs.
+Failed to build a chain.
+Internal error.
+Internal error; invalid chain type.
+Unconstrained Rigid Bodies
+Fixed Rigid Bodies
+Keyframed Rigid Bodies
+Constrained System
+Cannot convert constraint "
+" to a powered constraint.
+Only limited hinges and ragdoll constraints can be powered.
+Unsupported type of constraint in prepareSystemForRagdoll()
+Pivot of child rigid body (A) is expected to be aligned with the constraint at setup time.
+This type of constraint does not have motors
+This type of constraint is not supported for loosening.
+Not supported types of constraints used to build a chain!
+Constraints are not ordered properly ! Two consecutive constraint share no common hkpEntity.
+No motors extracted from the original constraint.
+Specify two different end bodies.
+Inertia tensor computation with scaled transform is not supported for this shape.
+Simulate vehicles
+Wheel casts
+Bones A:
+ and B:
+ are not fully aligned (error :
+None of the bones in skeleton have translations locked - did you forget to lock translations ?.
+Improper mapping transform found
+Invalid mapped bone found
+Improperly mapped bone found
+Invalid chain found
+Invalid bone found
+Improperly mapped bone found. Bone "
+" has been mapped more than once.
+Extracting turning motion on an animation works best when the start frame is vertically aligned with the origin.
+Some misalignment (
+) found.
+For best results, try moving the animation to the origin in the Create Animations filter.
+Reference Bones
+Reference Floats
+Parent Indices
+Mirrored Bone Pairs
+Mirrored Bone Invariants
+Binding is not initiialized
+No track names present in animation
+No bone name for bone 
+No match for track 
+Your skeleton does not have reference floats but your animation does have float tracks.  Predictive compression requires reference floats.  You must re-export your assets.  Compression will proceed assuming zero for all reference floats.
+Compression: 
+ -> 
+ bones, 
+ floats, 
+ animated channels
+ frames
+ static, 
+ reference, 
+ ranged, 
+ fixed channels
+Original Size 
+ Compressed Size 
+Compression Ratio: 
+Reference Translations: 
+Reference Rotations:    
+Reference Scales:       
+Reference Floats:       
+Static Translations:   
+Static Rotations:      
+Static Scales:         
+Static Floats:         
+Dynamic Translations:  
+Dynamic Rotations:     
+Dynamic Scales:        
+Dynamic Floats:        
+Quantization may be limiting translation quality.  If artifacts are visible, try increasing the number of translation quantization bits.
+Quantization may be limiting scale quality.  If artifacts are visible, try increasing the number of scale quantization bits.
+Quantization may be limiting float quality.  If artifacts are visible, try increasing the number of float quantization bits.
+Quantization may be limiting rotation quality.  If artifacts are visible, try increasing the number of rotation quantization bits.
+Number of blocks: 
+Size of largest block (PlayStation(R)3 SPU): 
+ bytes.
+Original Size: 
+ bytes. Compressed Size: 
+Compression Ratio: 
+FgetDataChunks not implemented for this type of animation
+This parameter blends the desired target for a bone between model space: zero, or local space: one. Usually the controller will be much stiffer and more stable when driving to model space. However local space targeting can look more natural.
+This gain dampens the velocities of the bodies. The current velocity of the body is scaled by this parameter on every frame before the controller is applied. It is applied every step and is generally more aggressive than standard linear or angular damping. A value of 0 means no damping.
+This gain controls the proportion of the difference in acceleration that is applied to the bodies. It dampens the effects of the velocity control.
+This gain controls the proportion of the difference in velocity that is applied to the bodies. It dampens the effects of the position control.
+This gain controls the proportion of the difference in position that is applied to the bodies. It has the most immediate effect. High gain values make the controller very stiff. Once the controller is too stiff it will tend to overshoot. The velocity gain can help control this.
+The position difference is scaled by the inverse delta time to compute a velocity to be applied to the rigid body. The velocity is first clamped to this limit before it is applied.
+The orientation difference is scaled by the inverse delta time to compute an angular velocity to be applied to the rigid body. The velocity is first clamped to this limit before it is applied.
+This gain allows for precise matching between keyframes and the current position. It works like the m_positionGain: it calculates an optimal deltaVelocity, scales it by m_snapGain, clips it against m_snapMaxXXXVelocity and scales it down if the implied positional difference is larger than m_snapMaxXXXXDistance.
+See m_snapGain. The linear velocity calculated from the snapGain is clamped to this limit before being applied.
+See m_snapGain. The angular velocity calculated from the snapGain is clamped to this limit before being applied.
+This sets the max linear distance for the snap gain to work at full strength. The strength of the controller peaks at this distance.
+This sets the max angular distance for the snap gain to work at full strength. The strength of the controller peaks at this distance.
+AddResource(): component "%s" has not been registered!
+AddResource(): component "%s" has no resource type 0x%04X registered!
+Binary image must have at least four byte alignment. AddResource aborted.
+AddResource() was called on a resource which was already in use. AddResource aborted.
+AddResource called with NavGraphImage instead of NavGraphImage->GetPtr(). AddResource aborted.
+The binary image header is corrupted. AddResource aborted.
+ResourceHeader version is out of date. AddResource aborted.
+This resource has been used previously and cannot be added again. AddResource aborted.
+Checksum error. AddResource aborted.
+Resource created using %s bit pointers is being loaded on a %s bit pointer machine. AddResource aborted.
+Resource created using %s bit pointers is being used on a %s bit pointer machine. RemoveResource aborted.
+AddResource called on the default space after the default space was disabled
+RemoveResource called on the default space after the default space was disabled
+AddResourceAsync called on the default space after the default space was disabled
+add resource
+SystemDestroy() while %d spaces still remain.
+%s's value of %1.2f is below the minimum value of %1.2f.  Modifying %s.
+%s's value of %1.2f is above the maximum value of %1.2f.  Modifying %s.
+ NavPower Warning: %s
+Memory statistics not available when using custom allocator
+--- Memory Usage Data ---
+memory: total = %u, allocated = %u
+ %-12s:  ct=%5u   alloc=%9u   dbg=%2u%%   pk=%9u
+ %12s:  ct=%5u   alloc=%9u   dbg=%2u%%
+NavPower v%d.%d.%d %s
+RelocateWorld called on the default space after the default space was disabled
+System ran out of available heap memory and will crash
+SystemStop() called without the system running. Ignoring.
+Unable to start asynchronous simulation
+     system name      avg     max     avg     max    avg    max
+                    frame   frame   frame   frame   call   call
+                     time    time   count   count   time   time
+     -----------    -----   -----   -----   -----   ----   ----
+%16s   %6u  %6u  %6u  %6u %6u %6u
+%s = %3.1f
+other = %3.1f
+max system bytes = %10lu
+system bytes     = %10lu
+in use bytes     = %10lu
+ bfxSystem
+CustomAlignedMalloc returned an improperly aligned block of memory and will crash
+BFX LEAK: {%d} at %p, %d bytes long.
+<bfx_replay version="%u" NavPower_version="%u.%u.%u" build_number="%u" binary="%u" beta="%u">
+<system_params scaleDist=%f upAxis=%d>
+<memory heapSize="%u">
+<platform name=%s type=%d pointer_size=%d>
+<x87_floating_point_precision precision=%x>
+Could not open the replay file %s for reading
+Can not start replay from file %s
+This replay file is recorded in an old format.
+Continuing the playback may provide different
+results or may result in a crash.
+Replay recorded on %u bit platform.  Can not play back on %u bit platform.
+Can not start replay from file
+Mover events omitted from replay file during recording
+Replay done (total time=%6.1f)
+Replay time = %6.1f
+%3.2f: %s
+[ %f, %f, %f ]
+[ %f, %f, %f, %f ]
+[ %d, 
+'%s' ]
+<event componentID="%1d" eventID="%u" version="%u" time="%f">
+String in replay file truncated at %d bytes out of %d bytes
+Resource in replay file truncated at %d bytes out of %d bytes
+<bfx_replay version="%u" NavPower_version="%d.%d.%d" build_number="%d" binary="%d" beta="%d">
+<system_params scaleDist=%.15f upAxis=%d>
+<memory heapSize="%u">
+<platform name=%s type=%d pointer_size=%d>
+<x87_floating_point_precision precision=%.8x>
+<!-- %s -->
+<event componentID="%1d" eventID="%d" version="%d" time="%4.2f">
+%s: 
+[ %.15f, %.15f, %.15f ]
+[ %.15f, %.15f, %.15f, %.15f ]
+[ %d, '%s' ]
+x=%f, y=%f, z=%f
+x=%f, y=%f, z=%f;
+CreateLinkAsync called on the default space after the default space was disabled
+CreateLinkStripAsync called on the default space after the default space was disabled
+>Unexpected error in GetClosestReachableAreas(). Please report.
+Radius of %3.1f for new NavGraph differs from previous value of %3.1f.  Ignoring.
+Step height of %3.1f for new NavGraph differs from previous value of %3.1f.  Ignoring.
+Height of %3.1f for new NavGraph differs from previous value of %3.1f.  Ignoring.
+runtime scale of %f does not match build scale of %f.  Rebuilding selected NavGraph elements.
+Failed to create NavGraph on layer %d due to insufficient islands.
+Failed to create NavGraph. AddNavGraph aborted.
+Layer %d is full (max %d graphs per layer). AddNavGraph aborted.
+NavGraph version is out of date. AddResource aborted.
+attempt to add layer with layerIndex=%d, which is outside the allowed 0-31 range
+RemoveResource() called on a resource in a different space
+Running low on available free islands.  CreateObstacle aborted for layer %d
+Skipping creation of obstacle %s with blockage flags of zero since it will have no effect
+Skipping creation of obstacle %s with penalty mult of 1 since it will have no effect
+Skipping creation of obstacle %s with invalid floating point data
+Obstacle %s created with a layer mask of zero which will have no effect
+ The number of obstacles allocated has reached the internal limit of %d obstacles.
+DestroyObstacle() called with an invalid obstacle pointer.
+num polyline paths allocated = %d
+num obstacles allocated = %d
+avg obstacles created per frame = %1.2f
+PolylinePathRCPtr Leak: %d PolylinePathRCPtr objects still exist when space destroyed
+Obstacle leak: space still contains obstacles when destroyed.
+Link leak: space still contains %d links when destroyed.
+NavLayer leak: space still has %d non-empty NavLayers when destroyed.
+--- Planner Module ---
+Layer %d: 
+autogen areas = %d, 
+custom areas = %d, 
+islands = %d/%d, 
+navgraphs = %d/%d
+num links allocated = %d
+IsAreaReachableFromArea does not work between different layers. (Called with layer=%d and layer=%d.)
+GetShapeDataForLayer called on an empty layer (%u)
+GetShapeDataForLayer called with invalid layer number = %u (valid range is from 0 to %u)
+GetClosestArea called with invalid layer number = %u (valid range is from 0 to %u)
+GetClosestArea called on the default space after the default space was disabled
+GetClosestReachableAreas called with invalid starting area.  No areas returned.
+IsStraightLineReachable called on the default space after the default space was disabled
+GetClosestAreas called with invalid layer number = %u (valid range is from 0 to %u)
+GetClosestAreas called on the default space after the default space was disabled
+GetFloodFillAreas called with invalid starting area.  No areas returned.
+GetRandomSurfacePos called on the default space after the default space was disabled
+NavProbe called with invalid floating point data.  Skipping.
+NavProbe called on the default space after the default space was disabled
+CollideLineSegmentAndNavGraph called on the default space after the default space was disabled
+CheckCircleFit called on the default space after the default space was disabled
+CheckBoxFit called on the default space after the default space was disabled
+CheckTriangleFit called on the default space after the default space was disabled
+CreateObstacleDeprecated called on the default space after the default space was disabled
+CreateObstacle called on the default space after the default space was disabled
+CreateLinkDeprecated called on the default space after the default space was disabled
+CreateLink called on the default space after the default space was disabled
+CreateLinkStrip called on the default space after the default space was disabled
+CreateLinkStripDeprecated called on the default space after the default space was disabled
+total = %3.1f
+CreatePolylinePath called on the default space after the default space was disabled
+CreatePolylinePath() called with invalid starting area.  No path will be created.
+CreatePolylinePath() called with invalid goal area.  No path will be created.
+CreatePolylinePath() called with a goal area which isn't reachable from the starting area.  No path will be created.
+SearchToMultipleGoals() called with invalid starting area.  No path will be created.
+SearchToMultipleGoals called on the default space after the default space was disabled
+GetShapeDataForLayer called on the default space after the default space was disabled
+closest area
+create link
+polyline path
+CreateObstacleAsync called on the default space after the default space was disabled
+CreatePolylinePathAsync called on the default space after the default space was disabled
+SearchToMultipleGoalsAsync called on the default space after the default space was disabled
+rebuilding path
+rebuilding all corners
+ran out of available islands (limit = %d)
+Unexpected error in RemoveIsland(). Please report.
+Unexpected error in RefreshLinkData(). Please report.
+Island Adjacencies
+island -> adjacent islands
+%d -> 
+Island Group Size Histogram
+group size        num groups
+%3d -%3d          %3d
+replay divergence = %f
+--- Mover Module ---
+num movers = %d
+BFX_DRAW_CUR_PATH_SECTION cannot be set during replay recording or playback.
+Freeze 
+id %d
+   %08x
+spdHorz = %.2f
+spdVert = %.2f
+m_startStopAcc (%.0f) is less than %.0f percent of %s (%.0f) and will be increased to %.0f
+@@Walker: done_moving
+Walker: initial_rotation
+Walker: path_move
+Walker: decel_to_stop
+Walker: final_rotation
+Walker: none
+Error: RVO-hedgehog mismatch when calculating RVOs for mover ID=%d
+yourID=%d #wedges=%d
+@rank %c-%d
+Follower named "%s" cannot follow the leader the leader named "%s" who is in different space.
+TeleportToSpace called with AreaHandle from a different space.  Ignoring area.
+CreateMover called on the default space after the default space was disabled
+mover create
+@Mover created on layer %d before any NavGraphs were loaded for that layer
+Mover created too far from the NavGraph in layer %d (further than %.1f)
+NavGraph in layer %d was removed while a mover was still using it
+moverID=%d, state=%d, pos.m_x=%.15f, pos.m_y=%.15f, pos.m_z=%.15f
+SetPuppetPos() ignored (called while not in puppet mode)
+SetPuppetRot() ignored (called while not in puppet mode)
+EnableCustomLinkMode(true) ignored (called while not walking)
+EnableCustomLinkMode(true) ignored (too far from link)
+SetCustomLinkPos() ignored (called while not in custom link mode)
+SetCustomLinkRot() ignored (called while not in custom link mode)
+SwapToDefaultJump() ignored (called while not in custom link mode)
+Mover switched to empty layer %u
+mover gotopos
+mover teleport
+mover closestpos
+ Jumping: custom
+Jumping: isWaiting
+Jumping: DEFAULT
+CreateNavigator called on the default space after the default space was disabled
+id %d
+--- Navigator Module ---
+constraint solver = %d
+num navigators = %d
+num repulsors = %d
+RepulsorType value of %d outside of valid range from %d to %d
+CreateRepulsor called on the default space after the default space was disabled
+ %s(%d) : Invalid parameter.
+%s(%d) : Setting MASTER_VOLUME_EXTERNAL has no effect.
+%s(%d) : External memory functions are required for this platform.
+SCREAM Version %d.%d.%d 
+Build %d of Branch %s 
+Built on %s at %s
+May 16 2012
+%s(%d) : Attempt to unload invalid bank handle %x.
+%s(%d) : Attempt to unload unloaded bank handle %x.
+%s(%d) : Invalid bank handle %x.
+%s(%d) : update to set size member.
+%s(%d) : Unsupported bank format.
+%s(%d) : Unable to pan from SND_PAN_TO_SPEAKER.
+%s(%d) : Insufficient effect resources.
+------------  SCREAM handle 0x%X ----------------
+----------  Snd Stream handle 0x%X --------------
+--- Child handle 0x%X of Parent handle 0x%X ---
+--- Streaming Grain 0x%X of SCREAM handle 0x%X ---
+Bank Name: %s
+Sound Name: %s
+Flags = 
+Paused 
+PausedByGroup 
+PausedBySystem 
+Dying 
+SmartPan 
+DoFinishedCallback 
+StartTick = %d
+Volume Group = %d
+Gains = api: %f  sfx: %f  lfo: %f auto: %f direct send: %f ducker: %f group: %f
+Azims = api: %d  sfx: %d  lfo: %d auto: %d
+Focus = api: %d  sfx: %d  lfo: %d
+Transpose = api: %d  sfx: %d  lfo: %d auto: %d
+PitchBend = api: %f  sfx: %f  lfo: %f auto: %f
+Registers = 
+R%d: %d  
+---------- Handler Voices -----------
+(No voices)
+Voice index %d...
+	priority               = %d
+	scaledPriority         = %d
+	volGroup               = %d
+	synthVoiceType         = %d
+	priorityReductionScale = %f
+	status                 = %d
+	startTick              = %d
+	voiceFlags             = %d
+	transposeUpRange       = %d
+	transposeDownRange     = %d
+	owner                  = 0x%X
+	owner                  = Unowned
+	volume                 = %f
+	bakedVolume            = %f
+	panAzimuth             = 0x%X
+	panAzimuth             = %d
+	bakedPanAzimuth        = 0x%X
+	bakedPanAzimuth        = %d
+	panFocus               = %d
+	bakedPanFocus          = %d
+	sampleRate             = %f
+	bakedSampleRate        = %f
+	Bank_ID                = %d
+	synVoiceCtx            = 0x%X
+	userCtx                = %d
+	Voice context 0x%X...
+-----***-----***------ ACTIVE SCREAM SOUNDS ------***-----***-----
+------ tick %d had %d sounds playing --------------------
+%s(%d) : Invalid parameter.
+%s(%d) : Invalid parameter.
+%s(%d) : Invalid parameter.
+%s(%d) : Invalid parameter.
+%s(%d) : Invalid parameter.
+handle %x started ("%s" (%i) from bank "%s")
+handle %x started (index %i in bank at %p)
+handle %x started (stream)
+%s(%d) : Attempt to play sound with no grains. (Bank: "%s", Sound: "%s")
+%s(%d) : Invalid type id %d.
+%s(%d) : Invalid voice callback type %d.
+Buss configuration data is version %d, but this version of the runtime only supports version %d through %d!
+Please update runtimes, or re-export buss config data with a previous version.
+Buss configuration data is version %d, but this version of the runtime only supports version %d through %d!
+Please re-export buss config data with a newer tool version.
+XREF ID
+XREF Num
+Noise voices are not currently supported.
+Start tone grain
+ volume: %f pan: %d, sample rate: %f
+Loop Start
+Loop End
+%s(%d) : Loop End grain with no Loop Start.
+Loop Continue
+%s(%d) : Loop Continue grain with no Loop End.
+Stop Sound
+Random Play
+Random Play Ex
+Random Delay
+  delay: %i
+Random Pitchbend
+  pitchbend: %f
+Set Pitchbend
+Add Pitchbend
+  pitchbend: %i
+Set Register
+  set local reg %i to %i
+  set global reg %i to %i
+Set Register Random
+Increment Register
+Decrement Register
+Test Register
+Goto Marker
+  marker %i
+Goto Random Marker
+Goto Random Marker Ex
+Wait For Voices
+Play Cycle
+Add Register
+  setting local reg %i to %i
+  setting global reg %i to %i
+Key Off Voices
+Silence Voices
+On Stop Marker
+Copy Register
+  copy from local reg %i
+  copy from global reg %i
+  copy to local reg %i
+  copy to global reg %i
+  value: %i
+Branch To Child Sound
+  by index: %i
+  by name: %.16s
+%s(%d) : Missing sound name %s.
+  by name: %s
+%s(%d) : Unable to branch sound.
+%s(%d) : Attempt to branch sound with no grains.
+Stream MultiTrack Volumes
+%s(%d) : snd_SFX_GRAIN_TYPE_STREAM_MULTITRACK_VOLUMES deprecated.
+Stream MultiTrack Volumes Ex
+Start Child Sound
+Wait For Sync Event
+Stop Child Sound
+SCREAM: Didn't find child sound named -> %s
+%s(%d) : Invalid Sound pointer in handler.
+%s(%d) : Invalid next grain index in handler.
+%s(%d) : Invalid Opcode type of %x.
+Unable to activate snapshot index %d. Maximum number of active snapshots (%d) exceeded!
+Scream IniFile Load Error:  File not found.
+Scream IniFile Load Error:  Location can not be NULL.
+Scream IniFile Load Error:  Size can not be NULL.
+%s(%d) : External memory functions are required for this platform.
+Warning : Ran out of SCREAM bank reference tokens!  Increase the maxBanks value at SCREAM init time to fix.
+%s(%d) : File open error.
+%s(%d) : File read error.
+%s(%d) : Invalid .bnk file format. May be for different platform.
+%s(%d) : Invalid .bnk file.
+%s(%d) : Memory allocation error.
+%s(%d) : Attempt to unload unloaded block handle %x.
+%s(%d) : ERROR: Attempt to unload a block that is being relocated. %x.
+%s(%d) : Unable to find start of bank in memory. Handle %x
+%s(%d) : Invalid parameter.
+SCREAM Error: cause %d -> %u, %u, %u, %u
+%s(%d) : Invalid parameter.
+%s(%d) : Invalid handler array.
+%s(%d) : Inactive handler with effects.
+%s(%d) : Handler %x already on list.
+%s(%d) : Corrupt handler list.
+%s(%d) : Corrupt handler list found unlinking handle %x.
+%s(%d) : Handler with active LFO
+%s(%d) : Invalid playing handler count.
+%s(%d) : Corrupt family list found unlinking handle %x.
+%s(%d) : Attempt to make handle %x a child of itself.
+%s(%d) : Handle %x is already a child.
+%s(%d) : Attempt to stop an inactive handler.
+%s(%d) : Children stopped the parent. How the heck did that happen?
+%s(%d) : Deactivated handler on active list.
+%s(%d) : Starting wait loop.
+%s(%d) : Ending wait loop.
+%s(%d) : Handler for sound type %d already registered.
+%s(%d) : Registered sound type %d handler missmatch.
+%s(%d) : Invalid parameter.
+%s(%d) : Invalid playing group count.
+%s(%d) : Invalid data type.
+%s(%d) : Voice index %d is already playing.
+%s(%d) : Voice index %d was already on the playing list.
+%s(%d) : Voice index %d has an invalid voice group.
+%s(%d) : Stealing unowned voice channel.
+%s(%d) : Mismanaged voice type count.
+%s(%d) : Invlaid voice owner.
+%s(%d) : Bad voice channel.
+%s(%d) : Invalid keyed states.
+%s(%d) : Invalid voice channel pending pause states.
+%s(%d) : Invalid voice channel pending key states.
+%s(%d) : Invalid voice channel.
+Scream Error:  Invalid handle.
+Scream Error:  Invalid INI file handle.
+Scream Error:  Invalid preset.
+%s(%d) : Invalid parameter.
+VAG MONO
+PCM MONO
+AT9 MONO
+VAG STEREO
+PCM STEREO
+AT9 STEREO
+%s(%d) : s_FindEffectSlotByHandle(): Reverb instance not found!
+AT9 module callback (voice context 0x%08X): SCE_NGS_AT9_DECODE_ERROR Error byte offset: %d, current buffer addr: 0x%08X
+sceNgsVoiceKill( pctx->GetVoiceHandle() ) failed (returned %i)
+sceNgsPatchGetInfo( pctx->GetOutputPatchHandle(), &patchRouteInfo, NULL ) failed (returned %i)
+sceNgsVoicePatchSetVolumesMatrix( pctx->GetOutputPatchHandle(), &patchRouteInfo.vols ) failed (returned %i)
+sceNgsPatchGetInfo( sendPatch, &patchRouteInfo, NULL ) failed (returned %i)
+sceNgsVoicePatchSetVolumesMatrix( sendPatch, &patchRouteInfo.vols ) failed (returned %i)
+sceNgsVoicePause( g_effectList[slot].hVoice ) failed (returned %i)
+sceNgsVoiceResume( g_effectList[slot].hVoice ) failed (returned %i)
+TickCallback: sceNgsVoiceSetParamsBlock() failed!  ret = 0x%08X (%d) numErrors = %d (pctx = 0x%08X)
+SND_NGS_SCREAM_VOICE_PLAYER: %s
+SND_NGS_SCREAM_VOICE_ENVELOPE: %s
+SND_NGS_SCREAM_VOICE_DISTORTION: %s
+SND_NGS_SCREAM_VOICE_PRESEND_EQ: %s
+SND_NGS_SCREAM_VOICE_POSTSEND_FILTER: %s
+SND_NGS_SCREAM_VOICE_TEMP_PAUSER: %s
+SCREAM TickCallback(): SCREAM Tick thread falling more than (%d ticks) behind!!
+SCREAM TickCallback(): sceKernelSignalSema() failed! (%d)
+sceNgsSystemUpdate( s_sysHandle ) failed (returned %i)
+sceNgsVoiceGetStateData( s_masterVoice, SCE_NGS_MASTER_BUSS_OUTPUT_MODULE, buffer, bufferSizeBytes ) failed (returned %i)
+Unable to allocate %d bytes for capture buffer!
+The total number of voices required for the requested configuration is %d
+sceNgsSystemGetRequiredMemorySize( &InitParams, &memSize ) failed (returned %i)
+sceNgsSystemInit( s_synthCoreMemory, memSize, &InitParams, &s_sysHandle ) failed (returned %i)
+sceNgsSystemSetFlags( s_sysHandle, (synthParams->initFlags & SND_SYNTH_INIT_FLAG_VALIDATE_PARAMS) ? SCE_NGS_SYSTEM_FLAG_MODULE_PARAM_CHECKING : SCE_NGS_SYSTEM_FLAG_NO_MODULE_PARAM_CHECKING ) failed (returned %i)
+sceNgsRackGetRequiredMemorySize( s_sysHandle, &rackDesc, &bufferInfo.size ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackMasteringComp ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackMasteringComp, 0, &s_masteringCompVoice ) failed (returned %i)
+sceNgsVoiceInit( s_masteringCompVoice, NULL, SCE_NGS_VOICE_INIT_ALL ) failed (returned %i)
+sceNgsVoiceBypassModule( s_masteringCompVoice, SCE_NGS_COMPRESSOR_VOICE_COMPRESSOR_MODULE, SCE_NGS_MODULE_FLAG_BYPASSED ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackMaster ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackMaster, 0, &s_masterVoice ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackPreMasterCompSubmix ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackPreMasterCompSubmix, i, &s_preMasterSubmixes[preMasterIndex].voice ) failed (returned %i)
+sceNgsVoiceInit( s_preMasterSubmixes[preMasterIndex].voice, NULL, SCE_NGS_VOICE_INIT_ALL ) failed (returned %i)
+sceNgsVoiceBypassModule( s_preMasterSubmixes[preMasterIndex].voice, SCE_NGS_COMPRESSOR_VOICE_COMPRESSOR_MODULE, SCE_NGS_MODULE_FLAG_BYPASSED ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackPreMasterScCompSubmix ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackPreMasterScCompSubmix, i, &s_preMasterSubmixes[preMasterIndex].voice ) failed (returned %i)
+sceNgsVoiceBypassModule( s_preMasterSubmixes[preMasterIndex].voice, SCE_NGS_COMPRESSOR_SIDE_CHAIN_VOICE_COMPRESSOR_MODULE, SCE_NGS_MODULE_FLAG_BYPASSED ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackPlayerPcmMono ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackPlayerVagMono ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackPlayerAT9Mono ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackPlayerPcmStereo ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackPlayerVagStereo ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackPlayerAT9Stereo ) failed (returned %i)
+sceNgsRackInit( s_sysHandle, &bufferInfo, &rackDesc, &s_rackReverb ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackReverb, i, &hv ) failed (returned %i)
+sceNgsPatchCreateRouting( &patchInfo, &g_effectList[i].hOutputPatch ) failed (returned %i)
+sceNgsPatchGetInfo( g_effectList[i].hOutputPatch, &patchRouteInfo, NULL ) failed (returned %i)
+sceNgsVoicePatchSetVolumesMatrix( g_effectList[i].hOutputPatch, &patchRouteInfo.vols ) failed (returned %i)
+sceNgsVoicePlay( hv ) failed (returned %i)
+sceNgsPatchCreateRouting( &patchInfo, &patch ) failed (returned %i)
+sceNgsPatchGetInfo( patch, &patchRouteInfo, NULL ) failed (returned %i)
+sceNgsVoicePatchSetVolumesMatrix( patch, &patchRouteInfo.vols ) failed (returned %i)
+sceNgsVoicePlay( s_preMasterSubmixes[i].voice ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackPlayerPcmMono, i, s_voiceContexts[contextIndex].GetVoiceHandleAddr() ) failed (returned %i)
+sceNgsVoiceSetFinishedCallback( s_voiceContexts[contextIndex].GetVoiceHandle(), voiceFinishedCallback, &s_voiceContexts[contextIndex] ) failed (returned %i)
+sceNgsVoiceBypassModule( s_voiceContexts[contextIndex].GetVoiceHandle(), SCE_NGS_SCREAM_VOICE_ENVELOPE, SCE_NGS_MODULE_FLAG_NOT_BYPASSED ) failed (returned %i)
+sceNgsVoiceBypassModule( s_voiceContexts[contextIndex].GetVoiceHandle(), SCE_NGS_SCREAM_VOICE_DISTORTION, SCE_NGS_MODULE_FLAG_NOT_BYPASSED ) failed (returned %i)
+sceNgsVoiceBypassModule( s_voiceContexts[contextIndex].GetVoiceHandle(), SCE_NGS_SCREAM_VOICE_EQ, SCE_NGS_MODULE_FLAG_NOT_BYPASSED ) failed (returned %i)
+sceNgsVoiceBypassModule( s_voiceContexts[contextIndex].GetVoiceHandle(), SCE_NGS_SCREAM_VOICE_SEND_1_FILTER, SCE_NGS_MODULE_FLAG_NOT_BYPASSED ) failed (returned %i)
+sceNgsPatchCreateRouting( &patchInfo, &sendPatch ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackPlayerPcmStereo, i, s_voiceContexts[contextIndex].GetVoiceHandleAddr() ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackPlayerVagMono, i, s_voiceContexts[contextIndex].GetVoiceHandleAddr() ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackPlayerVagStereo, i, s_voiceContexts[contextIndex].GetVoiceHandleAddr() ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackPlayerAT9Mono, i, s_voiceContexts[contextIndex].GetVoiceHandleAddr() ) failed (returned %i)
+sceNgsVoiceSetModuleCallback( s_voiceContexts[contextIndex].GetVoiceHandle(), SCE_NGS_SCREAM_VOICE_AT9_PLAYER, at9VoiceModuleCallback, &s_voiceContexts[contextIndex] ) failed (returned %i)
+sceNgsRackGetVoiceHandle( s_rackPlayerAT9Stereo, i, s_voiceContexts[contextIndex].GetVoiceHandleAddr() ) failed (returned %i)
+sceNgsVoicePlay( s_masteringCompVoice ) failed (returned %i)
+sceNgsVoicePlay( s_masterVoice ) failed (returned %i)
+sceNgsVoiceKill( s_preMasterSubmixes[i].voice ) failed (returned %i)
+sceNgsVoiceKill( s_masteringCompVoice ) failed (returned %i)
+sceNgsVoiceKill( s_masterVoice ) failed (returned %i)
+sceNgsRackRelease( s_rackReverb, NULL ) failed (returned %i)
+sceNgsRackRelease( s_rackPlayerPcmMono, NULL ) failed (returned %i)
+sceNgsRackRelease( s_rackPlayerPcmStereo, NULL ) failed (returned %i)
+sceNgsRackRelease( s_rackPlayerVagMono, NULL ) failed (returned %i)
+sceNgsRackRelease( s_rackPlayerVagStereo, NULL ) failed (returned %i)
+sceNgsRackRelease( s_rackPreMasterCompSubmix, NULL ) failed (returned %i)
+sceNgsRackRelease( s_rackPreMasterScCompSubmix, NULL ) failed (returned %i)
+sceNgsRackRelease( s_rackMasteringComp, NULL ) failed (returned %i)
+sceNgsRackRelease( s_rackMaster, NULL ) failed (returned %i)
+Releasing NGS...
+sceNgsSystemRelease( s_sysHandle ) failed (returned %i)
+sceNgsVoiceGetInfo( hv, &info ) failed (returned %i)
+sceNgsVoiceKeyOff( hv ) failed (returned %i)
+sceNgsVoicePause( hv ) failed (returned %i)
+sceNgsVoiceResume( hv ) failed (returned %i)
+		NULL voice context!!!
+Unknown (%d)
+		m_dataType = %s
+		m_gain     = %f
+		m_lfeGain  = %f
+		m_azim     = %d
+		m_focus    = %d
+		m_flags    = 0x%08X
+		m_dirty    = %s
+		m_hVoice   = 0x%08X
+		m_pVoiceParamsBlock = 0x%08X
+%s(%d) : Invalid parameter.
+SCREAM Error: This system only supports 1 and 2 channel PCM16, ADPCM, and AT9 formats! (Not %d)
+sceNgsVoiceInit( hv, NULL, SCE_NGS_VOICE_INIT_BASE ) failed (returned %i)
+sceNgsPatchRemoveRouting( existingOutputPatch ) failed (returned %i)
+sceNgsVoiceGetStateData( hv, SND_NGS_SCREAM_VOICE_PLAYER, &playerStates, sizeof(SceNgsPlayerStates) ) failed (returned %i)
+sceNgsVoiceLockParams( reverbVoice, SCE_NGS_REVERB_VOICE_REVERB_MODULE, SCE_NGS_REVERB_PARAMS_STRUCT_ID, &bufferInfo ) failed (returned %i)
+sceNgsPatchGetInfo( g_effectList[slot].hOutputPatch, &patchRouteInfo, &patchInfo ) failed (returned %i)
+sceNgsPatchCreateRouting( &patchInfo, &g_effectList[slot].hOutputPatch ) failed (returned %i)
+sceNgsVoicePatchSetVolumesMatrix( g_effectList[slot].hOutputPatch, &patchRouteInfo.vols ) failed (returned %i)
+sceNgsPatchGetInfo( g_effectList[slot].hOutputPatch, &patchRouteInfo, NULL ) failed (returned %i)
+sceNgsVoiceBypassModule( g_effectList[slot].hVoice, SCE_NGS_REVERB_VOICE_REVERB_MODULE, SCE_NGS_MODULE_FLAG_BYPASSED ) failed (returned %i)
+sceNgsVoiceBypassModule( g_effectList[slot].hVoice, SCE_NGS_REVERB_VOICE_REVERB_MODULE, SCE_NGS_MODULE_FLAG_NOT_BYPASSED ) failed (returned %i)
+sceNgsVoiceBypassModule( hvPremaster, moduleId, effectOn ? SCE_NGS_MODULE_FLAG_NOT_BYPASSED : SCE_NGS_MODULE_FLAG_BYPASSED ) failed (returned %i)
+sceNgsVoiceLockParams( hvPremaster, moduleId, SCE_NGS_COMPRESSOR_PARAMS_STRUCT_ID, &bufferInfo ) failed (returned %i)
+sceNgsVoiceBypassModule( s_masteringCompVoice, SCE_NGS_COMPRESSOR_VOICE_COMPRESSOR_MODULE, effectOn ? SCE_NGS_MODULE_FLAG_NOT_BYPASSED : SCE_NGS_MODULE_FLAG_BYPASSED ) failed (returned %i)
+sceNgsVoiceLockParams( s_masteringCompVoice, SCE_NGS_COMPRESSOR_VOICE_COMPRESSOR_MODULE, SCE_NGS_COMPRESSOR_PARAMS_STRUCT_ID, &bufferInfo ) failed (returned %i)
+# Audio out thread started
+Error: sceAudioOutOpenPort() %0x
+Error: sceAudioOutOutput() %0x
+Error: sceAudioOutReleasePort() %0x
+# Audio out thread finished
+SCREAM Error: Unknown output port %d
+SCREAM Error: Over flow number of output grain %d
+SCREAM Error: Invalid rendering handler %p
+SCREAM Error: Tick thread priority %d is invalid!  Must be between 64 and 191.
+SCREAM Error: Tick thread affinity %d is invalid!  Must be between -1 (all) and 2.
+SCREAM Error: Tick thread priority %d requires a specific CPU affinity (0, 1, 2).
+SCREAM Error: Tick thread priority %d requires all CPU affinity (-1).
+SCREAM: couldn't create mutex %s
+SCREAM: couldn't destroy mutex!
+sceKernelLockLwMutex result = %d
+sceKernelUnlockLwMutex result = %d
+SCREAM: couldn't create semaphore %s
+SCREAM: couldn't destroy semaphore!
+SCREAM: error waiting on semaphore!
+SCREAM: error signaling on semaphore!
+%s(%d) : Invalid parameter.
+%s(%d) : Proc ID %d is already registered.
+%s(%d) : Proc ID %d was never registered.
+%s(%d) : Proc ID %d not found for callback.
+%s(%d) : Proc ID %d callback index %d is invalid.
+%s(%d) : Proc ID %d not found for callback with data.
+ERROR: sndi_MySynthUnlock: Attempt to unlock when not locked!
+%s(%d) : ERROR bogus handle 0x%08X passed to SndStreamEx function.
+%s(%d) : ERROR SndStreamEx 0x%08X handle not top of tree.
+%s(%d) : sndsi_FreeStreamBuffer: but not owner or thief! streamHandler = %p
+%s(%d) : sndsi_SetupFileInfoFromParseParams failed! FileToken not allocated.
+ERROR SndFileInterface missing m_pFileOpen !
+ERROR SndFileInterface missing m_pFileSeek !
+ERROR SndFileInterface missing m_pFileRead !
+ERROR SndFileInterface missing m_pFileClose !
+ERROR SndFileInterface missing m_pFileAsyncOpen !
+ERROR SndFileInterface missing m_pFileAsyncIsOpenComplete !
+ERROR SndFileInterface missing m_pFileAsyncOpenBitstream !
+ERROR SndFileInterface missing m_pFileAsyncRead !
+ERROR SndFileInterface missing m_pFileAsyncIsReadComplete !
+ERROR SndFileInterface missing m_pFileAsyncCloseBitstream !
+ERROR SndFileInterface missing m_pFileAsyncClose !
+%s(%d) : Could not open and parse sound file: %s.
+%s(%d) : Too many extraStreamsForStealing = %d. Can only use 2*handleCount in worst case.
+%s(%d) : ERROR number of SndStreamTreeNodes %d exceeds HANDLER_MAX_INDEX.
+%s(%d) : Invalid parameter.
+SndStream Version %d.%d.%d 
+Build %d of Branch %s 
+Built on %s at %s
+Sep  6 2012
+%s(%d) : ERROR Allocating MIDI buffer for copy of file token.
+%s(%d) : ERROR Parsing queue is full.
+%s(%d) ERROR Background parsing thread has died!
+%s(%d) ERROR Could not allocate enough stream handlers.
+%s(%d) : Invalid SndStartParams.
+%s(%d) : ERROR stray bits in SndStartParams.bitstreamParams.mask = 0x%08X
+%s(%d) : ERROR NULL file pathname in FileToken
+%s(%d) : Invalid SndFileParams.
+%s(%d) : invalid SndStreamFileToken = 0x%08X
+%s(%d) : Sample rate must be an integer.
+%s(%d) : ERROR stray bits in SndSyncParams.syncFlags = 0x%08X
+%s(%d) : ERROR invalid SndSyncParams.syncUnit = %d
+%s(%d) : Queue limit exceeded.
+%s(%d) ERROR Inserting into the middle of a queue is not currently supported!
+%s(%d) : File of incompatible type queued to stream: %s
+%s(%d) : Invalid SndStreamFileToken .
+%s(%d) : GetLockedStreamFromHandle returned NULL
+%s(%d) : ERROR snd_SetStreamLayerParams: handle is invalid!
+%s(%d) : ERROR g_masterClockStreamHandler is invalid!
+%s(%d) : NULL SndStreamFileTokenStorage.
+%s(%d) : SndStreamFileTokenStorage needs byte reversal.
+%s(%d) : Invalid SndStreamFileTokenStorage ID = 0x%08X.
+%s(%d) : Invalid SndStreamFileTokenStorage version = %d.
+%s(%d) : Invalid SndStreamFileInfo size = %d. This is a BUG!
+%s(%d) : Storage size %d is too small for even one file token!
+ |--
+%s(%d) : ERROR snd_PrintStreamTree: handle is invalid!
+Stream handle 0x%08X
+Substream handle 0x%08X
+%s(%d) : ERROR snd_GetStreamLayerHandle: handle is invalid!
+%s(%d) : File seek error.
+%s(%d) : File read error.
+fmt 
+%s(%d) : File read extension not big enough for AT9 = %d
+%s(%d) : AT9 GUID does not match.
+%s(%d) : File format error.
+%s(%d) : Missing 'fmt ' chunk in WAVE file.
+%s(%d) : Missing 'fact' chunk in WAVE file.
+%s(%d) : Missing 'data' chunk in WAVE file.
+%s(%d) : sceNgsAT9GetSectionDetails returned %d
+%s(%d) : ERROR OFL is missing. Use -oofl option with svag.
+%s(%d) : ERROR OFL is too big. codecDelay = %u, OFL = %u
+%s(%d) : Interleave must be >=%d for multisound streams.
+%s(%d) : WARNING - only 1 MP3 frame with %d PCM frames in last interleave group. Try changing -il option. %s
+%s(%d) : WARNING - single bitstream file has interleave = %d. Setting it to 1. %s
+%s:%d : ERROR File format error. Too many channelsPerSubstream = %d
+%s(%d) : ERROR File cpan contains %d channels/bitstream. Max is %d.
+%s(%d) : num too high
+%s(%d) : num bitstreams too high
+%s(%d) : ERROR Missing MPIN chunk from XVAG MP3
+%s(%d) : File encoding not supported = %d
+%s(%d) : ERROR Multi-bitstream file not interleave padded. Use -ip with svag.
+%s(%d) : ERROR opening MIDI file: %s
+%s(%d) : ERROR MIDI file seek error: %s
+%s(%d) : ERROR MIDI file size exceeds max size of %d bytes.
+%s(%d) : ERROR reading MIDI file: %s
+%s(%d) : ERROR File read failed.
+%s(%d) : ERROR File seek failed.
+ KPV
+%s(%d) : ERROR Unsupported file type = %02X,%02X,%02X,%02X
+%s(%d) : Invalid voice callback type %d.
+%s(%d) ERROR No audio data available to start scream voice!
+%s(%d) : ERROR sndsi_PlayStreamVoice failed! FileToken not allocated.
+%s(%d) : ERROR sndsi_PlayStreamVoice failed! Unrecognized file type!
+%s(%d) : ERROR sndsi_PlayStreamVoice failed! Could not allocate voice for type %d
+%s(%d) : Failed to queue buffer to synth.
+%s(%d) ERROR Could not start Scream voice, STOPPING, err = %d
+[%d]: SndStreamEx: File I/O traffic causing underflow. Rebuffering...
+[%d]: SndStreamEx: Rebuffering stopped. Continuing.
+[%d]: SndStreamEx: Gave up rebuffering. Just stop the sound.
+[%d]: SndStreamEx: Rebuffering....
+[%d]: snd_ProcessStreamTick: App unpaused while rebuffering!
+%s(%d) ERROR AUDIO snd_ProcessStreamTick unrecognized state = %d!
+path: %s
+userContext: %d
+dataType: %s
+sampleRate: %f
+numChannels: %d
+%s(%d) : Stream grain no longer active for queueing.
+%s(%d) : Attempt to queue to streaming grain with different parent.
+%s(%d) : Attempt to queue to streaming grain with different blockID.
+%s(%d) : Queued stream grain started new stream.
+%s(%d) : Attempt to transition to streaming grain with different parent.
+%s(%d) : Attempt to transition to streaming grain with different blockID.
+%s(%d) : ERROR Double free of MIDI buffer %p.
+%s(%d) : ERROR Unrecognized MIDI buffer at %p.
+[%d]: WARNING: sndi_CloseAsyncFilePlayer has %d requests outstanding.
+%s(%d) : ERROR Interleave size %d too big in %s
+%s(%d) : File open error for "%s"
+%s(%d) : File seek error.
+%s(%d) : ERROR File not parsed, ' "%s"
+%s(%d) : ERROR Unsupported file type for %s
+%s(%d) : ERROR File data size is not a multiple of the complete frame size. dataSize = %u, frameSize = %u
+%s(%d) : ERROR File has multiple bitstreams but SND_SS_INIT_NO_MULTISTREAMS flag set.
+%s(%d) : ERROR Unable to allocate midi file buffer.
+%s(%d) : ERROR Previous async file was not closed!
+%s(%d) : ERROR Opening file for async reads.
+%s(%d) : WARNING truncated buffer size to ZERO. total = %u, written = %u
+%s(%d) : ERROR AsyncRead failed on %s
+%s:%d, ERROR read buffer size is zero!
+%s:%d, ERROR interleaved MP3 block sized %d contains no valid data. data[0] = 0x%02X
+%s(%d) : ERROR AsyncIsReadComplete failed on %s
+%s(%d) : sndsi_OpenAsyncNextQueuedFile failed! FilePlayer is NULL.
+%s(%d) : sndsi_OpenAsyncNextQueuedFile failed! FileToken not allocated.
+%s(%d) : sndi_FreeStreamHandler: voice still allocated! %d
+%s(%d) : ERROR file open error = %d
+%s(%d) : ERROR bitstream open error = %d
+%s(%d) : BumpServiceStreamStateMachine: invalid state = %d
+%s(%d) : ERROR Queued file of different type or channels or rate.
+%s(%d) : ERROR Parsing Thread parsed file %s with different # substreams and bitstreams than current.
+ERROR sndHost_FileAsyncIsReadComplete: read past EOF
+Failed to allocate sound buffer memory.
+Bink Snd
+Bink IO
+No file IO provider installed.
+Error opening file.
+Not a Bink file.
+The file doesn't contain any compressed frames yet.
+The file has a corrupt header.
+Out of memory.
+Error reading Bink header.
+This file has bad frame size data.
+Bink list mutex
+Bink instance io mutex
+Bink instance sound mutex
+?CreateSemaphore failed.
+CreateMutex failed.
+CreateThread failed.
+Async queue full.
+Broken async queue.
+Out of range thread number.
+Already loaded on this thread number.
+Invalid thread number.
+Wait not queued for this thread.
+There is already an async decompression in progress on this HBINK.
+PSP2 HW output only supports 48000, with mono or stereo.
+Couldn't open PSP2 port.
+RADSS Mutex
+RADSS Thread
+Invalid lock size.
+RAD Thread
+The following systems have been registered but not used:
+Invalid dimemsions for that operation
+assignVertexNormals not called
+Butterflies found: 
+Weighted surface sampling not implemented
+Use weights.
+Invalid mesh topology (
+Unmatched edge
+HOLE FILLING STATS:
+	Created: 
+ triangles and 
+ vertices
+	Rings: 
+ AFM: 
+Naked edges found: 
+ fixed:
+T-Jonctions fixed: 
+Planes simplify: 
+ => 
+Progress: 
+Removed 
+ duplicate triangles out of a total of 
+ triangles.
+Edge (
+) has inconsistent winding in triangles 
+hkpShapeCollection must be a triangle collection that supports welding.
+Inconsistent triangle winding between at least triangle 
+ and triangle 
+. One sided welding will not work.
+Inconsistant triangle winding between at least triangle 
+?Product:hkp Key Code is invalid or is for a different product version.
+Please contact Havok.com
+No simulation possible.
+Product:hkp Key Code has expired or is for a different product version.
+Please contact Havok.com for an extension.
+No simulation possible.
+Predictive Block Compression
+Block (
+ samples) compressed to 
+ bytes (
+% of original
+Product:hka Key Code is invalid or is for a different product version.
+Please contact Havok.com
+No simulation possible.
+Product:hka Key Code has expired or is for a different product version.
+Please contact Havok.com for an extension.
+No simulation possible.
+NBody endpts
+NBody pairs
+ n;^
+Zjz
+-C++ runtime abort
+terminate() called by the exception handling mechanism
+returned from a user-defined terminate() routine
+internal error: static object marked for destruction more than once
+a pure virtual function was called
+invalid dynamic cast
+invalid typeid operation
+freeing array not allocated by an array new operation
+terminate() called itself recursively
+negative size for variable-length array
+VLA allocation failed
+Assertion failed in file "%s", line %d
+%s: %s
+blocking already-blocked ability: careful, first unblock wins
+Warning! Cannot find the setting (%s) from the setting manager!
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+EntityDefDamageable '%s': invalid max health value (%4.2f), must be > 0.0.
+EntityDefProjectile '%s': invalid friction value (%6.2f), must be between 0.0 and 255.0.
+EntityDefProjectile '%s': invalid restitution value (%4.2f), must be between 0.0 and 1.98.
+EntityDefProjectile '%s': invalid max health value (%4.2f), must be > 0.0.
+Havok vehicle
+Combat Attack def '%s' not found.
+Too many splines to evaluate for highlights! Will skip the remaining splines.
+EntityDefSpark '%s': invalid friction value (%6.2f), must be between 0.0 and 255.0.
+EntityDefSpark '%s': invalid restitution value (%4.2f), must be between 0.0 and 1.98.
+EntityDefSpark '%s': invalid min impact velocity value (%4.2f), must be >= 0.0.
+EntityDefAlterEgo '%s': invalid friction value (%6.2f), must be between 0.0 and 255.0.
+EntityDefAlterEgo '%s': invalid restitution value (%4.2f), must be between 0.0 and 1.98.
+EntityDefAlterEgo '%s': invalid min impact velocity value (%4.2f), must be >= 0.0.
+EntityDefAlterEgoEnemy '%s': invalid friction value (%6.2f), must be between 0.0 and 255.0.
+EntityDefAlterEgoEnemy '%s': invalid restitution value (%4.2f), must be between 0.0 and 1.98.
+EntityDefAlterEgoEnemy '%s': invalid max health value (%4.2f), must be > 0.0.
+EntityDefAlterEgoEnemy '%s': invalid min impact velocity value (%4.2f), must be >= 0.0.
+EntityDefSystemCracker '%s': invalid friction value (%6.2f), must be between 0.0 and 255.0.
+EntityDefSystemCracker '%s': invalid restitution value (%4.2f), must be between 0.0 and 1.98.
+EntityDefSystemCracker '%s': invalid min impact velocity value (%4.2f), must be >= 0.0.
+EntityDefSystemCrackerDrone '%s': invalid friction value (%6.2f), must be between 0.0 and 255.0.
+EntityDefSystemCrackerDrone '%s': invalid restitution value (%4.2f), must be between 0.0 and 1.98.
+EntityDefSystemCrackerDrone '%s': invalid min impact velocity value (%4.2f), must be >= 0.0.
+EntityDefItem '%s': invalid friction value (%6.2f), must be between 0.0 and 255.0.
+EntityDefItem '%s': invalid restitution value (%4.2f), must be between 0.0 and 1.98.
+EntityDefItem '%s': invalid max health value (%4.2f), must be > 0.0.
+EntityDefItem '%s': invalid min impact velocity value (%4.2f), must be >= 0.0.
+/u0	1
+rls5tu
+CombatAttack definition with no name.
+CombatReaction definition with no name.
+Combat Reaction def '%s' not found.
+ShootingAttack definition with no name.
+Shooting Attack def '%s' not found.
+Episode Index is out of bounds '%i'! Range is [0 - %i]! Have an engineer increase if needed!
+Warning! Cannot delete element in the fixed list since the list is empty!
+Warning! Cannot delete the element with an invalid input iterator!
+Warning! Cannot insert more element in the fixed list!
+Warning! Auto expand occurs!
+Warning! The input iterator is not valid!
+No Name
+Fail to change state since new state (%s) cannot be found!
+Warning! Cannot delete element in the fixed list since the list is empty!
+Warning! Cannot delete the element with an invalid input iterator!
+Warning! Cannot insert more element in the fixed list!
+Warning! Auto expand occurs!
+Warning! The input iterator is not valid!
+%s(%d) : ***NOT CODED*** %s
+Warning! Cannot delete element in the fixed list since the list is empty!
+Warning! Cannot delete the element with an invalid input iterator!
+Warning! Cannot insert more element in the fixed list!
+Warning! Auto expand occurs!
+Warning! The input iterator is not valid!
+Warning! Cannot insert more element in the fixed list!
+Warning! The input iterator is not valid!
+Warning! Cannot delete element in the fixed list since the list is empty!
+Warning! Cannot delete the element with an invalid input iterator!
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+Havok Log: %s
+Fail to find the anim control data type (%s) define in the data type table!
+Run out of ApeAnimClipListEntry, please increase the number of the entry!
+Warning! Cannot delete element in the fixed list since the list is empty!
+Warning! Cannot delete the element with an invalid input iterator!
+Warning! Cannot insert more element in the fixed list!
+Warning! Auto expand occurs!
+Warning! The input iterator is not valid!
+- empty -
+Warning! Cannot find the setting array (%s) from the setting manager!
+Fail to find the data hash %x from the tag data!
+Fail to find the data hash %x from the tag data!
+Fail to find the data hash %x from the tag data!
+Fail to find the data hash %x from the tag data!
+Fail to find the data hash %x from the tag data!
+Fail to find the data hash %x from the tag data!
+Warning! Cannot insert more element in the fixed list!
+Warning! The input iterator is not valid!
+Warning! Cannot delete element in the fixed list since the list is empty!
+Warning! Cannot delete the element with an invalid input iterator!
+Warning! Cannot insert more element in the fixed list!
+Warning! The input iterator is not valid!
+Warning! Cannot insert more element in the fixed list!
+Warning! The input iterator is not valid!
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+0x%x: AglTPtlContainer: Create container: 0x%x - %s - %3d 
+0x%x: AglTPtlContainer: Destroy container: 0x%x
+Total allocated:%3d - (%3d:Visible %3d:Invisible) %s
+%s(%d) : ***NOT CODED*** %s
+****WARNING**** %s - Shader uniform parameter was not bound: %s
+%s(%d) : ***NOT CODED*** %s
+IFF: Loading: %6dk %s...
+ApeInstance:0x%0x  Light-ApeInstance*:0x%0x LightIdx:%d LightDataIdx:%3d
+**NOTE** Mirror's render-to-texture is disabled.
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+%s(%d) : ***NOT CODED*** %s
+Total allocated:%3d - (%3d:Visible %3d:Invisible) %s
+Total allocated:%3d - (%3d:Visible %3d:Invisible) %s
+Total allocated:%3d - %s
+Total allocated:%3d - %s
+Total allocated:%3d - %s
+Converting DataObjectArray from 32-bit to 64-bit. If this is intended, always use 64-bit values
+The object of class 
+ is about to be removed and all references to it will be invalid.
+However, the object is referenced (
+) from outside the world and it will lead to unexpected behavior or crash.
+corrupt file
+This does not look like a binary tagfile (magic number mismatch)
+Unrecognised tagfile version 
+%s<class name="%s" version="%i"
+ parent="%s"
+%s<member name="%s" type="%s"
+ array="true"
+ count="%i"
+ class="%s"
+ <!-- 
+ -->
+%s<%s name="%s" size="%i">
+%s<null name="%s"/>
+%s<%s name="%s">
+%s<object id="#%04i" type="%s">
+<?xml version="1.0" encoding="ascii"?>
+<hktagfile version="%d">
+loop count max reached
+loop count max reached
+Parent hkpCdBody not found

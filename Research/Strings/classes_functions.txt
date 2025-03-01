@@ -1,0 +1,1447 @@
+Entity::AnimAdd
+Entity::AnimStopAdd
+Entity::AnimSetAddAlpha
+Entity::AnimSetAddSpeed
+Entity::AnimSetAddTime
+EntityTriggerBase(%s)::OnEnter(%s)(%u)
+EntityTriggerBase(%s)::OnExit(%s)(%u)
+EntityTriggerBase(%s)::OnDeath(%s)(%u)
+EntityTriggerBase(%s)::OnDeathInactive(%s)(%u)
+BEGIN::EntityTriggerBase::ProcessDeferredQueue
+END::EntityTriggerBase::ProcessDeferredQueue
+EntityTriggerBase::SystemReset(%u)
+_AgxSurface::~_AgxSurface()
+Game::WindGroup::~WindGroup()
+_AgxSurface::~_AgxSurface()
+AglShadowMapMgr::Dump
+_AgxSurface::~_AgxSurface()
+AglTexture::AglTexture()
+AglTexture::~AglTexture()
+ApeObj::Unknown
+EndLoad-ApeProceduralAnimMgr::Create()...
+!hkClassEnum::Item
+!hkCustomAttributes::Attribute
+!hkGeometry::Triangle
+!hkMonitorStreamStringMap::StringMap
+!hkMonitorStreamColorTable::ColorPair
+!hkRefCountedProperties::Entry
+!hkTraceStream::Title
+TthkNgpSocket::pollForNewClient
+!hkMemoryResourceHandle::ExternalLink
+!hkRootLevelContainer::NamedVariant
+!hkxEnvironment::Variable
+!hkxMaterial::TextureStage
+!hkxMaterial::Property
+!hkxMesh::UserChannelInfo
+!hkxNode::AnnotationData
+!hkxEnum::Item
+!hkxVertexBuffer::VertexData
+!hkxVertexDescription::ElementDecl
+!hkVertexFormat::Element
+!hkMultipleVertexBuffer::VertexBufferInfo
+!hkMultipleVertexBuffer::ElementInfo
+!hkMultipleVertexBuffer::LockedElement
+!hkSkinnedMeshShape::BoneSection
+!hkSkinnedMeshShape::Part
+!hkpCollidable::BoundingVolumeData
+!hkpCompressedMeshShape::Chunk
+!hkpCompressedMeshShape::BigTriangle
+!hkpCompressedMeshShape::ConvexPiece
+!hkpExtendedMeshShape::Subpart
+!hkpExtendedMeshShape::TrianglesSubpart
+!hkpExtendedMeshShape::ShapesSubpart
+!hkpStorageExtendedMeshShape::Material
+!hkpStorageExtendedMeshShape::MeshSubpartStorage
+!hkpStorageExtendedMeshShape::ShapeSubpartStorage
+!hkpSampledHeightFieldShape::CoarseMinMaxLevel
+!hkpListShape::ChildInfo
+!hkpMeshShape::Subpart
+!hkpStorageMeshShape::SubpartStorage
+!hkpMultiRayShape::Ray
+!hkpSimpleMeshShape::Triangle
+hkpCollisionDispatcher::debugPrintTable
+hkcdShapeType::INVALID
+hkcdShapeType::ALL_SHAPE_TYPES
+hkcdShapeType::CONVEX
+hkcdShapeType::COMPRESSED_MESH
+hkcdShapeType::COLLECTION
+hkcdShapeType::BV_TREE
+hkcdShapeType::SPHERE
+hkcdShapeType::TRIANGLE
+hkcdShapeType::BOX
+hkcdShapeType::CAPSULE
+hkcdShapeType::CYLINDER
+hkcdShapeType::CONVEX_VERTICES
+hkcdShapeType::CONVEX_PIECE
+hkcdShapeType::MULTI_SPHERE
+hkcdShapeType::LIST
+hkcdShapeType::CONVEX_LIST
+hkcdShapeType::TRIANGLE_COLLECTION
+hkcdShapeType::MULTI_RAY
+hkcdShapeType::HEIGHT_FIELD
+hkcdShapeType::SAMPLED_HEIGHT_FIELD
+hkcdShapeType::SPHERE_REP
+hkcdShapeType::BV
+hkcdShapeType::PLANE
+hkcdShapeType::MOPP
+hkcdShapeType::TRANSFORM
+hkcdShapeType::CONVEX_TRANSLATE
+hkcdShapeType::CONVEX_TRANSFORM
+hkcdShapeType::EXTENDED_MESH
+hkcdShapeType::STATIC_COMPOUND
+hkcdShapeType::BV_COMPRESSED_MESH
+hkcdShapeType::TRI_SAMPLED_HEIGHT_FIELD_BV_TREE
+hkcdShapeType::TRI_SAMPLED_HEIGHT_FIELD_COLLECTION
+hkcdShapeType::MAX_PPU_SHAPE_TYPE
+hkcdShapeType::PHANTOM_CALLBACK
+hkcdShapeType::USER0
+hkcdShapeType::USER1
+hkcdShapeType::USER2
+TthkpShapeCollection::getAabb
+TthkpShapeCollection::getMaximumProjection
+!hkcdDynamicTree::Codec32
+!hkcdDynamicTree::Codec18
+!hkcdDynamicTree::CodecRawUlong
+!hkcdDynamicTree::CodecRawUint
+!hkcdDynamicTree::CentroidMetric
+!hkcdDynamicTree::BalanceMetric
+!hkcdDynamicTree::AnisotropicMetric
+!hkcdDynamicTree::DefaultTreePtrStorage
+!hkcdDynamicTree::DefaultTree48Storage
+!hkcdDynamicTree::DefaultTree32Storage
+!hkcdDynamicTree::DynamicStoragePtr
+!hkcdDynamicTree::DynamicStorage32
+!hkcdDynamicTree::DynamicStorage16
+!hkcdStaticMeshTreeBase::Section::SharedVertices
+!hkcdStaticMeshTreeBase::Section::Primitives
+!hkcdStaticMeshTreeBase::Section::DataRuns
+!hkcdStaticMeshTreeBase::Section
+!hkcdStaticMeshTreeBase::Primitive
+!hkcdStaticTree::Codec3Axis
+!hkcdStaticTree::Codec3Axis4
+!hkcdStaticTree::Codec3Axis5
+!hkcdStaticTree::Codec3Axis6
+!hkcdStaticTree::CodecRaw
+!hkcdStaticTree::DefaultTreeStorage4
+!hkcdStaticTree::DefaultTreeStorage5
+!hkcdStaticTree::DefaultTreeStorage6
+!hkcdStaticTree::DefaultTreeStorage32
+!hkcdStaticTree::DynamicStorage4
+!hkcdStaticTree::DynamicStorage5
+!hkcdStaticTree::DynamicStorage6
+!hkcdStaticTree::DynamicStorage32
+!hkpBallAndSocketConstraintData::Atoms
+!hkpBallSocketChainData::ConstraintInfo
+!hkpBreakableBody::Controller
+!hkpBreakableMultiMaterial::InverseMappingDescriptor
+!hkpBreakableMultiMaterial::InverseMapping
+!hkpCogWheelConstraintData::Atoms
+!hkpConstraintInstance::SmallArraySerializeOverrideType
+!hkpEntity::SmallArraySerializeOverrideType
+!hkpEntity::SpuCollisionCallback
+!hkpEntity::ExtendedListeners
+!hkpGenericConstraintDataScheme::ConstraintInfo
+!hkpHingeConstraintData::Atoms
+!hkpHingeLimitsData::Atoms
+!hkpLimitedHingeConstraintData::Atoms
+!hkpPairCollisionFilter::MapPairFilterKeyOverrideType
+!hkpPointToPlaneConstraintData::Atoms
+!hkpPoweredChainData::ConstraintInfo
+!hkpPrismaticConstraintData::Atoms
+!hkpPulleyConstraintData::Atoms
+!hkpRackAndPinionConstraintData::Atoms
+!hkpRagdollConstraintData::Atoms
+!hkpRagdollLimitsData::Atoms
+!hkpRotationalConstraintData::Atoms
+!hkpSimpleShapePhantom::CollisionDetail
+!hkpStiffSpringChainData::ConstraintInfo
+!hkpStiffSpringConstraintData::Atoms
+!hkpWheelConstraintData::Atoms
+TthkpAabbPhantom::linearCast
+LthkpWorld::getClosestPoints
+LthkpWorld::getPenetrations
+!hkpMoppCode::CodeInfo
+!hkpShapeKeyTable::Block
+!hkpStaticCompoundShape::Instance
+TtSCS::castAabb
+TtSCS::getAabb
+TtSCS::castRay
+TtSCS::castRayWithCollector
+TtSCS::queryAabb
+TtSCS::queryAabbImpl
+TtSCS::getChildShape
+TtSCS::getCollisionFilterInfo
+!hkpDisplayBindingData::RigidBody
+!hkpDisplayBindingData::PhysicsSystem
+!hkpPoweredChainMapper::Target
+!hkpPoweredChainMapper::LinkInfo
+!hkpSerializedDisplayRbTransforms::DisplayTransformPair
+!hkpTriggerVolume::EventInfo
+!hkpVehicleData::WheelComponentParams
+!hkpVehicleDefaultBrake::WheelBrakingProperties
+!hkpVehicleDefaultSuspension::WheelSpringSuspensionParameters
+!hkpVehicleFrictionDescription::AxisDescription
+!hkpVehicleFrictionStatus::AxisStatus
+!hkpVehicleInstance::WheelInfo
+!hkpVehicleLinearCastWheelCollide::WheelState
+!hkpVehicleSuspension::SuspensionWheelParameters
+!hkaAnnotationTrack::Annotation
+!hkaMeshBinding::Mapping
+!hkaPredictiveCompressedAnimation::TrackCompressionParams
+!hkaQuantizedAnimation::TrackCompressionParams
+!hkaSkeletonMapperData::SimpleMapping
+!hkaSkeletonMapperData::ChainMapping
+!hkaSkeleton::LocalFrameOnBone
+!hkaSplineCompressedAnimation::TrackCompressionParams
+!hkaSplineCompressedAnimation::AnimationCompressionParams
+!hkaKeyFrameHierarchyUtility::ControlData
+SpaceHandle::SetPos
+SpaceHandle::SetRot
+SpaceHandle::SetUserData
+SpaceHandle::Simulate
+pALinkDat::m_penaltyMult
+ObstacleDat::m_penaltyMult
+SurfaceOrientTune::m_surfaceOrientThreshold
+SurfaceOrientTune::m_surfaceOrientSlerpTime
+MoverTune::bulk
+MoverTune::m_pathAcc
+MoverTune::m_cruiseAcc
+MoverTune::m_startStopAcc
+MoverTune::m_flockAcc
+MoverTune::m_cautionSpeedX
+MoverTune::m_tightTurnDegrees
+MoverTune::m_sidestepFraction
+MoverTune::m_backpedalFraction
+GoalTune::m_preferredTurningRadius
+Mover::GotoPos
+Mover::Stop
+Mover::MoveInDirection
+Mover::ForceUseOfClientMotion
+Mover::ForceSnapToNavgraphForCreateAndTeleport
+Mover::FollowMover
+Mover::Freeze
+Mover::FreezeTranslation
+Mover::EnablePuppetMode
+Mover::SetPuppetPos
+Mover::SetPuppetRot
+Mover::EnableCustomLinkMode
+Mover::SetCustomLinkPos
+Mover::SetCustomLinkRot
+Mover::SwapToDefaultJump
+Mover::OrientInDirectionOfTravel
+Mover::OrientStrictlyInDirectionOfTravel
+Mover::OrientTowardsTargetPos
+Mover::OrientInDirection
+Mover::SetTune
+Mover::SetSpeedX
+Mover::SetSlowTime
+Mover::SetFlockID
+Mover::SetExternalForce
+Mover::ReachedGoal
+Mover::IsWaitingAtLink
+Mover::IsBlockedByRepulsor
+Mover::GetClosestReachablePos
+Mover::CalculateNextNCorners
+Mover::CalculatePathDistanceToGoal
+Mover::Teleport
+Mover::TeleportToSpace
+Mover::EnableRepulsor
+Mover::TurnToEnd
+Mover::SetDebug
+Mover::OverrideColor
+Mover::SetDebugName
+Mover::GetDesiredMotion
+Mover::ApplyClientMotion
+NavigatorTune::m_radiusCushion
+NavigatorTune::DetectionCylinderTune::m_radius
+NavigatorTune::DetectionCylinderTune::m_height
+TtUnlimitedAabbQuery::processLeaf
+TtLimitedAabbQuery::processLeaf
+TtAabbCastQuery::processLeaf
+TtRayCastQuery::processLeaf
+void Game::EntityCharacter::SetAbilBlocked(unsigned int, bool)
+ApeSetting *ApeSettingManager::GetSetting(const char *) const
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = signed short]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeSplineInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeSplineDef]
+static void Game::AINPNavCompManager::AddedJumpLinkCb(const ApeSetting *, const char *, bool)
+bfx::ObstacleHandle Game::AINPNavCompManager::AddObstacle(const AMtx &, const AVec3 &, const char *, unsigned int)
+void Game::AIBase::PlayAttachedDirScript(unsigned int)
+static Game::EntityCompCInfo *Game::EntityCompCInfoAI::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+void Game::AICritter::SetAIState(unsigned int, unsigned int, unsigned int, float)
+void Game::AIPlayer::SetAIState(unsigned int, unsigned int, unsigned int, float)
+void Game::AIEnemy::SetAIState(unsigned int, unsigned int, unsigned int, float)
+void Game::AIScriptedPath::SetAIState(unsigned int, unsigned int, unsigned int, float)
+void Game::AIBoss_Bismarque::SetupCurrentPhase()
+void Game::AIBoss_Bismarque::Init(Game::Entity *)
+Game::ButtStompAttackPtInst *Game::AIBoss_Bismarque::FindFarthestButtStompAttackPt()
+AIBoss_Bismarque::FindFarthestButtStompAttackPt: was unable to find a butt stomp attack point idx, a random index will be chosen!
+void Game::AIBoss_ElJefe::ProcessAttackSequence(const char *, float)
+bool Game::AIBoss_ElJefe::ProcessTransitions()
+void Game::AIBoss_Paradox::ProcessDeferedSetAIState(unsigned int, float)
+Game::AISpawner::AISpawner(Game::SpawnerParams *)
+void Game::AIIceCaveBismarque::Update(float)
+static void Game::EntityCompCInfoBossGrizz::ProcessActionSequenceXML(TiXmlElement *, ApeTArray<Game::GrizzActionParam> &)
+static void Game::EntityCompCInfoBossGrizz::ParseXMLParams(TiXmlElement *, Game::EntityCompCInfoBossGrizz *)
+static Game::EntityCompCInfo *Game::EntityCompCInfoBossGrizz::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static const char *Game::AIUtil::GetParamOption(const char *, unsigned short, unsigned short, char, char)
+Game::AIProxyPoint *Game::AIProxyPointManager::AllocateProxyPt(ApePointInstance *, const Game::AIProxyPointSetting *)
+static void Game::AIProxyPointManager::CreateProxyPtCb(const ApeSetting *, const char *, bool)
+static signed int Game::AnimClipManager::AnimEventExecProcedureCreate(const TiXmlElement *, ApeAnimSetDef *, ApeAnimClipDef *)
+static ApeDataHandle Game::AnimClipManager::AnimEventCloneExeCtrlDataCb(ApeDataHandle, void *)
+void Game::EntityCharacter::SetAbilBlocked(unsigned int, bool)
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = unsigned int]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglMaterial]
+Game::AnimScriptCommandActivateInteractiveEntity::AnimScriptCommandActivateInteractiveEntity(TiXmlElement *)
+void Game::AnimScriptCommandActivateMixState::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandAddThermalVisionObject::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandGameAnimSetSpeed::AnimScriptCommandGameAnimSetSpeed(TiXmlElement *)
+void Game::AnimScriptCommandGameAnimSetSpeed::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandGameAnimSetTime::AnimScriptCommandGameAnimSetTime(TiXmlElement *)
+void Game::AnimScriptCommandAttachCarryItem::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandBlast::AnimScriptCommandBlast(TiXmlElement *)
+void Game::AnimScriptCommandSendEvent::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandCharSpecialCmd::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandCloseBinoccucom::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandCrossFade::AnimScriptCommandCrossFade(TiXmlElement *)
+void Game::AnimScriptCommandDetachEntityFromParent::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandEnableComponent::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandEnableLaser::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandEnableSentryLight::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandEnableSpawner::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandEnableSpawnerGroup::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandEnqueueSound::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandEntitySetScriptState::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandEntitySetGadgetState::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandFadeColor::AnimScriptCommandFadeColor(TiXmlElement *)
+Game::AnimScriptCommandFadeEntity::AnimScriptCommandFadeEntity(TiXmlElement *)
+Game::AnimScriptCommandFadeLightIntensity::AnimScriptCommandFadeLightIntensity(TiXmlElement *)
+Game::AnimScriptCommandFadeObject::AnimScriptCommandFadeObject(TiXmlElement *)
+void Game::AnimScriptCommandFadeObject::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandFadeOverrideColor::AnimScriptCommandFadeOverrideColor(TiXmlElement *)
+void Game::AnimScriptCommandFireProjectile::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandFXObjShake::AnimScriptCommandFXObjShake(TiXmlElement *)
+Game::AnimScriptCommandFXTrail::AnimScriptCommandFXTrail(TiXmlElement *)
+Game::AnimScriptCommandGameGetAnimSpeed::AnimScriptCommandGameGetAnimSpeed(TiXmlElement *)
+Game::AnimScriptCommandGetEntityFlag::AnimScriptCommandGetEntityFlag(TiXmlElement *)
+Game::AnimScriptCommandGetRespawnInfo::AnimScriptCommandGetRespawnInfo(TiXmlElement *)
+0Game::AnimScriptCommandHoverVehicleAddInput::AnimScriptCommandHoverVehicleAddInput(TiXmlElement *)
+void Game::AnimScriptCommandHudObjSetScriptState::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandIfCollected::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandIfJob::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandImpulse::AnimScriptCommandImpulse(TiXmlElement *)
+void Game::AnimScriptCommandImpulse::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Angular impulse not directly supported on EntityCharacter::CompPhysics
+Game::AnimScriptCommandMapEntityToVar::AnimScriptCommandMapEntityToVar(TiXmlElement *)
+void Game::AnimScriptCommandMapEntityToVar::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandMapMaterialToVar::AnimScriptCommandMapMaterialToVar(TiXmlElement *)
+void Game::AnimScriptCommandMapMaterialToVar::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+AnimScriptCommandMapMaterialToVar::Evaluate must provide an variable to map to a variable
+Game::AnimScriptCommandGamePlayAnim::AnimScriptCommandGamePlayAnim(TiXmlElement *)
+void Game::AnimScriptCommandGamePlayAnim::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandPlayerEnableAllButtons::AnimScriptCommandPlayerEnableAllButtons(TiXmlElement *)
+Game::AnimScriptCommandPlayerEnableButton::AnimScriptCommandPlayerEnableButton(TiXmlElement *)
+void Game::AnimScriptCommandPlayerEnableButton::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandPlayerEnableHelp::AnimScriptCommandPlayerEnableHelp(TiXmlElement *)
+Game::AnimScriptCommandPlaySound::AnimScriptCommandPlaySound(TiXmlElement *)
+void Game::AnimScriptCommandPlaySound::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandPriorityTarget::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+AnimScriptCommandPriorityTarget::Evaluate target not found (%s), double check the name in script?
+void Game::AnimScriptCommandRemoveCustomRadarMarker::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandRemoveThermalVisionObject::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandResetBucket::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandGameReverseCurAnim::AnimScriptCommandGameReverseCurAnim(TiXmlElement *)
+void Game::AnimScriptCommandSetAIState::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+AnimScriptCommandSetAIState::Evaluate entity not found (%s), double check the name in script?
+Game::AnimScriptCommandSetBlendAlpha::AnimScriptCommandSetBlendAlpha(TiXmlElement *)
+void Game::AnimScriptCommandSetBinocucomLocked::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetCharAbilEnabled::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetCharacterControl::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetComponentScript::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetComponentVisible::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetCompProcAnimParams::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandSetControllerRumble::AnimScriptCommandSetControllerRumble(TiXmlElement *)
+void Game::AnimScriptCommandSetCurJobVariable::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetCustomRadarMarker::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandSetEntityFlag::AnimScriptCommandSetEntityFlag(TiXmlElement *)
+void Game::AnimScriptCommandSetExtControl::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetHudRadarBlipVisible::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetInvulnerability::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetItemCollectProps::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetLeash::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandSetLightGroup::AnimScriptCommandSetLightGroup(TiXmlElement *)
+void Game::AnimScriptCommandSetMusic::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandSetMusicRegister::AnimScriptCommandSetMusicRegister(TiXmlElement *)
+ApeAnimScriptCommand *Game::AnimScriptCommandSetMusicTrackVolume::CreateCommand(TiXmlElement *)
+void Game::AnimScriptCommandSetNoDestroy::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetPlayerLocation::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandSetPlayerOnTurret::AnimScriptCommandSetPlayerOnTurret(TiXmlElement *)
+void Game::AnimScriptCommandSetPlyAbilEnabled::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetPos::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetPushBlockProperties::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetRopeProperties::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetSentryLightSpline::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSetShadowParameters::SetSsmParams(AglShadowMapSsm *, unsigned int)
+void Game::AnimScriptCommandSetShadowParameters::SetTsmParams(AglShadowMapTsm *, unsigned int)
+void Game::AnimScriptCommandSetShadowParameters::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandSetSoundRegister::AnimScriptCommandSetSoundRegister(TiXmlElement *)
+Game::AnimScriptCommandSetTimeScale::AnimScriptCommandSetTimeScale(TiXmlElement *)
+void Game::AnimScriptCommandSetUVSpeed::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandSmokeBomb::AnimScriptCommandSmokeBomb(TiXmlElement *)
+Game::AnimScriptCommandSpawnEntity::AnimScriptCommandSpawnEntity(TiXmlElement *)
+Game::AnimScriptCommandSpawnDebris::AnimScriptCommandSpawnDebris(TiXmlElement *)
+void Game::AnimScriptCommandSpawnDebris::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::AnimScriptCommandSpawnRope::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::AnimScriptCommandStopAllSounds::AnimScriptCommandStopAllSounds(TiXmlElement *)
+void Game::AnimScriptCommandSwapInventory::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+AnimScript::SwapInventory entity not found (%s) -- double check the name?
+void Game::AnimScriptCommandSwapOffscreenMarker::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+AnimScript::SwapOffscreenMarker entity not found (%s) -- double check the name?
+void Game::AnimScriptCommandSwapReceptacle::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+AnimScript::SwapReceptacle entity not found (%s) -- double check the name?
+Game::AnimScriptCommandSwitchStatementEntity::AnimScriptCommandSwitchStatementEntity(TiXmlElement *)
+void Game::AnimScriptCommandThrowCollectibleAtPlayer::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::SeqScriptCommandActivateMixState::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::SeqScriptCommandCameraCut::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::SeqScriptCommandClimb::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::SeqScriptCommandEnqueueSound::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::SeqScriptCommandFXObjShake::SeqScriptCommandFXObjShake(TiXmlElement *)
+void Game::SeqScriptCommandJumpTo::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+SequenceCommand::JumpTo invalid jump point specified (%s)
+void Game::SeqScriptCommandPlayBinocucomDialog::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::SeqScriptCommandPlayUnicomDialog::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::SeqScriptCommandPlayHUDFreezeScreen::SeqScriptCommandPlayHUDFreezeScreen(TiXmlElement *)
+void Game::SeqScriptCommandPlaySound::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::SeqScriptCommandSetMusic::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::SeqScriptCommandSetPosition::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::SeqScriptCommandSetSoundVolume::SeqScriptCommandSetSoundVolume(TiXmlElement *)
+void Game::SeqScriptCommandSpawnEntity::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void Game::SeqScriptCommandStartSequence::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+Game::SeqScriptCommandStopAllSounds::SeqScriptCommandStopAllSounds(TiXmlElement *)
+Game::SeqScriptCommandWaitForSoundGrpFinished::SeqScriptCommandWaitForSoundGrpFinished(TiXmlElement *)
+bool SceneMap::smartInitialize()
+void Game::SaveSlot::Reset()
+void Game::SaveSlot::SetNotifyFlag(unsigned int, bool)
+bool Game::SaveSlot::IsNotifyFlagSet(unsigned int) const
+static Game::Save::SAVE_STATUS Game::Save::Read(const char *, void *, unsigned int)
+static Game::Save::SAVE_STATUS Game::Save::Write(const char *, void *, unsigned int)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = signed int]
+AwardMgr::GiveAwardByIndex  %2d
+AwardMgr::GiveAwardByHash  %s
+Game::EntityDefParamsDamageable::EntityDefParamsDamageable(const char *, const char *, const char *, bool, bool, bool, unsigned int, float, float, unsigned char, float, unsigned int, unsigned int, bool, unsigned int, const float *, float, unsigned int, unsigned int, bool, bool, bool, bool, bool, bool)
+Game::WestBossAttackHandler_Dynamite::WestBossAttackHandler_Dynamite(Game::EntityWestBoss *, const Game::Phase1AttackDynamiteParam &, const Game::Playfield &)
+Game::WestBossAttackHandler_GatlingGun::WestBossAttackHandler_GatlingGun(Game::EntityWestBoss *, const Game::Phase1AttackGatlingGunParam &)
+Game::WestBossAttackHandler_MineLaserField::WestBossAttackHandler_MineLaserField(Game::EntityWestBoss *, const Game::Phase1AttackMineLaserFieldParam &)
+void Game::WestBossAttackHandler_MineLaserField::StartAttack(unsigned int, unsigned int)
+WestBossAttackHandler_MineLaserField::StartAttack: unable to spawn mines since available mine point array is empty!
+WestBossAttackHandler_MineLaserField::StartAttack: was unable to find a mine placement idx, a random index will be chosen!
+void Game::EntityWestBoss::SetupPhase2Data()
+EntityWestBoss::SetupPhase2Data: 'tornadoAttackToPtEntityDef' '%s' can't be found or is not a projectile type!
+EntityWestBoss::SetupPhase2Data: 'tornadoAttackFollowPlyEntityDef' '%s' can't be found or is not a projectile type!
+EntityWestBoss::SetupPhase2Data: 'slamAttackEndPt' '%s' can't be found!
+EntityWestBoss::SetupPhase2Data: 'slamAttackCamPt' '%s' can't be found!
+void Game::EntityWestBoss::SetupPhase1Data()
+EntityWestBoss::SetupPhase1Data: can't find valve named '%s'!
+EntityWestBoss::SetupPhase1Data: trap door entity '%s' not found!
+Game::EntityWestBoss::EntityWestBoss(const Game::EntityParamsWestBoss &)
+EntityWestBoss::EntityWestBoss: can't find furnace named '%s'!
+static void Game::EntityDefWestBoss::ParseXMLParams_Phase1AttackMineLaserField(TiXmlElement *, const Game::Phase1AttackMineLaserFieldParam &, Game::Phase1AttackMineLaserFieldParam &)
+static void Game::EntityDefWestBoss::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsWestBoss &)
+static void Game::EntityDefWestBossThrownGadget::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsWestBossThrownGadget &)
+Game::EntityDefParamsDamageable::EntityDefParamsDamageable(const char *, const char *, const char *, bool, bool, bool, unsigned int, float, float, unsigned char, float, unsigned int, unsigned int, bool, unsigned int, const float *, float, unsigned int, unsigned int, bool, bool, bool, bool, bool, bool)
+Game::EntityDefParamsProjectile::EntityDefParamsProjectile(const char *, const char *, const char *, const char *, float, float, float, float, float, float, float, float, bool, bool, bool, float, float, float, float, const AVec3 &, float, float, const AVec2 &, float, float, float, float, float, float, float, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, bool, bool, bool, bool, bool, bool, unsigned char)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::EntityDefSpawnParams *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::EntityDef *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApePointInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeGeomInstance]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::SpawnEntityParams *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::SpawnMotionParams *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::SpawnAmountTypeData *]
+Game::EntityDef::EntityDef(const Game::EntityDefParams &)
+Game::EntityDefDamageable::EntityDefDamageable(const Game::EntityDefParamsDamageable &)
+Game::EntityDefProjectile::EntityDefProjectile(const Game::EntityDefParamsProjectile &)
+static void Game::EntityDefDamageable::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsDamageable &)
+static void Game::EntityDefProjectile::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsProjectile &)
+6Game::EntityDefSimple::EntityDefSimple(const Game::EntityDefParamsSimple &)
+1static void Game::EntityDefSimple::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsSimple &)
+Game::EntityDefMPCollidable::EntityDefMPCollidable(const Game::EntityDefParamsMPCollidable &)
+1static void Game::EntityDefMPCollidable::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsMPCollidable &)
+static Game::EntityDef *Game::EntityDef::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityDefSpawnParams *Game::EntityDefSpawnParams::ParseXML(const TiXmlDocument &, TiXmlElement *)
+static void Game::Entity::SystemReset(bool)
+static void Game::Entity::SystemSync()
+static void Game::Entity::SystemSpawnRopes()
+void Game::Entity::SetupHierarchy(const ApeTArrayLazyCreate<Game::EntityChildInfo> &)
+void Game::Entity::InitInstance(const Game::EntityParams &)
+static void Game::Entity::SystemSpawnSetup(ApeObj *, Game::EntityDef *)
+static void Game::SpawnMotionParams::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, Game::SpawnMotionParams **)
+static void Game::SMP_Direction::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, Game::SMP_Direction **)
+static void Game::SMP_Direction::ParseXML(const TiXmlDocument &, TiXmlElement *)
+static void Game::SMP_Point::ParseXML(const TiXmlDocument &, TiXmlElement *)
+static void Game::SpawnEntityParams::ParseXML(const TiXmlDocument &, TiXmlElement *)
+void Game::EntitySpawnUtil::SystemLoad(const TiXmlDocument &, TiXmlElement *)
+static unsigned char Game::Entity::SystemLoad(TiXmlDocument &, const char *, unsigned char)
+static unsigned char Game::Entity::SystemLoad(const char *, unsigned char)
+static unsigned char Game::Entity::SystemLoad(ApeFile *, unsigned char)
+static void Game::Entity::RenderListAdd(Game::Entity *)
+static void Game::Entity::RenderListAdd(Game::EntityComp *)
+static void Game::Entity::SyncListAdd(Game::EntityComp *)
+void Game::Entity::Release(bool)
+ApeDataHandle Game::Entity::PlaySound(Game::StreamQueueEntry *, Game::PlaySoundParams *, unsigned int)
+Havok::HavokAnimNode *Game::Entity::AnimAdd(hkaAnimationBinding *, unsigned int, bool, float, float, unsigned int)
+void Game::Entity::AnimStopAdd(unsigned int, float)
+void Game::Entity::AnimSetAddAlpha(float, unsigned int)
+void Game::Entity::AnimSetAddSpeed(float, unsigned int)
+void Game::Entity::AnimSetAddTime(float, unsigned int, bool)
+void Game::EntitySimple::SetAttachedFX(ApeDataHandle)
+Game::EntityProjectileBase::EntityProjectileBase(const Game::EntityParamsProjectile &)
+void Game::EntityProjectileBase::LinearCast(const AMtx &, const AVec3 &, AMtx &, bool)
+static Game::EntityProjectileBase *Game::EntityProjectileBase::FireProjectile(Game::EntityDefProjectile *, Game::Entity *, const AMtx &, const AVec3 &, float, unsigned int, Game::EntityTargetable *, const AMtx *, bool)
+static bool Game::EntityProjectileBase::CalcLaunchDirGivenSpeed(AVec3 &, const Game::EntityProjectileBase::LaunchGivenSpeedParams &)
+static Game::EntityProjectileBase *Game::EntityProjectileBase::FireProjectileGivenSpeed(const Game::EntityProjectileBase::LaunchGivenSpeedParams &)
+EntityProjectileBase::FireProjectileGivenSpeed: Trying to shot at a target which is NULL! Defaulting to shooting down the world Z-axis!
+static bool Game::EntityProjectileBase::CalcLaunchDirGivenAngle(Game::EntityProjectileBase::LaunchDirGivenAngleOutput &, const Game::EntityProjectileBase::LaunchGivenAngleParams &)
+static Game::EntityProjectileBase *Game::EntityProjectileBase::FireProjectileGivenAngle(const Game::EntityProjectileBase::LaunchGivenAngleParams &)
+EntityProjectileBase::FireProjectileGivenAngle: Trying to shot at a target which is NULL! Defaulting to shooting down the world Z-axis!
+AVec3 Game::EntityProjectileSpline::CalcPosition(float)
+Game::EntityProjectileMine::EntityProjectileMine(const Game::EntityParamsProjectileMine &)
+void Game::EntitySpawnUtil::SystemLoad(const char *)
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeCameraDef]
+static void Game::CameraBehavior::CalcOrientation(const AVec3 &, AMtx &)
+Game::CameraBehaviorVehicle::CameraBehaviorVehicle(Game::EntityCamera &, Game::Entity *)
+Game::CameraBehaviorHavokVehicle::CameraBehaviorHavokVehicle(Game::EntityCamera &, Game::Entity *)
+Game::EntityDefParamsDamageable::EntityDefParamsDamageable(const char *, const char *, const char *, bool, bool, bool, unsigned int, float, float, unsigned char, float, unsigned int, unsigned int, bool, unsigned int, const float *, float, unsigned int, unsigned int, bool, bool, bool, bool, bool, bool)
+void Game::EntityCharacter::SetAbilBlocked(unsigned int, bool)
+static Game::CombatAttack *Game::EntityCompCombat::FindAttack(unsigned int, bool)
+Game::EntityDefParamsSpark::EntityDefParamsSpark(const char *, const char *, const char *, const char *, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, const unsigned char *, bool, bool, bool, unsigned int, float, float, unsigned char, unsigned int)
+Game::EntityDefParamsAlterEgo::EntityDefParamsAlterEgo(const char *, const char *, const char *, const char *, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, unsigned int, bool, bool, bool, unsigned int, float, float, unsigned char)
+Game::EntityDefParamsAlterEgoEnemy::EntityDefParamsAlterEgoEnemy(const char *, const char *, const char *, const char *, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, const unsigned char *, bool, bool, bool, bool, bool, bool, bool, bool, bool, unsigned int, float, float, unsigned char)
+Game::EntityDefParamsSystemCracker::EntityDefParamsSystemCracker(const char *, const char *, const char *, const char *, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, unsigned int, float, bool, unsigned int, unsigned int, bool, const unsigned char *, bool, bool, bool, unsigned int, float, float, unsigned char)
+Game::EntityDefParamsSystemCrackerDrone::EntityDefParamsSystemCrackerDrone(const char *, const char *, const char *, const char *, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, bool, unsigned int, unsigned int, float, float, float, float, float, bool, const unsigned char *, bool, bool, bool, unsigned int, float, float, unsigned char)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::AnimMapMotion *]
+Game::EntityDefParamsCharacter::EntityDefParamsCharacter(const char *, const char *, const char *, unsigned int, const char *, float, unsigned int, const Game::SettingsCharacterMove *, const Game::SettingsCharacterDamage *, const Game::SettingsCharacterDisguise *, const Game::SettingsCharacterDefaultCam *, const Game::SettingsCharacterFollowCam *, const Game::SettingsCharacterShoulderCam *, unsigned int, unsigned int, ApeRGBA, bool, unsigned int, const char *, bool, bool, bool, unsigned int, float, float, unsigned char, float, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+static void Game::EntityDefCharacter::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsCharacter &, Game::SettingsCharacterMove &, Game::SettingsCharacterDamage &, Game::SettingsCharacterDefaultCam &, Game::SettingsCharacterFollowCam &, Game::SettingsCharacterShoulderCam &, Game::SettingsCharacterDisguise &)
+void Game::EntityCharacter::InitAimObjects()
+hkaAnimationBinding *Game::EntityCharacter::AnimFindDef(unsigned int)
+hkaAnimationBinding *Game::EntityCharacter::AnimFindDef(const char *)
+bool Game::EntityCharacter::State1HandlerGroundTakedown(Game::StateHandlerParams &)
+bool Game::EntityCharacter::State1HandlerAirPounce(Game::StateHandlerParams &)
+Cbool Game::EntityCharacter::State1HandlerClimbTrack(Game::StateHandlerParams &)
+bool Game::EntityCharacter::State1HandlerClimbPreJump(Game::StateHandlerParams &)
+HCGame::EntityDefSpark::EntityDefSpark(const Game::EntityDefParamsSpark &)
+static void Game::EntityDefSpark::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsSpark &)
+Game::EntityDefAlterEgo::EntityDefAlterEgo(const Game::EntityDefParamsAlterEgo &)
+static void Game::EntityDefAlterEgo::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsAlterEgo &)
+void Game::PowerupOrbitalPod::Update(Game::EntityAlterEgo *, float)
+Game::EntityDefAlterEgoEnemy::EntityDefAlterEgoEnemy(const Game::EntityDefParamsAlterEgoEnemy &)
+static void Game::EntityDefAlterEgoEnemy::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsAlterEgoEnemy &)
+Game::EntityDefSystemCracker::EntityDefSystemCracker(const Game::EntityDefParamsSystemCracker &)
+static void Game::EntityDefSystemCracker::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsSystemCracker &)
+Game::EntityDefSystemCrackerDrone::EntityDefSystemCrackerDrone(const Game::EntityDefParamsSystemCrackerDrone &)
+static void Game::EntityDefSystemCrackerDrone::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsSystemCrackerDrone &)
+Game::EntityDefParamsDamageable::EntityDefParamsDamageable(const char *, const char *, const char *, bool, bool, bool, unsigned int, float, float, unsigned char, float, unsigned int, unsigned int, bool, unsigned int, const float *, float, unsigned int, unsigned int, bool, bool, bool, bool, bool, bool)
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeSplineDef]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::EntityPushBlock *]
+static void Game::EntityDefBreakableChain::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsBreakableChain &)
+static Game::EntityDefSpawnParams *Game::EntityDefBreakableChainSpawnParams::ParseXML(const TiXmlDocument &, TiXmlElement *, const char *, const Game::EntityDefBreakableChain *)
+Game::EntityChain::EntityChain(const Game::EntityParamsChain &)
+static void Game::EntityDefChain::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsChain &)
+static void Game::EntityDefDamageChainMover::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsDamageChainMover &)
+static void Game::EntityDefDamageMover::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsDamageMover &)
+static void Game::EntityDefDispenser::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsDispenser &)
+static void Game::EntityDefGadget::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsGadget &)
+static void Game::EntityDefRoller::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsRoller &)
+static void Game::EntityDefPullHook::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsPullHook &)
+Game::EntityDefPushBlock::EntityDefPushBlock(const Game::EntityDefParamsPushBlock &)
+static void Game::EntityDefPushBlock::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsPushBlock &)
+Game::EntityPushBlock::EntityPushBlock(const Game::EntityParamsPushBlock &)
+static void Game::EntityDefPushBlockSpawnParams::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, Game::EntityDefPushBlockSpawnParams *)
+Game::EntityDefRope::EntityDefRope(const Game::EntityDefParamsRope &)
+static void Game::EntityDefRope::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsRope &)
+static Game::EntityDef *Game::EntityDefSpringboard::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *)
+static void Game::GadgetDefDamageSwitch::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::GadgetDefParamsDamageSwitch &)
+static void Game::GadgetDefPressSwitch::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::GadgetDefParamsPressSwitch &)
+static void Game::GadgetDefPressDeactivate::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::GadgetDefParamsPressDeactivate &)
+static void Game::GadgetDefTriggerDamage::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::GadgetDefParamsTriggerDamage &)
+Game::GadgetTriggerDamage::GadgetTriggerDamage(const Game::GadgetParamsTriggerDamage &)
+static void Game::GadgetDefTriggerDamageSpawnParams::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, Game::GadgetDefTriggerDamageSpawnParams *)
+static void Game::GadgetDefTriggerWind::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::GadgetDefParamsTriggerWind &)
+Game::GadgetTriggerWind::GadgetTriggerWind(const Game::GadgetParamsTriggerWind &)
+static void Game::GadgetDefTurret::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::GadgetDefParamsTurret &)
+static void Game::GadgetDefSentryLight::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::GadgetDefParamsSentryLight &)
+bool Game::GadgetSentryLight::MoveToNextSeqPt(bool)
+static void Game::GadgetSentryLight::CreateSentryLightCb(const ApeSetting *, unsigned int)
+void Game::GadgetSentryLight::SetSplineInst(ApeSplineInstance *)
+static void Game::GadgetDefRadiusActivate::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::GadgetDefParamsRadiusActivate &)
+Game::EntityDefParamsDamageable::EntityDefParamsDamageable(const char *, const char *, const char *, bool, bool, bool, unsigned int, float, float, unsigned char, float, unsigned int, unsigned int, bool, unsigned int, const float *, float, unsigned int, unsigned int, bool, bool, bool, bool, bool, bool)
+static void Game::EntityDefInputMover::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsInputMover &)
+static void Game::EntityDefKiosk::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsKiosk &)
+static void Game::EntityDefPlayerTurret::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsPlayerTurret &)
+static void Game::EntityDefSafe::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsSafe &)
+static void Game::EntityDefSpotlight::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsSpotlight &)
+static void Game::EntityDefTeleporter::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsTeleporter &)
+Game::EntityTeleporter::EntityTeleporter(const Game::EntityParamsTeleporter &)
+static void Game::EntityTeleporter::CreateTeleporterCb(const ApeSetting *, unsigned int)
+Game::EntityTgtRange::EntityTgtRange(const Game::EntityParamsTgtRange &)
+static void Game::EntityDefTgtRange::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsTgtRange &)
+void Game::EntityTgtRange::SetTgtRangeActiveEntity(Game::Entity *)
+void Game::EntityTgtRange::CheckDisguisePrompt()
+bool Game::EntityTgtRange::TargetingTest(Game::Entity *, unsigned int, float &)
+void Game::EntityTgtRange::SetAimReticleEnabled(bool, bool)
+void Game::EntityTgtRange::SpawnArrowInHand()
+bool Game::EntityTgtRange::StateHandler(Game::StateHandlerParams &)
+void Game::EntityTimedSteal::SpawnStealEntity()
+bool Game::EntityTimedSteal::OnStateUpdate(Game::StateHandlerParams &)
+Game::EntityDefParamsDamageable::EntityDefParamsDamageable(const char *, const char *, const char *, bool, bool, bool, unsigned int, float, float, unsigned char, float, unsigned int, unsigned int, bool, unsigned int, const float *, float, unsigned int, unsigned int, bool, bool, bool, bool, bool, bool)
+Game::EntityDefParamsItem::EntityDefParamsItem(const char *, const char *, const char *, const char *, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, unsigned int, const unsigned char *, bool, bool, bool, bool, bool, bool, bool, bool, bool, bool, bool, bool, bool, unsigned int, float, float, unsigned char, const AVec3 &, const AVec3 &)
+Game::EntityDefItem::EntityDefItem(const Game::EntityDefParamsItem &)
+static void Game::EntityDefItem::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsItem &)
+static Game::EntityDef *Game::EntityDefItemCollect::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *)
+static void Game::EntityDefBentleyRemote::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsBentleyRemote &)
+static Game::EntityDef *Game::EntityDefMarker::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::Entity *]
+static void Game::EntityDefTrigger::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsTrigger &)
+Game::EntityTriggerBase::EntityTriggerBase(const Game::EntityParamsTrigger &, unsigned int, bool)
+void Game::EntityTriggerBase::SetPhantom(hkpPhantom *)
+bool Game::EntityTriggerBase::OnEnter(Game::Entity *)
+   ProcessDeferredQueue::Add(%s)(%s)(%u)
+   ProcessDeferredQueue::Remove(%s)(%s)(%u)
+Game::EntityTriggerAmbientSound::EntityTriggerAmbientSound(const Game::EntityParamsTriggerAmbientSound &)
+Game::Entity *Game::EntityDefTriggerAmbientSound::Spawn(const Game::EntityDefSpawnParams &)
+static void Game::EntityDefTriggerAlert::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsTriggerAlert &)
+Game::Entity *Game::EntityDefTriggerAlert::Spawn(const Game::EntityDefSpawnParams &)
+Game::Entity *Game::EntityDefTriggerSoundZone::Spawn(const Game::EntityDefSpawnParams &)
+Game::EntityTriggerCamera::EntityTriggerCamera(const Game::EntityParamsTriggerCamera &)
+Game::Entity *Game::EntityDefTriggerCamera::Spawn(const Game::EntityDefSpawnParams &)
+void Game::EntityTriggerCamera::Activate(Game::Entity *)
+Game::Entity *Game::EntityDefTriggerCameraBehavior::Spawn(const Game::EntityDefSpawnParams &)
+Game::Entity *Game::EntityDefTriggerCrawl::Spawn(const Game::EntityDefSpawnParams &)
+Game::Entity *Game::EntityDefTriggerDamage::Spawn(const Game::EntityDefSpawnParams &)
+Game::Entity *Game::EntityDefTriggerDeath::Spawn(const Game::EntityDefSpawnParams &)
+Game::Entity *Game::EntityDefTriggerFiltered::Spawn(const Game::EntityDefSpawnParams &)
+static void Game::EntityDefTriggerFX::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsTriggerFX &)
+Game::Entity *Game::EntityDefTriggerFX::Spawn(const Game::EntityDefSpawnParams &)
+static void Game::EntityDefTriggerFXSpawnParams::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, Game::EntityDefTriggerFXSpawnParams *)
+Game::Entity *Game::EntityDefTriggerJob::Spawn(const Game::EntityDefSpawnParams &)
+Game::EntityTriggerJumpDir::EntityTriggerJumpDir(const Game::EntityParamsTriggerJumpDir &)
+Game::Entity *Game::EntityDefTriggerJumpDir::Spawn(const Game::EntityDefSpawnParams &)
+static void Game::EntityDefTriggerPushBlock::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsTriggerPushBlock &)
+Game::Entity *Game::EntityDefTriggerPushBlock::Spawn(const Game::EntityDefSpawnParams &)
+Game::Entity *Game::EntityDefTriggerTimeScale::Spawn(const Game::EntityDefSpawnParams &)
+static void Game::EntityDefTriggerWeather::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsTriggerWeather &)
+Game::Entity *Game::EntityDefTriggerWeather::Spawn(const Game::EntityDefSpawnParams &)
+static void Game::EntityDefTriggerWind::ParseWindType(TiXmlElement *, Game::eWIND_TYPE &)
+static void Game::EntityDefTriggerWind::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsTriggerWind &)
+Game::Entity *Game::EntityDefTriggerWind::Spawn(const Game::EntityDefSpawnParams &)
+static void Game::EntityDefTriggerUpdateEnable::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsTriggerUpdateEnable &)
+Game::Entity *Game::EntityDefTriggerUpdateEnable::Spawn(const Game::EntityDefSpawnParams &)
+Game::Entity *Game::EntityDefTriggerSmoke::Spawn(const Game::EntityDefSpawnParams &)
+Game::EntityDefParamsDamageable::EntityDefParamsDamageable(const char *, const char *, const char *, bool, bool, bool, unsigned int, float, float, unsigned char, float, unsigned int, unsigned int, bool, unsigned int, const float *, float, unsigned int, unsigned int, bool, bool, bool, bool, bool, bool)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = const Game::WheeledVehicleParams_Wheel *]
+static void Game::EntityDefVehicle::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsVehicle &)
+void Game::WheeledVehicleParams_Chassis::ParseXML(const TiXmlDocument &, TiXmlElement *)
+void Game::WheeledVehicleParams_Disguise::CacheDisguiseDef()
+WheeledVehicleParams_Disguise::CacheDisguiseDef: Disguise Def is not found or is not of type EntityDefWheeledVehicle: '%s'!
+Game::EntityDefWheeledVehicle::EntityDefWheeledVehicle(const Game::EntityDefParamsWheeledVehicle &)
+static void Game::EntityDefWheeledVehicle::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsWheeledVehicle &)
+void Game::EntityDefWheeledVehicle::CacheColObjects(unsigned int)
+Game::EntityWheeledVehicle::EntityWheeledVehicle(const Game::EntityParamsWheeledVehicle &)
+static void Game::EntityDefHoverVehicle::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsHoverVehicle &)
+Game::EntityHoverVehicle::EntityHoverVehicle(const Game::EntityParamsHoverVehicle &)
+void Game::EntityDefHoverVehicle::CacheColObjects(unsigned int)
+static void Game::EntityDefSimpleWheeledVehicle::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsSimpleWheeledVehicle &)
+void Game::EntityDefSimpleWheeledVehicle::CacheColObjects(unsigned int)
+void Game::EntitySimpleWheeledVehicle::InitPhysics()
+Game::CombatParamsAttack::CombatParamsAttack(const char *)
+Game::CombatParamsReaction::CombatParamsReaction(const char *)
+static Game::CombatAttack *Game::EntityCompCombat::FindAttack(unsigned int, bool)
+static Game::CombatReaction *Game::EntityCompCombat::FindReaction(unsigned int, bool)
+void Game::EntityCharacter::SetAbilBlocked(unsigned int, bool)
+Game::ShootingParamsAttack::ShootingParamsAttack(const char *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, float, float, float, unsigned int)
+static Game::ShootingAttack *Game::EntityCompShooting::FindAttack(unsigned int, bool)
+bool Game::EpisodeManager::IsValidEpisode(unsigned int) const
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::EntityCompCInfo *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::EntityComp *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::CombatAttack *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::CombatReaction *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = unsigned int]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = bool]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::ShootingAttack *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::AnimMapData *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::JointTwoSolver *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::JointThreeSolver *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::LookAtSolver *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::FootIKSolver *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::InventoryGroupDef *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::InventoryGroupInstDef *]
+static Game::EntityCompCInfo *Game::EntityCompCInfo::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+Game::MCMonster::MCMonster(Game::EntityCompMonsterCloset *, const Game::MCMonsterParams &)
+Game::EntityCompBallRoll::EntityCompBallRoll(const Game::EntityCompCInfoBallRoll &)
+Game::EntityCompShooting::EntityCompShooting(const Game::EntityCompCInfoShooting &)
+void Game::EntityCompWheelchair::RemoteSetType(unsigned int)
+Game::EntityCompWheelchair::EntityCompWheelchair(const Game::EntityCompCInfoWheelchair &)
+Game::HudSimpleObj *Game::EntityCompOffscreenMarker::CreateSimpleHudObj(unsigned int)
+Game::EntityCompInteract::EntityCompInteract(const Game::EntityCompCInfoInteract &)
+Game::EntityCompBinocucom::EntityCompBinocucom(const Game::EntityCompCInfoBinocucom &)
+Game::EntityCompRadar::EntityCompRadar(const Game::EntityCompCInfoRadar &)
+bool Game::EntityCompFX::FindDef(unsigned int, unsigned int, ApeGeomDef *&)
+void Game::EntityCompCustomModel::Refresh()
+Game::EntityCompWeapon::EntityCompWeapon(const Game::EntityCompCInfoWeapon &)
+Game::EntityCompProcAnim::EntityCompProcAnim(const Game::EntityCompCInfoProcAnim &)
+ApeObj *Game::EntityCompContextualMarker::CreateGeomInst(unsigned int)
+EntityCompContextualMarker::CreateGeomInst: Can't find a geom instance/def named '%s'!
+static Game::InventoryGroupDef *Game::InventoryGroupDef::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::InventoryGroupInstDef *Game::InventoryGroupInstDef::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoInventory::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static unsigned char Game::EntityCompInventory::SystemLoad(const char *, unsigned char)
+bool Game::EntityCompInventory::SpawnCurrentItem(Game::Entity *, bool)
+unsigned int Game::EntityCompPhysics::UpdateSupport(float)
+AVec3 Game::EntityCompPhysics::GetContactPos() const
+static Game::EntityCompCInfo *Game::EntityCompCInfoPhysics::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+bcstatic Game::EntityCompCInfo *Game::EntityCompCInfoTargeting::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::CombatAttack *Game::CombatAttack::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::CombatReaction *Game::CombatReaction::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoCombat::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static unsigned char Game::EntityCompCombat::SystemLoad(const char *, unsigned char)
+bool Game::EntityCompAnim::AnimPlayClip(unsigned int, unsigned int, bool, float, float, unsigned int, unsigned int, float, float, unsigned int, int)
+void Game::EntityCompCombat::Update(float)
+void Game::EntityCompControlPlayer::EnableButton(unsigned int, bool)
+static Game::EntityCompCInfo *Game::EntityCompCInfoControlAI::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoControlAESpline::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoProcAnim::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoProcEyes::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoAnimMap::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+void Game::AnimMapData::Cache()
+static Game::AnimMapData *Game::AnimMapData::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static unsigned char Game::EntityCompAnimMap::SystemLoad(const char *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoProjector::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+bool Game::EntityCompProjector::ConeIntersectSphere(const ApeSphere &)
+static Game::EntityCompCInfo *Game::EntityCompCInfoCustomModel::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoFacePlayer::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoFX::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoIK::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+EntityCompCInfo::ParseXML maximum 'JointTwoSolver' elements reached (%d), remaining solvers will not be added unless maximum is increased.
+EntityCompCInfo::ParseXML maximum 'JointThreeSolver' elements reached (%d), remaining solvers will not be added unless maximum is increased.
+EntityCompCInfo::ParseXML maximum 'FootSolvers' elements reached (%d), remaining solvers will not be added unless maximum is increased.
+static Game::JointTwoSolver *Game::JointTwoSolver::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::JointThreeSolver *Game::JointThreeSolver::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static unsigned char Game::EntityCompIK::SystemLoad(const char *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoWeapon::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoAnim::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static unsigned char Game::EntityCompAnim::SystemLoad(const char *, unsigned char)
+bool Game::EntityCompAnim::AnimPlayClipAdditive(unsigned int, unsigned int, bool, float)
+ApeDataHandle Game::EntityCompAnim::PlaySound(Game::ReferencedSoundHeader *, Game::PlaySoundParams *, unsigned int)
+static Game::EntityCompCInfo *Game::EntityCompCInfoBinocucom::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoBuoyancy::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static unsigned char Game::EntityCompBuoyancy::SystemLoad(const char *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoJumpRope::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static unsigned char Game::EntityCompJumpRope::SystemLoad(const char *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoVortex::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoSystemCracker::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoScoring::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoMagnet::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoMonsterCloset::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoSpeedBoost::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+void Game::EntityCompInteract::SetLifetimeScript(unsigned int)
+static Game::EntityCompCInfo *Game::EntityCompCInfoReceptacle::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoMover::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoSimplePhysics::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoWheelchair::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+void Game::EntityCompWheelchair::Update(float)
+static Game::ShootingAttack *Game::ShootingAttack::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoShooting::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static unsigned char Game::EntityCompShooting::SystemLoad(const char *, unsigned char)
+void Game::EntityCompShooting::Weapon::Fire_Internal()
+static Game::EntityCompCInfo *Game::EntityCompCInfoWallClimb::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+static Game::EntityCompCInfo *Game::EntityCompCInfoBallRoll::ParseXML(const TiXmlDocument &, TiXmlElement *, unsigned char)
+bool Game::EpisodeManager::IsValidEpisode(unsigned int) const
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = const Game::TreasureInfo *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = const Game::MaskInfo *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = const Game::SafeTreasureInfo *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = const Game::CostumeDoorInfo *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = const Game::MovieSubtitleDef *]
+bool Game::Job::ParseGoals()
+void Game::EpisodeManager::LoadEpisodeFile(const char *, unsigned char &, unsigned char &, unsigned char &, bool)
+void Game::EpisodeManager::LoadMasterEpisodesFile(const char *)
+SubtitleDef::movieFile '%s' already added.  Must be unique
+SubtitleDef::movieFile must be set.
+MovieUnlockable::movieFile '%s' already added.  Must be unique
+void Game::EpisodeManager::SpawnMask(Game::Spawner *, unsigned short *)
+void Game::EpisodeManager::PostPlayerSpawn()
+void Game::EpisodeManager::SpawnTreasure(Game::Spawner *, unsigned short *, bool)
+bool Game::EpisodeManager::IsGoalInAssociatedLevel(const Game::GameGoal *) const
+void Game::EpisodeManager::SetMovieUnlocked(unsigned int)
+bool Game::EpisodeManager::GetMovieUnlocked(unsigned int)
+void Game::EpisodeManager::GoalsUpdate(float)
+void Game::EpisodeManager::OnMaskCollected(Game::Entity *)
+void Game::EpisodeManager::OnTreasureCollected(Game::EntityItemCollect *, Game::Entity *)
+bool Game::EpisodeManager::IsMaskAvailable(Game::Spawner *, unsigned int)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::FileGroup *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = bool (*)(unsigned int, const char *, void *, unsigned long long, void *)]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::FileReaderBase *(*)()]
+unsigned int Game::FileReader::Update(bool)
+FileReader::Load error during File::GetSize operation (%s)
+FileReader::Load error during File::Read operation (%s)
+void Game::FileReader::Load()
+FileReader::Load unable to locate file (%s)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = float, T = unsigned int]
+ApeDataHandle ApeFixedList<lType>::_RemoveElementAt(ApeDataHandle, bool) [with lType = Game::FXListEntry]
+ApeDataHandle ApeFixedList<lType>::_InsertElementInRearOf(ApeDataHandle, bool) [with lType = Game::FXListEntry]
+Game::FXAnimControlGeoDisplay::FXAnimControlGeoDisplay(const Game::FXCtorParams &)
+Game::FXDelay::FXDelay(const Game::FXCtorParams &)
+void Game::FXLensFlare::Initialize(const AVec3 &, float, float, float)
+static void Game::FXSpotlight::SystemInit()
+void Game::FXManager::SetCameraShake(const Game::FXCameraShake &)
+Game::EntityDefParamsDamageable::EntityDefParamsDamageable(const char *, const char *, const char *, bool, bool, bool, unsigned int, float, float, unsigned char, float, unsigned int, unsigned int, bool, unsigned int, const float *, float, unsigned int, unsigned int, bool, bool, bool, bool, bool, bool)
+void Game::EntityCharacter::SetAbilBlocked(unsigned int, bool)
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglMaterial]
+Game::EntityDragonBoss::EntityDragonBoss(const Game::EntityParamsDragonBoss &)
+void Game::DragonThread::ParseXML(TiXmlElement *)
+void Game::DragonThreadCollection::ParseXML(TiXmlElement *)
+void Game::DragonBehavior::ParseXML(TiXmlElement *)
+static void Game::EntityDefDragonBoss::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsDragonBoss &)
+void Game::EntityDragonBoss::SetMarkerVisible(bool, Game::DragonBodyPart *)
+void Game::DragonAttackFlame::Start()
+void Game::EntityDragonBoss::NotifyStun(Game::DragonBodyPart *)
+void Game::DragonAttackFlame::PlayHitScriptInst()
+void Game::DragonAttackHoming::Update(float)
+void Game::EntityDragonBoss::CalcBoneMtx(unsigned int, AMtx &)
+void Game::DragonAttackHoming::SpawnProjectile(Game::DragonAttackHoming::HOMING_MISSILE_TYPE)
+void Game::DragonThread::Update(float)
+void Game::DragonThreadCollection::Start()
+bool Game::DragonThreadCommandAttack::Start(Game::DragonBodyPart *)
+void Game::EntityDragonBoss::DoBehaviorLogic(float)
+void Game::EntityDragonBoss::ProcessEvent(Game::Event *)
+void Game::EntityDragonBoss::EnableContextualHelp_Shoot(bool)
+float Game::EntityDragonBoss::GetSpeedMultiplier()
+static void Game::EntityDragonBoss::SetSpawnerObj(ApeAnimScriptInstance *, unsigned int, Game::Spawner *)
+void Game::MegaKnightStampOffset::ParseXML(TiXmlElement *)
+void Game::MegaKnightBehaviorDef::ParseXML(TiXmlElement *)
+void Game::MegaKnightStampDef::ParseXML(TiXmlElement *)
+Game::MegaKnightLaserBeam::MegaKnightLaserBeam(Game::EntityMegaKnight *)
+void Game::FloorRippleEntity::Init(Game::EntityMegaKnight *, unsigned int)
+void Game::MegaKnightShoulder::Init(unsigned int, unsigned int)
+void Game::MegaKnightAction::AddStateHash(const char *)
+void Game::MegaKnightAction::SetLifetimeScript(unsigned int)
+Game::MegaKnightRopeAttached::MegaKnightRopeAttached(Game::EntityMegaKnight *)
+Game::MegaKnightMissileAttack::MegaKnightMissileAttack(Game::EntityMegaKnight *)
+void Game::MegaKnightCameraBehavior::SetData(const Game::MegaKnightCameraBehaviorData *, float, bool)
+Game::EntityMegaKnight::EntityMegaKnight(const Game::EntityParamsMegaKnight &)
+static void Game::EntityDefMegaKnight::ParseXMLParams(const TiXmlDocument &, TiXmlElement *, const Game::EntityDefParams &, Game::EntityDef *, Game::EntityDefParamsMegaKnight &)
+Game::Entity *Game::EntityMegaKnight::SpawnBossEntity(unsigned int, const AMtx &)
+void Game::EntityMegaKnight::SpawnBabyDragon(const AVec3 &)
+void Game::MegaKnightMissile::SpawnReticle(const AVec3 &)
+void Game::EntityMegaKnight::SetArrowBucketEnabled(Game::eMegaKnightTargetPosition, bool)
+Game::MegaKnightAction *Game::EntityMegaKnight::GetAction(unsigned int)
+void Game::EntityMegaKnight::DealDamageToPlayer(float, unsigned int, float, float, const AVec3 &)
+bool Game::StampAttack::Update(float)
+void Game::MegaKnightMissileAttack::RequestStamp(const Game::MegaKnightStampDef *, float, float, const Game::MegaKnightMissileSpawnParams &, const AMtx &, bool)
+void Game::EntityMegaKnight::AddGoalMarker(Game::Entity *, const AVec3 &)
+float Game::FloorRippleEntity::CollideWithFloor(Game::Entity *)
+void Game::EntityMegaKnight::SetAction(unsigned int)
+void Game::EntityMegaKnight::CalcBoneMtx(unsigned int, AMtx &)
+bool Game::EntityMegaKnight::IsRopeAttached(Game::eMegaKnightTargetPosition)
+void Game::EntityMegaKnight::SetCurCamBehavior(unsigned int, float, bool)
+void Game::EntityMegaKnight::SetIdle(float)
+void Game::MegaKnightGroundSmash::SetSequenceStr(const char *)
+Game::eMegaKnightActionType Game::EntityMegaKnight::ChooseNextAction()
+void Game::EntityMegaKnight::LockAction(unsigned int)
+void Game::EntityMegaKnight::NotifyTargetHit(Game::eMegaKnightTargetPosition)
+void Game::EntityMegaKnight::NotifyAimAttempt(Game::eMegaKnightTargetPosition, bool)
+void Game::EntityMegaKnight::SetShoulderVisible(Game::eMegaKnightTargetPosition, bool)
+void Game::EntityMegaKnight::ProcessEvent(Game::Event *)
+void Game::EntityMegaKnight::SetForceFieldEnabled(Game::eMegaKnightTargetPosition, bool, bool)
+void Game::EntityMegaKnight::KillBodyPart(Game::eMegaKnightTargetPosition)
+Game::Entity *Game::EntityMegaKnight::SpawnBossEntity(unsigned int, unsigned int)
+void Game::EntityMegaKnight::AutoPlayScript(unsigned int)
+bool Game::EntityMegaKnight::IsForceFieldEnabled(Game::eMegaKnightTargetPosition)
+Game::MegaKnightShoulder &Game::EntityMegaKnight::GetShoulder(Game::eMegaKnightTargetPosition)
+Game::EntityTgtRange *Game::EntityMegaKnight::GetArrowBucket(Game::eMegaKnightTargetPosition) const
+Game::Entity *Game::EntityMegaKnight::GetTrampoline(Game::eMegaKnightTargetPosition) const
+signed int Game::EntityMegaKnight::GetTargetBoneMtx(Game::eMegaKnightTargetPosition) const
+void Game::MegaKnightAction::SetScriptState(unsigned int)
+bool Game::MegaKnightIdle::DoUpdate(float)
+void Game::MegaKnightLaserAction::Begin()
+bool Game::MegaKnightLaserAction::DoUpdate(float)
+MegaKnightLaserAction::Invalid state.
+bool Game::MegaKnightLaserQuick::DoUpdate(float)
+MegaKnightLaserQuick::Invalid state.
+bool Game::MegaKnightBlockShot::DoUpdate(float)
+MegaKnightBlockShot::Invalid state.
+void Game::MegaKnightMonitorPlatform::Begin()
+bool Game::MegaKnightMonitorPlatform::DoUpdate(float)
+bool Game::MegaKnightShootPlatform::DoUpdate(float)
+void Game::MegaKnightRopeAttached::Begin()
+bool Game::MegaKnightRopeAttached::DoUpdate(float)
+void Game::MegaKnightGroundSmash::Begin()
+bool Game::MegaKnightGroundSmash::DoUpdate(float)
+bool Game::MegaKnightShoulderHit::DoUpdate(float)
+void Game::MegaKnightStruggle::Begin()
+bool Game::MegaKnightStruggle::DoUpdate(float)
+void Game::MegaKnightTargetHit::Begin()
+bool Game::MegaKnightTargetHit::DoUpdate(float)
+void Game::MegaKnightTowerShake::Begin()
+bool Game::MegaKnightTowerShake::DoUpdate(float)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::LSLayerInst *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::LSSetInst *]
+void Game::LSGroupInst::Initialize()
+void Game::LSSetInst::Initialize(ApeTBinMap<unsigned int, Game::LSLayerInst *> &)
+void Game::LevelScroller::Initialize()
+void Game::LevelScroller::ProcessTransitionSet(bool)
+void Game::LevelScroller::FillSlotsForLayer(Game::LSLayerInst *, signed int, bool)
+LevelScroller::Update: Set '%s' couldn't be found
+void Game::GoalObject::Link(bool)
+static bool Game::GameGoalSetBase::ParseGoalSetParams(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &, Game::GameGoalSetParams &)
+static void Game::GameGoal::AddNewGoalScriptToGroup(const TiXmlDocument &, const char *, Game::GoalScriptGroup (&)[Game::EGoalScriptType_NUM], Game::EGoalScriptType, unsigned int, const ApeTArray<Game::DirScriptVarParam> *, bool, bool)
+static Game::GameGoal *Game::GameGoal::ParseXML(Game::GameMgr &, Game::Player &, const TiXmlDocument &, TiXmlElement *, unsigned int)
+static unsigned int Game::GameGoal::ParseUniqueHash(const char *)
+void Game::GameGoalSetBase::PickBestTargetEntities(ApeTArray<Game::TargetEntityInfo> &, ApeTArray<Game::TargetEntityInfo> &) const
+void Game::EntityCharacter::SetAbilBlocked(unsigned int, bool)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::QTEGameRewardSeqParams *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::QTEGameComboParams *]
+static Game::GameGoal *Game::GameGoalBartenderGame::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+void Game::GameGoalBinocucomPhoto::SetState(Game::GameGoal::EState, bool)
+void Game::GameGoalBinocucomPhoto::AddEntityInfo(const Game::GameGoalEntityBinocucomInfo &)
+static Game::GameGoal *Game::GameGoalBinocucomPhoto::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+static Game::GameGoal *Game::GameGoalBinocucomRecord::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+static Game::GameGoal *Game::GameGoalCostume::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+static Game::GameGoal *Game::GameGoalEntityChild::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+static Game::GameGoal *Game::GameGoalEntityInteractive::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+static Game::GameGoal *Game::GameGoalFollow::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+void Game::GameGoalOperationMouseTrap::SetMTState(Game::MouseTrapState, bool)
+static unsigned int Game::GameGoalOperationMouseTrap::QueryNameHash(unsigned int, TiXmlElement *)
+void Game::GameGoalOperationMouseTrap::SpawnFireBulb(bool)
+void Game::GameGoalOperationMouseTrap::AddEntityToList(ApeTArray<Game::Entity *> &, unsigned int)
+void Game::GameGoalOperationMouseTrap::DoUpdate(float)
+void Game::GameGoalPenguinSqueeze::TeleportPenguins()
+static Game::GameGoal *Game::GameGoalQTEGame::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+void Game::ShootingGalleryGroupParams::ParseXML(TiXmlElement *)
+void Game::ShootingGalleryCmd::ParseXml(TiXmlElement *)
+void Game::ShootingGalleryMonsterCloset::Activate(Game::Spawner *)
+void Game::ShootingGallerySpawnerGroup::DeactivateCloset(Game::ShootingGalleryMonsterCloset *)
+void Game::ShootingGallerySpawnerGroup::SetState(Game::eSGSpawnerGroupState)
+void Game::ShootingGallerySpawnerGroup::Init()
+void Game::ShootingGallerySpawnerGroup::Update(float)
+void Game::ShootingGallerySpawnerGroup::OnSpawnerDeathCB(Game::Spawner *, bool)
+void Game::GameGoalShootingGallery::ParseXML(TiXmlElement *)
+Game::GameGoal::EState Game::GameGoalShootingGallery::Update(unsigned int, const Game::ScoreEvent &)
+static Game::GameGoal *Game::GameGoalScoreOp::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+static Game::GameGoal *Game::GameGoalInput::ParseXML(const TiXmlDocument &, TiXmlElement *, const Game::GameGoalParams &)
+Game::GameGoal::EState Game::GameGoalInput::Update(unsigned int, const Game::ScoreEvent &)
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeGeomInstance]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = hkpRigidBody *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = int, T = float]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = hkaSkeleton *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = hkaAnimationBinding *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = hkaSkeletonMapper *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Havok::AnimTree *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Havok::AnimChannelMap *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Havok::AnimBlendMap *]
+=bool Havok::HavokWorld::Load(const char *, hkResource *, unsigned int, bool)
+bool Havok::HavokWorld::Load(const char *, bool)
+bool Havok::HavokWorld::LoadRigidBodies(hkArray<hkpRigidBody *, hkContainerHeapAllocator> &, const char *)
+static Havok::AnimTree *Havok::AnimTree::ParseXML(const TiXmlDocument &, TiXmlElement *)
+static Havok::AnimBlendMap *Havok::AnimBlendMap::ParseXML(const TiXmlDocument &, TiXmlElement *)
+static Havok::AnimChannelMap *Havok::AnimChannelMap::ParseXML(const TiXmlDocument &, TiXmlElement *)
+static bool Havok::HavokAnimationMgr::LoadAnimation(unsigned int, const char *, hkResource *, unsigned long long, void *)
+static bool Havok::HavokAnimationMgr::LoadAnimation(const char *, unsigned int)
+static bool Havok::HavokAnimationMgr::LoadSkeleton(const char *, unsigned int, hkResource *, unsigned int)
+static bool Havok::HavokAnimationMgr::LoadSkeleton(const char *, unsigned int)
+static bool Havok::HavokAnimationMgr::LoadSkelMap(const char *, unsigned int, hkResource *, unsigned int)
+static bool Havok::HavokAnimationMgr::LoadSkelMap(const char *, unsigned int)
+static Havok::ApeHkSkeletonMap *Havok::HavokAnimationMgr::ApeHkSkelMapCreate(unsigned int, const ApeSkeletonDef *)
+static bool Havok::HavokAnimationMgr::AnimIFFCBContainer(IFF::CReader &, void *)
+void Havok::HavokAnimController::SetSkeleton(unsigned int, bool, bool)
+void Havok::HavokAnimNode::PlayAnim(hkaAnimationBinding *, bool, float, float, float, unsigned int, unsigned int)
+Havok::HavokAnimNode *Havok::HavokAnimController::PlayAnim(hkaAnimationBinding *, bool, float, float, float, unsigned int, unsigned int, unsigned int)
+HavokAnimController::PlayAnim: Couldn't find skeleton(hkSkeletonName: '%s') for Entity: '%s' please double check the naming in the entities.xml and levels.xml for this entity!
+void Havok::HavokAnimController::AddFootSolver(const char *, const char *, const char *, const char *, const AVec3 &, const AVec3 &, float, float, float, float, float, float, float, float, hkpAabbPhantom *)
+bool Game::EpisodeManager::IsValidEpisode(unsigned int) const
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::HudBaseObj *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::HudBinocucomCharacterDef *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::HudBaseParams *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::HudFreezeScreen *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglMaterial]
+Game::HudMap::HudMap(const Game::HudMapParams &)
+HudMap::Can't find render target.  Menu BG will render funny.
+Game::HudMenu::HudMenu(const Game::HudMenuParams &)
+HudMenu::Can't find render target.  Menu BG will render funny.
+void Game::HudBaseObj::SetupScripts()
+static void Game::HudBaseParams::ParseXMLParams(Game::HudBaseParams &, const TiXmlDocument &, TiXmlElement *)
+HudMgr::Unable to create hud base object %s because geometry3D instance '%s' was not found
+static Game::HudSimpleObjParams *Game::HudSimpleObjParams::ParseXMLParams(Game::HudSimpleObjParams &, const TiXmlDocument &, TiXmlElement *)
+static Game::HudMapParams *Game::HudMapParams::ParseXMLParams(Game::HudMapParams &, const TiXmlDocument &, TiXmlElement *)
+static Game::HudDeathWipeParams *Game::HudDeathWipeParams::ParseXMLParams(const TiXmlDocument &, TiXmlElement *)
+static Game::HudSimpleObj *Game::HudMgr::CloneHudSimpleObj(unsigned int, unsigned int)
+static void Game::HudMgr::StartEntityHealthMeter(Game::EntityDamageable *, unsigned int)
+HudMgr::StartEntityHealthMeter entity already has a health meter (%s)
+void Game::HudWheel::Update(float)
+void Game::KLEntryHeader::SetError(const char *)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = signed short]
+ApeDataHandle ApeFixedList<lType>::_RemoveElementAt(ApeDataHandle, bool) [with lType = Game::KnowledgeListSlotElement]
+ApeDataHandle ApeFixedList<lType>::_InsertElementInRearOf(ApeDataHandle, bool) [with lType = Game::KnowledgeListSlotElement]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::KnowledgeList *]
+void Game::KParamData::SetString(const char *, unsigned int)
+void Game::KParamData::InitialDataFromXML(const TiXmlElement *, const ApeDTDStructure *)
+void Game::CauseInstBaseData::SetError(const char *)
+void Game::ResultInstBaseData::SetError(const char *)
+void Game::KLEntryResultContainer::SetError(const char *)
+bool Game::ExecutionList::AppendResult(signed short, Game::KLEntryHeader *)
+signed short Game::KScriptDataManager::AllocateKDataBlock(void *, Game::KDataBlockOwnerType, unsigned int)
+bool Game::ResultList::AppendResult(signed short)
+signed short Game::KFuncMap::LoadResultParamFromXML(void *, Game::KDataBlockOwnerType, Game::KLEntryKnowledge *, const TiXmlElement *, signed short &)
+signed short Game::KFuncMap::LoadCauseParamFromXML(void *, Game::KDataBlockOwnerType, Game::KLEntryKnowledge *, const TiXmlElement *, signed short &)
+bool Game::KnowledgeList::LoadKVarDataFromXML(const TiXmlElement *, unsigned int)
+void Game::KnowledgeList::Initial(const Game::KnowledgeListParam *)
+signed short Game::KFuncMap::CreateCause(Game::KnowledgeList *, unsigned int)
+signed short Game::KFuncMap::CreateResult(Game::KnowledgeList *, unsigned int)
+Game::KnowledgeList *Game::KnowledgeListManager::AllocateKnowledgeList(const Game::KnowledgeListParam *, ApeDataHandle &)
+bool Game::KScriptManager::LoadScriptXML(const TiXmlDocument &, bool)
+bool Game::KScriptManager::LoadScriptXML(const char *, bool)
+bool Game::KScriptManager::LoadScriptXML(ApeFile *, bool)
+static bool Game::RChangeStateDef::Execute(Game::KLEntryResult *, Game::KLEntryHeader *)
+static void Game::RIncrementKVarDataDef::AfterDefCreateInit(Game::KLEntryResult *, Game::KLEntryHeader *)
+static bool Game::RIncrementKVarDataDef::Execute(Game::KLEntryResult *, Game::KLEntryHeader *)
+static bool Game::RPlaySoundSFXDef::Execute(Game::KLEntryResult *, Game::KLEntryHeader *)
+static bool Game::RFireProjectile::Execute(Game::KLEntryResult *, Game::KLEntryHeader *)
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglMaterial]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = signed short]
+void Game::Laser::CacheLaserGeom(const char *)
+Laser::CacheObjects: Can't find a geom instance named '%s'!
+void Game::Laser::CacheDataForType(const Game::LaserSplineSetting *, ApePointInstance *)
+void Game::Laser::CacheDataForType(const Game::LaserAnchorSetting *, ApePointInstance *)
+void Game::Laser::CacheDataForType(const Game::LaserFixedSetting *, ApePointInstance *)
+void Game::LaserGroup::CacheObjects()
+void Game::Laser::SetAnchorStartOffset(float, float)
+void Game::Laser::SetSplineStartOffset(float, float, float, float, bool)
+void Game::LaserField::Initialize(const ApeSetting *, ApePointInstance *)
+LaserField::Initialize: Point instance created has no spline as a child or the child is not a spline type!
+LaserField::Initialize: Setting passed in is not of LaserField type!
+void Game::LaserField::CacheGeomData(const ApeTArray<AVec3> &)
+LaserField::CacheObjects: Can't find a geom instance named '%s'!
+LaserField::CacheObjects: Can't find a entity def named '%s' for joint point!
+void Game::LaserField::CacheObjects()
+Game::LaserGroup *Game::LaserManager::CreateLaserGroup(unsigned int, ApeObj *)
+static void Game::LaserManager::CreateLaserGroupCb(const ApeSetting *, unsigned int)
+void Game::LaserManager::AllocateLaser(ApePointInstance *, const ApeSetting *)
+static void Game::LaserManager::CreateLaserCb(const ApeSetting *, unsigned int)
+void Game::LaserManager::AllocateLaserField(ApePointInstance *, const ApeSetting *)
+static void Game::LaserManager::CreateLaserFieldCb(const ApeSetting *, unsigned int)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::Entity *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeSplineInstance]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::QTEGameRewardSeqParams *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::QTEGameComboParams *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::GameMechanicQTE::QTEGameRewardSeqInst *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = float]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = float, T = Game::_AEBlobPoint *]
+void Game::GameMechanicBartender::OnInitialize()
+bool Game::BvPMech::PlayAnim(unsigned int, unsigned int, bool, float, bool)
+void Game::BvPMech::SetAnimSpeed(float)
+void Game::BvPMech::PlayAttackAnim(unsigned int)
+void Game::BvPMech::PlayHurtAnim()
+bool Game::BentleyMech::StateHandler(Game::StateHandlerParams &)
+bool Game::PenelopeMech::StateHandler(Game::StateHandlerParams &)
+void Game::GameMechanicBvP::InitFight()
+bool Game::GameMechanicBvP::DoFight(Game::StateHandlerParams &)
+bool Game::GameMechanicBvP::StateHandler(Game::StateHandlerParams &)
+void Game::GameMechanicBvP::OnDragonSpawnCB(Game::Entity *)
+void Game::GameMechanicHideout::AddDirectorScriptEntities()
+GameMechanicHideout::AddDirectorScriptEntities: Selectable is NULL!
+void Game::GameMechanicHideout::InitSelectables(const Game::MechanicParams_Hideout &, Game::GameMechanicHideout::CharacterSelectData &)
+void Game::GameMechanicHideout::OnInitialize()
+void Game::GameMechanicHideout::RemoveDirectorScriptEntities()
+GameMechanicHideout::RemoveDirectorScriptEntities: Selectable is NULL!
+void Game::GameMechanicHideout::OnCharSelectionChanged(unsigned int, unsigned int, Game::GameMechanicHideout::ECharSelType, Game::GameMechanicHideout::ECharSelType)
+void Game::GameMechanicHideout::SetVanIndicatorObjPos()
+bool Game::GameMechanicHideout::ProcessAreaSwitch()
+bool Game::GameMechanicHideout::ProcessArcadeSelect(float)
+void Game::GameMechanicHideout::SetJobBannersVisible(bool)
+GameMechanicQTE::PlayAnimOnControllable '%s'
+void Game::GameMechanicPenguinDodge::OnInitialize()
+void Game::GameMechanicPenguinPunch::OnInitialize()
+void Game::GameMechanicPenguinSlingShot::OnInitialize()
+void Game::GameMechanicPenguinWack::OnInitialize()
+void Game::GameMechanicPenguinMontage::OnInitialize()
+static Game::SequenceThread *Game::SequenceMgr::GetThread(unsigned int)
+void Game::SequenceCommandQTEParisChase::ProcessEvent(Game::Event *)
+void Game::SequenceCommandEnableComponent::Start()
+void Game::SequenceCommandEnablePhysics::Start()
+void Game::SequenceCommandEnableSpawner::Start()
+void Game::SequenceCommandEnableSpawnerGroup::Start()
+void Game::SequenceCommandEntitySuppressAudio::Start()
+bool Game::SequenceCommandEnqueueSound::Update(float)
+void Game::SequenceCommandPlayAnim::Start()
+void Game::SequenceCommandPlayBinocucomDialog::PlayStream()
+void Game::SequenceCommandPlayHUDFreezeScreen::Start()
+void Game::SequenceCommandPlaySound::Start()
+bool Game::SequenceCommandQTE::Update(float)
+void Game::SequenceCommandQTEMash::PlayIdleAnim()
+void Game::SequenceCommandQTEMash::Start()
+void Game::SequenceCommandQTEMash::PlayMashAnim()
+bool Game::SequenceCommandQTEMash::Update(float)
+void Game::SequenceCommandQTEMash::AddMashEntity(unsigned int, unsigned int, unsigned int)
+void Game::SequenceCommandQTEParisChase::AddChaseEntity(unsigned int, unsigned int, const char *)
+void Game::SequenceCommandQTEParisChase::PlayWildcardScript(unsigned int)
+void Game::SequenceCommandSetBartenderMGProps::Start()
+void Game::SequenceCommandSetEntityVisible::Start()
+void Game::SequenceCommandSetEntityUpdate::Start()
+void Game::SequenceCommandSetPosition::Start()
+SequenceCommand::SetPosition tgt entity not found in sequence '%s', check the name? (%s)
+SequenceCommand::SetPosition tgt entity part not found in sequence '%s', check the name? Entity: (%s) Part: (%s)
+void Game::SequenceCommandSetScriptState::Start()
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::SoundHeader *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::_MultistateMusicState (*)[NUM_MUSIC_STATES][NUM_MUSIC_STATES]]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::VOFile *]
+ApeDataHandle ApeFixedList<lType>::_RemoveElementAt(ApeDataHandle, bool) [with lType = Game::ScreamSoundObj]
+ApeDataHandle ApeFixedList<lType>::_InsertElementInRearOf(ApeDataHandle, bool) [with lType = Game::ScreamSoundObj]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::GameSoundBank *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::ExclusivityGroup]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::SoundZone *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::SoundGroupMixState *]
+void IFF::VO::Data::StreamVOFile(Game::VOFile *, IFF::CReader &)
+void Game::ScreamSoundObj::Update()
+bool Game::StreamQueueEntry::_Play()
+void Game::StreamQueue::ManageQueue(Game::StreamQueueEntry *, int &, float)
+unsigned int Game::SoundStreamFileReader::Update(bool)
+bool Game::InitScreamAPI()
+static void Game::SoundMgr::FreeToBankHeap(void *)
+static void Game::SoundMgr::Shutdown()
+static void Game::SoundMgr::SetMusicRegister(int, float, float)
+static void Game::SoundMgr::ActivateMixState(Game::SoundGroupMixState *, float)
+float Game::ClampPlaybackSpeed(float)
+static void *Game::SoundMgr::AllocateFromBankHeap(unsigned int)
+bool Game::SoundIFFCB_BankData(IFF::CReader &, void *)
+ApeSetting *ApeSettingManager::GetSetting(const char *) const
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::Spawner *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::SpawnerGroup *]
+ApeDataHandle ApeFixedList<lType>::_InsertElementInFrontOf(ApeDataHandle, const lType &, bool) [with lType = Game::Spawner *]
+ApeDataHandle ApeFixedList<lType>::_RemoveElementAt(ApeDataHandle, bool) [with lType = Game::Spawner *]
+void Game::Spawner::SpawnObject()
+Spawner::SpawnObject: Couldn't find Entity Def: '%s' in spawner '%s'! Is that the correct Entity Def name?
+void Game::Spawner::KillSpawnedEntities(bool)
+void Game::SpawnerGroup::EnableSpawnerGroup(bool)
+void Game::SpawnManager::RegisterSpawner(Game::Spawner *)
+void Game::SpawnManager::RegisterActiveSpawner(Game::Spawner *)
+bool Game::SpawnManager::RegisterSpawnerGroup(Game::SpawnerGroup *)
+static ApeGeomInstance *Game::SpawnManager::GenerateInstFromGeoDef(const char *, const char *)
+static ApeGeomInstance *Game::SpawnManager::GenerateInstFromGeoDef(ApeGeomDef *, const char *)
+static bool Game::SpawnManager::CreateCommonSpawner(Game::SpawnerParams &, const ApeSetting *, const char *, bool)
+static void Game::SpawnManager::CreateSpawnGroupCb(const ApeSetting *, const char *, bool)
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeAnimScriptVar *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglMaterial]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeGeomInstance]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::EventListenerGroup *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = const char *, T = Game::EntityDef *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeAnimScriptCommand *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApePointInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeSplineInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeCameraDef]
+void Game::GameMgr::RenderWindowSilhouetteTexture()
+void Game::_ParseCmdLine(int, char **)
+static void Game::PreorderLoot::Initialize()
+void Game::GameMgr::QueueCutscene(unsigned int, unsigned int, bool, const ApeTArray<Game::DirScriptVarParam> *, unsigned int, ApeAnimScriptInstance *, bool, bool, bool)
+static void Game::EventMgr::SendEvent(Game::Entity *, Game::Entity *, unsigned int, void *, bool)
+void Game::GameMgr::UpdatePlayerContextuals(unsigned int)
+void Game::GameMgr::LevelInitialize(Game::StateHandlerParams &)
+static void Game::LevelParams_WindowSilhouette::ParseXML(const TiXmlDocument &, TiXmlElement *, Game::LevelParams_WindowSilhouette &)
+static bool Game::LevelScrollerSequenceParam::ParseXML(const TiXmlDocument &, TiXmlElement *, Game::LevelScrollerSequenceParam &)
+static bool Game::LevelScrollerGroupParam::ParseXML(const TiXmlDocument &, TiXmlElement *, Game::LevelScrollerGroupParam &)
+static bool Game::LevelScrollerSetParam::ParseXML(const TiXmlDocument &, TiXmlElement *, Game::LevelScrollerSetParam &)
+static bool Game::LevelScrollerLayerParam::ParseXML(const TiXmlDocument &, TiXmlElement *, Game::LevelScrollerLayerParam &)
+static void Game::LevelParams_LevelScroller::ParseXML(const TiXmlDocument &, TiXmlElement *, Game::LevelParams_LevelScroller &)
+static void Game::LevelParams_Mechanic::ParseXMLHideoutCollectableView(const TiXmlDocument &, TiXmlElement *, Game::HideoutAreaParamsCollectableView &)
+Hideout::Treasure ran out of treasure rows. Please ask an engineer to increase the maximum (current max: %d)
+Hideout::Treasure ran out of treasure columns. Please ask an engineer to increase the maximum (current max: %d)
+static void Game::LevelParams_Mechanic::ParseXMLHideoutCostumeView(const TiXmlDocument &, TiXmlElement *, Game::HideoutAreaParamsCostumeView &)
+LevelParams_Mechanic::ParseXMLHideoutCostumeView please have an engineer increase the costume size array (currently %d)
+static void Game::LevelParams_Mechanic::ParseXMLHideoutSelectable(const TiXmlDocument &, TiXmlElement *, Game::MechanicParams_Hideout &)
+static Game::LevelParams *Game::LevelParams::ParseXML(const TiXmlDocument &, TiXmlElement *)
+void Game::GameMgr::LevelParamsLoad(const char *)
+void Game::GameMgr::LevelParamsLoad(ApeFile *)
+static char *Game::GameMgr::FileNameAlloc(const char *)
+static bool Game::GameMgr::LevelDataHavokCB(TiXmlElement *)
+static bool Game::GameMgr::LevelDataHavokSkeletonCB(TiXmlElement *)
+static bool Game::GameMgr::LevelDataHavokSkelMapCB(TiXmlElement *)
+static bool Game::GameMgr::LevelDataHavokAnimCB(TiXmlElement *)
+static bool Game::GameMgr::LevelDataEntitiesCB(TiXmlElement *)
+static bool Game::GameMgr::LevelDataLevelParamsCB(TiXmlElement *)
+void Game::GameMgr::SwitchCameraToPlayer(Game::Player &)
+bool Game::GameMgr::StartHUDFreezeScreen(ApeTArray<Game::FreezeEntityInst> &, const char *, const char *, unsigned int, unsigned int, bool)
+void Game::GameMgr::PlayMovie()
+ybool Game::ArtViewer::StateHandler(Game::StateHandlerParams &)
+Game::LevelEditor::LevelEditor(Game::GameMgr *, unsigned int, const char *)
+static bool Game::LevelEditor::LevelDataCB(TiXmlElement *)
+void Game::PreorderLoot::Psp2OverlayInfo::AddOverlay(const char *)
+void Game::PreorderLoot::Psp2OverlayInfo::RemoveOverlay()
+bool Game::GameMgr::StateHandler(Game::StateHandlerParams &)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = Game::WindGroup *]
+static void Game::EntityUtil::CalcDirScriptVars(TiXmlElement *, ApeTArray<Game::DirScriptVarParam> *)
+static void Game::EntityUtil::ProcessVarToDirScript(ApeAnimScriptInstance *, const Game::DirScriptVarParam &, ApeAnimScriptInstance *, bool, bool)
+void Game::RandomPickData::Reset(signed int)
+signed int Game::RandomPickData::GetNextRandomIndex()
+void Game::WindGroup::RemoveController(Game::WindController *)
+static void Game::WindGroupMgr::DestroyWindGroup(Game::WindGroup *)
+void Game::WindController::SetWindMtx(const AMtx &)
+Game::WindController::WindController(const Game::WindControllerParams &)
+void Game::WindController::SetEnabled(bool)
+void Game::WindController::StateUpdate(float)
+void Game::WindController::TransferOwnership(Game::Entity *, Game::WindController *)
+bool Game::WindController::AddEntity(Game::Entity *)
+signed short ApeAnimClipManager::GetAnimCtrlDataTypeID(const char *)
+void ApeAnimClipDef::SetError(const char *)
+void ApeAnimElement::SetError(const char *)
+ApeAnimClipListEntry *ApeAnimClipList::AllocateEntry(signed short &, ApeACListEntryType)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeAnimDefClipCreateStruct *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = const char *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeAnimSetDef *]
+ApeDataHandle ApeFixedList<lType>::_RemoveElementAt(ApeDataHandle, bool) [with lType = ApeAnimSetSlotElement]
+ApeDataHandle ApeFixedList<lType>::_InsertElementInRearOf(ApeDataHandle, bool) [with lType = ApeAnimSetSlotElement]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeAnimClipDef *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeAnimBlendInfo]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeAnimBlendClassInfo]
+void ApeAnimSetDef::AnimSetInitialize(ApeAnimSetDefParams *)
+bool ApeAnimClipManager::CreateAnimSetDefFromXML(const char *)
+bool ApeAnimClipManager::CreateAnimSetDefFromXML(ApeFile *)
+ApeAnimSet *ApeAnimClipManager::AllocateAnimSet(const ApeAnimSetParams *, ApeDataHandle &)
+signed short ApeAnimClipManager::GetAnimClipTypeID(const char *)
+ApeAnimEventDef *ApeAnimClipDef::AllocateAnimEventDef(ApeAnimClipList *)
+void ApeAnimEventDef::LoadFromXML(const TiXmlElement *, ApeAnimSetDef *, ApeAnimClipDef *)
+void ApeAnimSimpleElement::LoadFromXML(const TiXmlElement *, ApeAnimClipList *)
+void ApeAnimSelectionElement::LoadFromXML(const TiXmlElement *, ApeAnimClipList *)
+void ApeAnimContainerElement::LoadFromXML(const TiXmlElement *, ApeAnimClipList *)
+void ApeAnimBlendElement::LoadFromXML(const TiXmlElement *, ApeAnimClipList *)
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeAnimScriptVar *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeAnimScriptEvent *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = float, ItemType = ApeAnimScriptEvent *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeAnimScriptState *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeAnimScriptCommand *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeAnimScript *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = unsigned int]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = unsigned int]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglMaterial]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeAnimScriptLibrary *]
+ApeAnimScriptContainer::ApeAnimScriptContainer(const char *, TiXmlDocument *, TiXmlElement *)
+ApeAnimScript *ApeAnimScriptLibrary::LoadAnimScript(const char *, TiXmlDocument &, bool)
+static bool ApeAnimScriptLibrary::IFFLoadFromMem(void *, unsigned int)
+void ApeAnimScriptCommandSetObject::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void ApeAnimScriptCommandSetVisible::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+ApeAnimScriptCommandCallRandom::ApeAnimScriptCommandCallRandom(TiXmlElement *)
+void ApeAnimScriptCommandSetFloat::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void ApeAnimScriptCommandSetInt::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+void ApeAnimScriptCommandSetMatrix::Evaluate(ApeAnimScriptInstance *, ApeAnimScriptState *)
+ApeAnimScriptCommandInterpScale::ApeAnimScriptCommandInterpScale(TiXmlElement *)
+bool AglMovieBase::Open(const char *, unsigned int, unsigned int, signed int)
+?ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeInstanceInterface *]
+static void ApeGUIMgr::Reset()
+bool ApeGUIScriptInst::Update(float)
+static ApeGUITexture *ApeGUITexture::ParseXML(TiXmlDocument &, TiXmlElement *, ApeGUILibrary *)
+static ApeGUIFontPage *ApeGUIFontPage::ParseXML(TiXmlDocument &, TiXmlElement *, ApeGUILibrary *)
+ApeGUIAsset::ELoadStatus ApeGUIFontPage::Load()
+static ApeGUIFont *ApeGUIFont::ParseXML(TiXmlDocument &, TiXmlElement *, ApeGUILibrary *)
+static ApeGUIClipRegion *ApeGUIClipRegion::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIInstanceParams &, ApeGUIInstance *)
+static ApeGUIWorldObj *ApeGUIWorldObj::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIInstanceParams &, ApeGUIInstance *)
+static ApeGUIGroup *ApeGUIGroup::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIInstanceParams &, ApeGUIInstance *)
+static ApeGUITile *ApeGUITile::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIInstanceParams &, ApeGUIInstance *)
+void ApeGUILabel::ProcessString(const char *, char *, unsigned int, char *&, unsigned int &, unsigned int &, unsigned int &, float &, char *&, float &, unsigned int &)
+static void ApeGUILabel::ParseXMLParams(TiXmlDocument &, TiXmlElement *, ApeGUIInstance *, ApeGUILabelParams &)
+static void ApeGUITicker::ParseXMLParams(TiXmlDocument &, TiXmlElement *, ApeGUIInstance *, ApeGUITickerParams &)
+static ApeGUIGradient *ApeGUIGradient::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIInstanceParams &, ApeGUIInstance *)
+static ApeGUIImage *ApeGUIImage::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIInstanceParams &, ApeGUIInstance *)
+static ApeGUIFrame *ApeGUIFrame::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIInstanceParams &, ApeGUIInstance *)
+static ApeGUIInstance *ApeGUIInstance::ParseXML(TiXmlDocument &, TiXmlElement *, ApeGUIInstance *, ApeGUILibrary *)
+~kstatic ApeGUIEventDef *ApeGUIEventDefSendMsg::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIScriptDef &, float)
+static ApeGUIEventDef *ApeGUIEventDefInterp::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIScriptDef &, float)
+static ApeGUIEventDef *ApeGUIEventDef::ParseXML(TiXmlDocument &, TiXmlElement *, const ApeGUIScriptDef &)
+static ApeGUIScriptDef *ApeGUIScriptDef::ParseXML(TiXmlDocument &, TiXmlElement *, ApeGUILibrary *)
+ApeGUIAsset::ELoadStatus ApeGUILibrary::Load()
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeLevelDefXMLLoader *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = unsigned int]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeTArray<char *> *]
+static ApeTFreeList<AVL<KeyType, ItemType>::AVLNode<KeyType, ItemType>> &AVL<KeyType, ItemType>::GetAllocator() [with KeyType = unsigned int, ItemType = ApeLevelDef *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeGeomInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeCameraDef]
+static bool ApeLevelDef::LoadLevelsXML(const char *)
+static bool ApeLevelDef::LoadLevelsDefXML(const char *)
+static bool ApeLevelDef::IncludeCB(TiXmlElement *)
+static bool ApeLevelDef::LevelIncludeCB(TiXmlElement *)
+static bool ApeLevelDef::CombinedSanCB(TiXmlElement *)
+ApeLevelDef::CombinedSanCB error opening file(s), both (%s) & (%s) do not exist.
+static bool ApeLevelDef::AsyncFileCB(TiXmlElement *)
+ApeLevelDef::AsyncFileCB async file group (%s) contains a file with no filename provided
+void ApeLevelInst::LoadDirectorFiles(ApeLevelDef *)
+void ApeLevelInst::Load(ApeLevelDef *, AglRenderTarget *)
+ApeSetting *ApeSettingManager::GetSetting(const char *) const
+ApeSettingArray *ApeSettingManager::GetSettingArray(const char *) const
+static float ApeSettingManager::GetFloatFromTagData(ApeTags *, unsigned int, unsigned int)
+static bool ApeSettingManager::GetBoolFromTagData(ApeTags *, unsigned int, unsigned int)
+static unsigned int ApeSettingManager::GetU32FromTagData(ApeTags *, unsigned int, unsigned int)
+static signed int ApeSettingManager::GetS32FromTagData(ApeTags *, unsigned int, unsigned int)
+static const char *ApeSettingManager::GetStrFromTagData(ApeTags *, unsigned int, unsigned int)
+static const ApeRGBA &ApeSettingManager::GetRGBAFromTagData(ApeTags *, unsigned int, unsigned int)
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeSettingDef *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeSetting *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeSettingArrayDef *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeSettingArray *]
+ApeDataHandle ApeFixedList<lType>::_InsertElementInFrontOf(ApeDataHandle, const lType &, bool) [with lType = ApeSetting *]
+ApeDataHandle ApeFixedList<lType>::_RemoveElementAt(ApeDataHandle, bool) [with lType = ApeSetting *]
+ApeDataHandle ApeFixedList<lType>::_InsertElementInRearOf(ApeDataHandle, const lType &, bool) [with lType = const ApeSettingDef *]
+ApeDataHandle ApeFixedList<lType>::_InsertElementInRearOf(ApeDataHandle, const lType &, bool) [with lType = const ApeSettingAttribute *]
+void ApeSettingManager::LoadSettingFile(TiXmlDocument &, bool)
+void ApeSettingManager::LoadSettingFile(const char *, bool)
+void ApeSettingManager::LoadSettingFile(ApeFile *, bool)
+void ApeSettingManager::LoadBinarySettingFile(const char *, bool)
+void ApeSettingManager::WriteBinarySettingFile(const char *, bool)
+bool ApeSetting::SetData(ApeTags *, unsigned int)
+const ApeSetting *ApeSettingManager::LoadTagSetting(ApeTags *, unsigned int)
+void ApeSettingManager::LoadTagSettingFile(TiXmlDocument &, bool)
+void ApeSettingManager::LoadTagSettingFile(const char *, bool)
+void ApeSettingManager::LoadTagSettingFile(ApeFile *, bool)
+ApeSetting *ApeSettingManager::GetSetting(unsigned int, const char *) const
+ApeSettingArray *ApeSettingManager::GetSettingArray(unsigned int, const char *) const
+static bool ApeSettingManager::CloneSetting(ApeSetting *, const ApeSetting *)
+bool ApeSettingManager::InheritParentSetting(const TiXmlElement *, ApeSetting *)
+static bool ApeSettingManager::ReadEachSettingCb(const TiXmlElement *, void *)
+static bool ApeSettingManager::ReadEachSettingArrayCb(const TiXmlElement *, void *)
+bool ApeSetting::SetDataForXMLTagSetting(const TiXmlElement *, bool)
+static bool ApeSettingManager::ReadEachTagSettingCb(const TiXmlElement *, void *)
+bool ApeSetting::SetData(const TiXmlElement *, bool)
+const char *ApeStringTable::GetStr(unsigned int, const char *, bool) const
+const char *ApeStringTable::GetStr(const char *, const char *, bool) const
+static bool ApeTuneVar::Load(const char *, bool)
+void AglShadowMap::RenderDeferredShadow()
+static ApeTFreeList<T> &ApeTMemClassFL<T, size>::GetAllocator() [with T = AglMaterialAnim, size = 256U]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglRenderSurface]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglMaterial]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglTexture]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglRenderTarget]
+static ApeTFreeList<T> &ApeTMemClassFL<T, size>::GetAllocator() [with T = ApeTRingBuf<AglSimplePtl>, size = 1024U]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglSubMesh]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglTopology]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = AglTexture *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglTopologyMeshMtlTable]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = AglTopology *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglVtxDecl]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglLight]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeEmitterInstance]
+static void ApeTWorldMgr<T>::DumpInst(int) [with T = ApeEmitterInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglEmitProperties]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = AglDeferredDestructionObj]
+void ApeTListAllocator<T>::CreateAllocator() [with T = AglDeferredDestructionObj]
+static bool AglTextureBase::ParseBMP(const unsigned char *, unsigned int, AglTextureImageAttr &, const char *)
+static bool AglTextureBase::ParseTGA(const unsigned char *, unsigned int, AglTextureImageAttr &, const char *)
+static AglShaderProfile *AglShaderProfileMgr::Serialize(AglMaterial *, IFF::Material::Header &)
+static void Agl::WaitVSync()
+static AgxTexture &Agl::CopyFBForFX()
+static void AglRenderMgr::RenderZBegin()
+static AglMaterial *AglMaterialMgr::Create(unsigned int)
+AglTextureMgrBase:: Discarding duplicate texture %s
+AglTextureMgrBase:: Failed to load texture from TINC "%s"!
+static bool AglTextureMgrBase::UnhandledIFFCB(IFF::CReader &, void *)
+void AglEmitProperties::Serialize(IFF::EmitProperties::Header &)
+bool AglSimplePtlContainer::QueryEnoughVBOSpace(signed int)
+static bool AglSubMeshMgr::LoadHdrIFFCB(IFF::CReader &, void *)
+static void AglStencilShadowsBase::Enqueue(AglShadowCaster *, const AglTopologyRenderParams &, const AVec3 &, bool, float)
+static bool AglEmitPropertiesMgr::LoadConstraintPlanesIFFCB(IFF::CReader &, void *)
+void AglShadowMapRenderParams::SetDepthShaderConstants(AglSubMesh *)
+void AglShadowMap::RenderDeferredShadow()
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = _AgxVertexShader *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = _AgxPixelShader *]
+void AgxDevice::ResetCacheState()
+bool AglTexture::CreateFromARGB(AglTextureImageAttr &, const char *)
+static bool Agl::_Shutdown()
+static void Agl::_Render()
+static void Agl::_Flush()
+void AglPostProcDesaturation::Process()
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeTBinMap<unsigned int, ApeTag *> *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeTag *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeDebug::Prim]
+void ApeTListAllocator<T>::CreateAllocator() [with T = ApeDebug::Prim]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = IFF::ChunkDesc]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = IFF::ChunkDesc *]
+void *ApeMem::_BucketAlloc(unsigned int)
+ApeMemStack::Alloc using malloc:%d
+void IFF::RegisterChunk(unsigned int, bool (*)(IFF::CReader &, void *), const char *, const char *, IFF::CReader::Flags)
+static ApeTFreeList<ApeInputDevice> &ApeInputMgr::GetAllocator()
+static void *ApeFile::ReadFile(const char *, unsigned int *)
+void ApeAsyncFileOp::CheckError()
+const char *ApeStringBuffer::AddString(const char *, signed int &)
+char *ApeStringBuffer::AllocateString(signed int)
+bool IFF::CReader::Process(void *)
+static bool ApeCoreMgr::SystemShutdown()
+static int ApeInputDevice::TouchInitialize()
+[ERR]%s::%d ret=%d
+static bool ApeInputMgr::_ReadKey(int)
+int ApeInputDevice::TouchUpdate()
+void ApeInputDevice::Read()
+static int ApePsp2File::FindFirst(const char *, const char *, char *, bool *)
+static bool ApePsp2File::FindNext(int, const char *, char *, bool *)
+static ApeAsyncFile *ApeAsyncFile::_MountArchive(const char *, ApeAsyncFileOptions)
+static int ApePsp2File::Delete(const char *)
+static ApeTFreeList<T> &ApeTMemClassFL<T, size>::GetAllocator() [with T = ApeTRingBuf<AglSimplePtl>, size = 1024U]
+static ApeTFreeList<T> &ApeTMemClassFL<T, size>::GetAllocator() [with T = ApeSkeletonDef, size = 64U]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeGeomDef]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeLightDef]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeLightDef *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeCameraDef]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeCameraDef *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeEmitterDef]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeEmitterDef *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApePointDef]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApePointDef *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeSplineDef]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeSplineDef *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeGeomInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeLightInstance]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeLightInstance *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeEmitterInstance]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeEmitterInstance *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeCameraInstance]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeCameraInstance *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApePointInstance]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApePointInstance *]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeSplineInstance]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeSplineInstance *]
+static ApeTFreeList<T> &ApeTMemClassFL<T, size>::GetAllocator() [with T = ApeSkeleton, size = 128U]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeGeomInstance *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeGeomDef *]
+ApeTBinMap<KeyType, T>::ApeTBinMap(unsigned int, ApeAllocator *, bool, int (*)(const void *, const void *)) [with KeyType = unsigned int, T = ApeIDefBase *]
+static void ApeProjectorMgrBase::Render()
+bool ApeObj::Serialize(IFF::Obj::Header &)
+static void ApeInstanceRenderDataMgr::Alloc(ApeInstance *)
+void ApeInstance::FindGlobalLights()
+static void ApeWorldBase::OnReleaseResourceCB(ApeBaseObj *)
+void ApeProceduralMatrixAnim::SetObj(ApeObj *)
+void ApeProceduralMatrixAnimMgr::Create()
+static bool ApeShrubMgr::IsAShrub(ApeGeomInstance *)
+void Shader_SAC_Panorama::AglShaderProfile_SAC_Panorama::Load()
+bool Shader_SAC_Panorama::AglShaderProfile_SAC_Panorama::Serialize(AglMaterial *, IFF::Material::Header &)
+AglShader *Shader_SAC_Panorama::AglShaderProfile_SAC_Panorama::SelectShader(AglMaterial *, AglSubMeshRenderParams &)
+bool Shader_SlyCharacter::AglShaderProfile_SlyCharacter::Serialize(AglMaterial *, IFF::Material::Header &)
+bool Shader_SlyCharacterCollectible::AglShaderProfile_SlyCharacterCollectible::Serialize(AglMaterial *, IFF::Material::Header &)
+void Shader_SlyScreenWarp::AglShader_SlyScreenWarp::BeginMaterial(AglMaterial *)
+void Shader_SlyScreenWarp::AglShader_SlyScreenWarp::RenderMesh(AglSubMeshRenderParams &)
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeGeomInstance]
+static void ApeTWorldMgr<T>::DumpInst(int) [with T = ApeGeomInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeEmitterInstance]
+static void ApeTWorldMgr<T>::DumpInst(int) [with T = ApeEmitterInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeLightInstance]
+static void ApeTWorldMgr<T>::DumpInst(int) [with T = ApeLightInstance]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeGeomDef]
+static void ApeTWorldMgr<T>::Dump(int) [with T = ApeGeomDef]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeEmitterDef]
+static void ApeTWorldMgr<T>::Dump(int) [with T = ApeEmitterDef]
+ApeTFreeList<T> &ApeTListAllocator<T>::GetAllocator() [with T = ApeLightDef]
+static void ApeTWorldMgr<T>::Dump(int) [with T = ApeLightDef]
+hkNgpSocket::listen(), socket id 
+Unknown class member type in structureLayout::getMemberSize().
+TOI event queue full, consider using HK_COLLIDABLE_QUALITY_DEBRIS for some objects or increase hkpWorldCinfo::m_sizeOfToiEventQueue
+TOI event queue full, consider using HK_COLLIDABLE_QUALITY_DEBRIS for some objects or increase hkpWorldCinfo::m_sizeOfToiEventQueue
+ObstacleDat::m_obstacleBlockageFlags's has bits set outside the OBSTACLE_BLOCKS_ALL_TYPES mask.  Modifying m_obstacleBlockageFlags.
+6AreaHandle::GetAdjacentArea called with an edge index of %d on an area with %d edges
+SmartPath::RebuildAreaPath(): m_pathDataTimestamp:%u
+Mover::GotoPos goalPos
+Mover::SwapToDefaultJump() pInitialSpeed
+Mover::GetClosestReachablePos called with invalid AreaHandle
+Mover::void SetClientMotionSkidTurnAllowed
+Navigator::SetPos() called with an area from a different space than the navigator is in
+Navigator::SetGoalPos() called with an area from a different space than the navigator is in

@@ -1,0 +1,997 @@
+//------------------------------------------------
+//--- 010 Editor v11.0.1 Binary Template
+//
+//      File: SAN.bt
+//   Authors: Joshua Wood
+//   Version: 0.1
+//   Purpose: Parse Sanzaru archive files.
+//  Category: Archive
+// File Mask: *.san
+//  ID Bytes: 46 F4 52 4D
+//   History: 
+//------------------------------------------------
+
+// Used for alignment
+local uint32 current_position = 0;
+
+// Endian varies on the platform this file is compiled for. PSP2 is LittleEndian, PS3 is BigEndian.
+LittleEndian();
+
+typedef enum<uint32> {
+    // Header types
+    CHUNK_TYPE_FORM = 1297239878,
+    CHUNK_TYPE_PLAT = 1413565520,
+    // Segment types
+    CHUNK_TYPE_PROF = 1179603536,
+    CHUNK_TYPE_PRFN = 1313231440,
+    CHUNK_TYPE_PRFE = 1162236496,
+    // Texture types
+    CHUNK_TYPE_TEXR = 1381516628,
+    CHUNK_TYPE_TXRH = 1213356116,
+    CHUNK_TYPE_TGXT = 1415071572,
+    CHUNK_TYPE_TINC = 1129204052,
+    // Material types
+    CHUNK_TYPE_MATL = 1280590157,
+    CHUNK_TYPE_MTLH = 1212961869,
+    CHUNK_TYPE_MTLC = 1129075789,
+    // Mesh types
+    CHUNK_TYPE_MESH = 1213416781,
+    CHUNK_TYPE_MSHH = 1212699469,
+    CHUNK_TYPE_SMSH = 1213418835,
+    CHUNK_TYPE_MHDR = 1380206669,
+    CHUNK_TYPE_MVTX = 1481922125,
+    CHUNK_TYPE_MIDX = 1480870221,
+    CHUNK_TYPE_MPAL = 1279348813,
+    // Geometry types
+    CHUNK_TYPE_GEOB = 1112491335,
+    CHUNK_TYPE_GEOH = 1213154631,
+    CHUNK_TYPE_GLOD = 1146047559,
+    CHUNK_TYPE_SKEL = 1279609683,
+    CHUNK_TYPE_SKHD = 1145588563,
+    CHUNK_TYPE_BONS = 1397641026,
+    CHUNK_TYPE_LOCA = 1094930252,
+    CHUNK_TYPE_LCRH = 1213350732,
+    CHUNK_TYPE_LCRD = 1146241868,
+    // Light types
+    CHUNK_TYPE_LITB = 1112820044,
+    CHUNK_TYPE_LITH = 1213483340,
+    // Emitter types
+    CHUNK_TYPE_EMIT = 1414090053,
+    CHUNK_TYPE_EMIH = 1212763461,
+    CHUNK_TYPE_EMPC = 1129336133,
+    CHUNK_TYPE_EMPH = 1213222213,
+    CHUNK_TYPE_EPIB = 1112100933,
+    CHUNK_TYPE_EPNM = 1296977989,
+    CHUNK_TYPE_EPUV = 1448431685,
+    CHUNK_TYPE_EPCT = 1413697605,
+    CHUNK_TYPE_EPTS = 1398034501,
+    CHUNK_TYPE_EPTR = 1381257285,
+    // Point types
+    CHUNK_TYPE_PNDC = 1128549968,
+    CHUNK_TYPE_PNDH = 1212436048,
+    // Camera types
+    CHUNK_TYPE_CAMC = 1129136451,
+    CHUNK_TYPE_CAMH = 1213022531,
+    CHUNK_TYPE_TAG2 = 843530580,
+    // Spline types
+    CHUNK_TYPE_SPDS = 1396985939,
+    CHUNK_TYPE_SPDH = 1212436563,
+    CHUNK_TYPE_SPDP = 1346654291,
+    // EmitterInst types
+    CHUNK_TYPE_EINS = 1397639493,
+    CHUNK_TYPE_EINH = 1213090117,
+    // GeomInst types
+    CHUNK_TYPE_GINS = 1397639495,
+    CHUNK_TYPE_GINH = 1213090119,
+    // LightInst types
+    CHUNK_TYPE_LINS = 1397639500,
+    CHUNK_TYPE_LINH = 1213090124,
+    // SplineInst types
+    CHUNK_TYPE_SPIS = 1397313619,
+    CHUNK_TYPE_SPIH = 1212764243,
+    // PointInst types
+    CHUNK_TYPE_PNTC = 1129598544,
+    CHUNK_TYPE_PNTH = 1213484624,
+    // PVS types
+    CHUNK_TYPE_PVS = 542332496,
+    CHUNK_TYPE_PVSH = 1213421136,
+    CHUNK_TYPE_PVSR = 1381193296,
+    // Havok types
+    CHUNK_TYPE_HVKF = 1179342408,
+    CHUNK_TYPE_HVKH = 1212896840,
+    CHUNK_TYPE_HVKD = 1145787976,
+    // Havok anim types
+    CHUNK_TYPE_HKAF = 1178684232,
+    CHUNK_TYPE_HKAH = 1212238664,
+    CHUNK_TYPE_HKAD = 1145129800,
+    // Havok skel types
+    CHUNK_TYPE_HKSF = 1179863880,
+    CHUNK_TYPE_HKSH = 1213418312,
+    CHUNK_TYPE_HKSD = 1146309448,
+    // Havok skel map types
+    CHUNK_TYPE_HKMF = 1179470664,
+    CHUNK_TYPE_HKMH = 1213025096,
+    CHUNK_TYPE_HKMD = 1145916232,
+    // Sound types
+    CHUNK_TYPE_SBKF = 1179337299,
+    CHUNK_TYPE_SBKH = 1212891731,
+    // Director types
+    CHUNK_TYPE_DIRF = 1179797828,
+    CHUNK_TYPE_DIRH = 1213352260,
+    CHUNK_TYPE_DIRD = 1146243396,
+    // Entity types
+    CHUNK_TYPE_ENTF = 1179930181,
+    CHUNK_TYPE_ENTH = 1213484613,
+    CHUNK_TYPE_ENTD = 1146375749,
+    // Setting types
+    CHUNK_TYPE_SETF = 1179927891,
+    CHUNK_TYPE_SETH = 1213482323,
+    CHUNK_TYPE_SETD = 1146373459,
+    // Level types
+    CHUNK_TYPE_LVLF = 1179407948,
+    CHUNK_TYPE_LVLH = 1212962380,
+    CHUNK_TYPE_LVLD = 1145853516,
+    // Anim clip types
+    CHUNK_TYPE_ACLF = 1179403073,
+    CHUNK_TYPE_ACLH = 1212957505,
+    CHUNK_TYPE_ACLD = 1145848641,
+    // Game tag types
+    CHUNK_TYPE_GMTF = 1179929927,
+    CHUNK_TYPE_GMTH = 1213484359,
+    CHUNK_TYPE_GMTD = 1146375495,
+    // Async file types
+    CHUNK_TYPE_ASTF = 1179931457,
+    CHUNK_TYPE_ASTH = 1213485889,
+    CHUNK_TYPE_ASTD = 1146377025,
+} ChunkType;
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} FORM;
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    uint32 unknown;
+} PLAT;
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} PROF; // Profile
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    char name[size - 4];
+} PRFN; // Profile Name
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} PRFE; // Profile End
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} TEXR; // Texture
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte version;
+    uint32 nameHash;
+    uint16 width;
+    uint16 height;
+    ubyte depth;
+    ubyte bitsPerPixel;
+    ubyte type;
+    char name[32];
+    if (version > 0)
+    {
+        uint32 packBufferOffset;
+        uint32 packBufferSize;
+    }
+} TXRH; // Texture header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte data[size - 4];
+} TGXT; // Texture GXT
+
+typedef struct {
+    ChunkType chunkType;
+    uint16 size;
+    BigEndian();
+    uint32 string_size;
+    LittleEndian();
+    char path[string_size];
+    ubyte padding[size - 2 - string_size - 4];
+} TINC; // Texture include
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} MATL; // Material
+
+typedef struct {
+    ChunkType chunkType;
+    current_position = FTell();
+    uint32 size;
+    ubyte version;
+    if (version > 2)
+    {
+        uint32 diffuseHash;
+        uint32 environmentMapHash;
+        uint32 normalMapHash;
+        uint32 specularMapHash;
+        uint32 decalMapHash;
+        uint32 nameHash;
+        char name[32];
+        ubyte blendMode;
+        ubyte cullMode;
+        ubyte flags;
+        ubyte diffuseColor[4];
+        ubyte specularColor[4];
+        float specularPower;
+        ubyte clampModeU;
+        ubyte clampModeV;
+        if (version > 3)
+        {
+            ubyte sortLayer;
+        }
+        ubyte envMapType;
+        ubyte envMapBlendMode;
+        uint32 shaderTypeHash;
+    }
+    else if (version > 1)
+    {
+        uint32 nameHash;
+        char name[32];
+        ubyte blendMode;
+        ubyte cullMode;
+        ubyte flags;
+        ubyte diffuseColor[4];
+        ubyte specularColor[4];
+        float specularPower;
+        uint32 diffuseHash;
+        ubyte clampModeU;
+        ubyte clampModeV;
+        uint32 environmentMapHash;
+        ubyte envMapType;
+        ubyte envMapBlendMode;
+        uint32 normalMapHash;
+        uint32 specularMapHash;
+        uint32 decalMapHash;
+    }
+    uint32 data[(size - (FTell() - current_position)) >> 2];
+    byte padding[size - (FTell() - current_position)];
+} MTLH; // Material
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte version;
+    float speed;
+    float steps;
+    float limit;
+    float delayMin;
+    float delayMax;
+    float playTime;
+    float uOffset;
+    float vOffset;
+    ubyte mode;
+    ubyte channel;
+    ubyte flags;
+} MTLC; // Material Animation
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} MESH; // Mesh data
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} MSHH;
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 unknown;
+} SMSH; // SubMesh
+
+typedef struct {
+    ChunkType chunkType;
+    current_position = FTell();
+    uint32 size;
+    ubyte version;
+    uint16 vertexCount;
+    uint16 indexCount;
+    ubyte primitiveType;
+    uint32 materialHash;
+    uint32 vtxHash;
+    if (version > 0)
+    {
+        float vertexScale;
+    }
+    if (version > 1)
+    {
+        ubyte visGroup;
+    }
+    if (version > 2)
+    {
+        uint32 vtxPackBufferOffset;
+        uint32 vtxPackBufferSize;
+    }
+    if (version > 3)
+    {
+        float boundingSphere[4];
+        uint32 idxPackBufferOffset;
+        uint32 idxPackBufferSize;
+        uint32 streamPackBufferOffset;
+        uint32 streamPackBufferSize;
+    }
+    ubyte unknown[size - (FTell() - current_position)];
+} MHDR;
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} MVTX; // Mesh vertices
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} MIDX; // Mesh indices
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} MPAL; // Mesh palette
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} GEOB;
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte version;
+    float boundingBoxMin[3];
+    float boundingBoxMax[3];
+    uint32 nameHash;
+    uint32 animationHash;
+    uint32 lightGroup;
+    char name[32];
+    if (version > 0)
+    {
+        uint32 collisionHash;
+    }
+    if (version > 1)
+    {
+        float nearZFadeRange;
+        float nearZFadeDist;
+    }
+    if (version > 2)
+    {
+        ubyte shadowType;
+    }
+    if (version > 3)
+    {
+        ubyte shadowExtrusionLength;
+    }
+    if (version > 4)
+    {
+        ubyte shadowLOD;
+        float shadowZCullDistance;
+    }
+    if (version > 5)
+    {
+        float minNearFadeAlpha;
+    }
+} GEOH; // Geometry header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte version;
+    uint32 meshHash;
+    float switchDistance;
+    ubyte padding[3];
+} GLOD; // Geometry LOD
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} LOCA; // Locator
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} LCRH; // Locator header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} LCRD; // Locator data
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} SKEL; // Skeleton identifer?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} SKHD; // Skeleton header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} BONS; // Bones?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} LITB; // Light
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte version;
+    ubyte type;
+    if (version > 1)
+    {
+        ubyte lightModel;
+    }
+    ubyte lightGroup;
+    ubyte color[4];
+    float intensity;
+    if (version > 1 && lightModel > 0)
+    {
+        float startAttenuation;
+        float endAttenuation;
+    }
+    else
+    {
+        float constantAttenuation;
+        float linearAttenuation;
+        float quadraticAttenuation;
+    }
+    uint32 nameHash;
+    uint32 animationHash;
+    char name[32];
+    float radius;
+    if (version > 3)
+    {
+        ubyte priority;
+        float fadeDistance;
+        float fadeRange;
+        ubyte padding[3];
+    }
+    else if (version < 2)
+    {
+        ubyte padding[1];
+    }
+} LITH; // Light header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} EMIT; // Emitter
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} EMIH; // Emitter header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} EMPC; // Emitter particle container?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} EMPH; // Emitter particle header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} EPIB; // Emitter particle block?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} EPNM; // Emitter particle normals
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} EPUV; // Emitter particle uvs
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} EPCT; // Emitter particle count
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} EPTS; // Emitter points
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} EPTR; // Emitter point(er?)
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} PNDC; // Point Def Chunk?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} PNDH; // PointDef Header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} CAMC; // Camera Def Chunk?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} CAMH; // Camera Def Header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} TAG2; // Camera Def Tag
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} SPDS; // SplineDef size?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} SPDH; // SplineDef Header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} SPDP; // SplineDef points?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} EINS; // EmitterInstance
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} EINH; // EmitterInstance header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} GINS; // GeomInst
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} GINH; // GeomInst header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} LINS; // LightInst
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} LINH; // LightInst header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} SPIS; // SplineInst
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} SPIH; // SplineInst header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} PNTC; // PointInst
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} PNTH; // PointInst header
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} PVS; // PVS
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} PVSH; // VisRegions
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} PVSR; // VisRegion
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} HVKF; // Havok file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} HVKH; // Havok header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} HVKD; // Havok data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} HKAF; // Havok anim file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} HKAH; // Havok anim header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} HKAD; // Havok anim data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} HKSF; // Havok skel file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} HKSH; // Havok skel header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} HKSD; // Havok skel data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} HKMF; // Havok skel map file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} HKMH; // Havok skel map header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} HKMD; // Havok skel map data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} SBKF; // Soundback file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} SBKH; // Soundbank header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} DIRF; // director file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} DIRH; // director header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} DIRD; // director data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} ENTF; // director file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} ENTH; // director header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} ENTD; // director data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} SETF; // setting file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} SETH; // setting header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} SETD; // setting data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} LVLF; // level file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} LVLH; // level header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} LVLD; // level data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} ACLF; // anim clip file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} ACLH; // anim clip header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} ACLD; // anim clip data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} GMTF; // Game tag file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} GMTH; // Game tag header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} GMTD; // Game tag data?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+} ASTF; // Async file file?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} ASTH; // Async file header?
+
+typedef struct {
+    ChunkType chunkType;
+    uint32 size;
+    ubyte unknown[size - 4];
+} ASTD; // Async file data?
+
+local uint32 type;
+
+while (!FEof())
+{
+    type = ReadUInt(FTell());
+
+    switch (type)
+    {
+        case CHUNK_TYPE_FORM: FORM form_block; break;
+        case CHUNK_TYPE_PLAT: PLAT plat_block; break;
+        // Profile types
+        case CHUNK_TYPE_PRFE: PRFE prfe_block; break;
+        case CHUNK_TYPE_PROF: PROF prof_block; break;
+        case CHUNK_TYPE_PRFN: PRFN prfn_block; break;
+        // Texture types
+        case CHUNK_TYPE_TEXR: TEXR texr_block; break;
+        case CHUNK_TYPE_TXRH: TXRH txrh_block; break;
+        case CHUNK_TYPE_TGXT: TGXT tgxt_block; break;
+        case CHUNK_TYPE_TINC: TINC tinc_block; break;
+        // Material types
+        case CHUNK_TYPE_MATL: MATL matl_block; break;
+        case CHUNK_TYPE_MTLH: MTLH mtlh_block; break;
+        case CHUNK_TYPE_MTLC: MTLC mtlc_block; break;
+        // Mesh types
+        case CHUNK_TYPE_MESH: MESH mesh_block; break;
+        case CHUNK_TYPE_MSHH: MSHH mshh_block; break;
+        case CHUNK_TYPE_SMSH: SMSH smsh_block; break;
+        case CHUNK_TYPE_MHDR: MHDR mhdr_block; break;
+        case CHUNK_TYPE_MVTX: MVTX mvtx_block; break;
+        case CHUNK_TYPE_MIDX: MIDX midx_block; break;
+        case CHUNK_TYPE_MPAL: MPAL mpal_block; break;
+        // Geometry types
+        case CHUNK_TYPE_GEOB: GEOB geob_block; break;
+        case CHUNK_TYPE_GEOH: GEOH geoh_block; break;
+        case CHUNK_TYPE_GLOD: GLOD glod_block; break;
+        case CHUNK_TYPE_LOCA: LOCA loca_block; break;
+        case CHUNK_TYPE_LCRH: LCRH lcrh_block; break;
+        case CHUNK_TYPE_LCRD: LCRD lcrd_block; break;
+        case CHUNK_TYPE_SKEL: SKEL skel_block; break;
+        case CHUNK_TYPE_SKHD: SKHD skhd_block; break;
+        case CHUNK_TYPE_BONS: BONS bons_block; break;
+        // LightDef types
+        case CHUNK_TYPE_LITB: LITB litb_block; break;
+        case CHUNK_TYPE_LITH: LITH lith_block; break;
+        // Emitter types
+        case CHUNK_TYPE_EMIT: EMIT emit_block; break;
+        case CHUNK_TYPE_EMIH: EMIH emih_block; break;
+        case CHUNK_TYPE_EMPC: EMPC empc_block; break;
+        case CHUNK_TYPE_EMPH: EMPH emph_block; break;
+        case CHUNK_TYPE_EPIB: EPIB epib_block; break;
+        case CHUNK_TYPE_EPNM: EPNM epnm_block; break;
+        case CHUNK_TYPE_EPUV: EPUV epuv_block; break;
+        case CHUNK_TYPE_EPCT: EPCT epct_block; break;
+        case CHUNK_TYPE_EPTS: EPTS epts_block; break;
+        case CHUNK_TYPE_EPTR: EPTR eptr_block; break;
+        // PointDef types
+        case CHUNK_TYPE_PNDC: PNDC pndc_block; break;
+        case CHUNK_TYPE_PNDH: PNDH pndh_block; break;
+        // CameraDef types
+        case CHUNK_TYPE_CAMC: CAMC camc_block; break;
+        case CHUNK_TYPE_CAMH: CAMH camh_block; break;
+        case CHUNK_TYPE_TAG2: TAG2 tag2_block; break;
+        // SplineDef types
+        case CHUNK_TYPE_SPDS: SPDS spds_block; break;
+        case CHUNK_TYPE_SPDH: SPDH spdh_block; break;
+        case CHUNK_TYPE_SPDP: SPDP spdp_block; break;
+        // Emitter instance types
+        case CHUNK_TYPE_EINS: EINS eins_block; break;
+        case CHUNK_TYPE_EINH: EINH einh_block; break;
+        // Geometry instance types
+        case CHUNK_TYPE_GINS: GINS gins_block; break;
+        case CHUNK_TYPE_GINH: GINH ginh_block; break;
+        // Light instance types
+        case CHUNK_TYPE_LINS: LINS lins_block; break;
+        case CHUNK_TYPE_LINH: LINH linh_block; break;
+        // Spline instance types
+        case CHUNK_TYPE_SPIS: SPIS spis_block; break;
+        case CHUNK_TYPE_SPIH: SPIH spih_block; break;
+        // Point instance types
+        case CHUNK_TYPE_PNTC: PNTC pntc_block; break;
+        case CHUNK_TYPE_PNTH: PNTH pnth_block; break;
+        // PVS types
+        case CHUNK_TYPE_PVS: PVS pvs_block; break;
+        case CHUNK_TYPE_PVSH: PVSH pvs_block; break;
+        case CHUNK_TYPE_PVSR: PVSR pvsr_block; break;
+        // Havok types
+        case CHUNK_TYPE_HVKF: HVKF hvkf_block; break;
+        case CHUNK_TYPE_HVKH: HVKH hvkh_block; break;
+        case CHUNK_TYPE_HVKD: HVKD hvkd_block; break;
+        // Havok anim types
+        case CHUNK_TYPE_HKAF: HKAF hkaf_block; break;
+        case CHUNK_TYPE_HKAH: HKAH hkah_block; break;
+        case CHUNK_TYPE_HKAD: HKAD hkad_block; break;
+        // Havok skeleton types
+        case CHUNK_TYPE_HKSF: HKSF hksf_block; break;
+        case CHUNK_TYPE_HKSH: HKSH hksh_block; break;
+        case CHUNK_TYPE_HKSD: HKSD hksd_block; break;
+        // Havok skeleton map types
+        case CHUNK_TYPE_HKMF: HKMF hkmf_block; break;
+        case CHUNK_TYPE_HKMH: HKMH hkmh_block; break;
+        case CHUNK_TYPE_HKMD: HKMD hkmd_block; break;
+        // Sound(bank) types
+        case CHUNK_TYPE_SBKF: SBKF sbkf_block; break;
+        case CHUNK_TYPE_SBKH: SBKH sbkh_block; break;
+        // Director types
+        case CHUNK_TYPE_DIRF: DIRF dirf_block; break;
+        case CHUNK_TYPE_DIRH: DIRH dirh_block; break;
+        case CHUNK_TYPE_DIRD: DIRD dird_block; break;
+        // Entity types
+        case CHUNK_TYPE_ENTF: ENTF entf_block; break;
+        case CHUNK_TYPE_ENTH: ENTH enth_block; break;
+        case CHUNK_TYPE_ENTD: ENTD entd_block; break;
+        // Setting types
+        case CHUNK_TYPE_SETF: SETF setf_block; break;
+        case CHUNK_TYPE_SETH: SETH seth_block; break;
+        case CHUNK_TYPE_SETD: SETD setd_block; break;
+        // Level types
+        case CHUNK_TYPE_LVLF: LVLF lvlf_block; break;
+        case CHUNK_TYPE_LVLH: LVLH lvlh_block; break;
+        case CHUNK_TYPE_LVLD: LVLD lvld_block; break;
+        // Anim clip types
+        case CHUNK_TYPE_ACLF: ACLF aclf_block; break;
+        case CHUNK_TYPE_ACLH: ACLH aclh_block; break;
+        case CHUNK_TYPE_ACLD: ACLD acld_block; break;
+        // Game tag types
+        case CHUNK_TYPE_GMTF: GMTF gmtf_block; break;
+        case CHUNK_TYPE_GMTH: GMTH gmth_block; break;
+        case CHUNK_TYPE_GMTD: GMTD gmtd_block; break;
+        // Async file types
+        case CHUNK_TYPE_ASTF: ASTF astf_block; break;
+        case CHUNK_TYPE_ASTH: ASTH asth_block; break;
+        case CHUNK_TYPE_ASTD: ASTD astd_block; break;
+        // Fallthrough
+        default: FSkip(FileSize() - FTell()); break;
+    }
+}
