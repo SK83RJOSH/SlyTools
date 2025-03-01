@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>SlyTools.SanUtility</RootNamespace>
+    <StartupObject>SkyTools.SanUtility.Program</StartupObject>
+    <Version>0.0.1</Version>
+    <Authors>SK83RJOSH</Authors>
+    <Description>Extracts and packed Sanzaru archive files.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+
+</Project>
